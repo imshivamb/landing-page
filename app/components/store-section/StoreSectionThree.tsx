@@ -16,7 +16,7 @@ const StoreSectionThree = () => {
           />
         </div>
         <div className="flex w-full md:w-1/2 flex-col p-3 md:p-5 gap-4 items-start justify-start">
-          <div className="mb-0 bg-gray-100 text-gray-800 font-light text-sm rounded-full  px-3 py-1">
+          <div className="mb-0 bg-gray-100 text-gray-800 font-light text-base rounded-full  px-3 py-1">
             Notifications
           </div>
           <h3 className="text-3xl md:text-5xl/tight font-semibold max-w-[20ch]">
@@ -31,22 +31,22 @@ const StoreSectionThree = () => {
             <div className="w-full flex flex-col shadow-md rounded-xl bg-white px-5 py-4">
               <div className="flex items-center gap-3">
                 <p className="text-2xl font-semibold">₹999</p>
-                <div className="bg-green-100/80 flex gap-1.5 items-center text-green-500 font-light text-sm rounded-full  px-3 py-2">
+                <div className="bg-green-100/80 flex gap-1.5 items-center text-green-500 font-light text-base rounded-full  px-3 py-2">
                   <WandSparkles size={20} /> <span>Up to 25%</span>
                 </div>
               </div>
-              <p className="text-sm max-w-[25ch] pt-5 font-light">
+              <p className="text-base max-w-[25ch] pt-5 font-light">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
             <div className="w-full flex flex-col shadow-md rounded-xl bg-white px-5 py-4">
               <div className="flex items-center gap-3">
                 <p className="text-2xl font-semibold">₹2,999</p>
-                <div className="bg-green-100/80 flex gap-1.5 items-center text-green-500 font-light text-sm rounded-full  px-3 py-2">
+                <div className="bg-green-100/80 flex gap-1.5 items-center text-green-500 font-light text-base rounded-full  px-3 py-2">
                   <WandSparkles size={20} /> <span>Up to 25%</span>
                 </div>
               </div>
-              <p className="text-sm max-w-[25ch] pt-5 font-light">
+              <p className="text-base max-w-[25ch] pt-5 font-light">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>

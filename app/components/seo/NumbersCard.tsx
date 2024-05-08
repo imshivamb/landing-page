@@ -24,11 +24,11 @@ const NumbersCard = ({ card }) => {
           {card.title}
         </h5>
         <h3 className="text-5xl font-semibold">{card.percent}</h3>
-        <p className="text-xs font-medium text-gray-600 mt-3">
+        <p className="text-base font-medium text-gray-600 mt-3">
           {card.description1}
         </p>
         <div className="w-[90%] h-[1px] bg-gray-500 my-2"></div>
-        <p className="text-xs font-medium text-gray-600 mt-2 pb-5">
+        <p className="text-base font-medium text-gray-600 mt-2 pb-5">
           {card.description2}
         </p>
       </div>

@@ -48,10 +48,10 @@ const Testimonial = () => {
                     alt={testimonial.name}
                   />
                   <div className="flex flex-col gap-0">
-                    <p className="text-sm font-medium leading-none text-gray-800">
+                    <p className="text-base font-medium leading-none text-gray-800">
                       {testimonial.name}
                     </p>
-                    <p className="text-sm font-light leading-none text-gray-500">
+                    <p className="text-base font-light leading-none text-gray-500">
                       {testimonial.company}
                     </p>
                   </div>

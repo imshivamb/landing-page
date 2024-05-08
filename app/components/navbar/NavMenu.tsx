@@ -33,7 +33,7 @@ export function NavigationMenuPage() {
                     <div className="mb-2 mt-4 text-lg font-medium">
                       shadcn/ui
                     </div>
-                    <p className="text-sm leading-tight text-muted-foreground">
+                    <p className="text-base leading-tight text-muted-foreground">
                       Beautifully designed components that you can copy and
                       paste into your apps. Accessible. Customizable. Open
                       Source.
@@ -101,8 +101,8 @@ const ListItem = React.forwardRef<
           )}
           {...props}
         >
-          <div className="text-sm font-medium leading-none">{title}</div>
-          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+          <div className="text-base font-medium leading-none">{title}</div>
+          <p className="line-clamp-2 text-base leading-snug text-muted-foreground">
             {children}
           </p>
         </a>

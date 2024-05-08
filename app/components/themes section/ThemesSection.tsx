@@ -14,7 +14,7 @@ const ThemesSection = () => {
             </h2>
           </div>
           <div className="w-full max-w-lg float-end flex flex-col gap-4 items-start justify-start">
-            <p className="font-medium text-sm leading-normal">
+            <p className="font-medium text-base leading-normal">
               Discover over 500 free and fully customizable website templates,
               including{" "}
               <span>

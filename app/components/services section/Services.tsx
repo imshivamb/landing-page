@@ -20,7 +20,7 @@ const Services = () => {
                 <Book size={24} />
               </div>
               <h3 className="font-bold text-3xl text-white">Blog</h3>
-              <p className="font-light text-white text-sm max-w-[30ch]">
+              <p className="font-light text-white text-base max-w-[30ch]">
                 You&apos;ll have a branded job board as a centralized place to
                 display all the open positions at your organization.{" "}
               </p>
@@ -38,7 +38,7 @@ const Services = () => {
                 <UsersRound size={24} />
               </div>
               <h3 className="font-bold text-3xl text-white">Community</h3>
-              <p className="font-light text-white text-sm max-w-[30ch]">
+              <p className="font-light text-white text-base max-w-[30ch]">
                 Connect with a community of brands, partners, and fellow
                 merchants who understand QPe.
               </p>
@@ -56,7 +56,7 @@ const Services = () => {
                 <BadgeHelp size={24} />
               </div>
               <h3 className="font-bold text-3xl text-white">Help Center</h3>
-              <p className="font-light text-white text-sm max-w-[30ch]">
+              <p className="font-light text-white text-base max-w-[30ch]">
                 Find answers with a dedicated helpdesk resource full of articles
                 and videos from our Support team.
               </p>

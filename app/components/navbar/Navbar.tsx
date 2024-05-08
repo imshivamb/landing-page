@@ -33,19 +33,19 @@ const Navbar = () => {
                 {/* <div className="nav-menu-content">
                   <ul className="nav-menu flex gap-5 justify-between items-center h-full flex-row *:cursor-pointer">
                     <li className="nav-dropdown h-full text-left mx-auto z-[900] block transition-all">
-                      <div className="nav-link flex flex-row items-center gap-1 justify-center p-0 min-h-[70px] text-sm font-semibold">
+                      <div className="nav-link flex flex-row items-center gap-1 justify-center p-0 min-h-[70px] text-base font-semibold">
                         <span>Home</span>
                       </div>
                     </li>
                     <li className="nav-dropdown h-full text-left mx-auto z-[900] block transition-all">
-                      <div className="nav-link flex flex-row items-center gap-1 justify-center p-0 min-h-[70px] text-sm font-semibold">
+                      <div className="nav-link flex flex-row items-center gap-1 justify-center p-0 min-h-[70px] text-base font-semibold">
                         <span>Solutions</span>
                         <ChevronDown size={14} />
                       </div>
                     </li>
                     <li className="nav-dropdown h-full text-left mx-auto z-[900] block transition-all">
                       <Link href="/pricing">
-                        <div className="nav-link flex flex-row items-center gap-1 justify-center p-0 min-h-[70px] text-sm font-semibold">
+                        <div className="nav-link flex flex-row items-center gap-1 justify-center p-0 min-h-[70px] text-base font-semibold">
                           <span>Pricing</span>
                         </div>
                       </Link>

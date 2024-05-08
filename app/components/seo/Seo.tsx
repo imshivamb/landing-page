@@ -25,7 +25,7 @@ const Seo = () => {
             </h2>
           </div>
           <div className="w-full max-w-lg float-end flex flex-col gap-4 items-start justify-start">
-            <p className={`font-medium text-sm leading-normal`}>
+            <p className={`font-medium text-base leading-normal`}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
               obcaecati ipsum corrupti modi vel earum impedit non nostrum, saepe
               eaque soluta? Sunt minima explicabo ratione, excepturi possimus ut
