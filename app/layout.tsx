@@ -1,16 +1,5 @@
 import { Questrial } from "next/font/google";
 import "./globals.css";
-import local from "next/font/local";
-
-const gilroy = local({
-  src: [
-    {
-      path: "../public/fonts/gilroy-bold.woff2",
-      weight: "600",
-    },
-  ],
-  variable: "--font-gilroy",
-});
 
 const questrial = Questrial({ subsets: ["latin"], weight: ["400"] });
 
