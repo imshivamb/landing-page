@@ -28,6 +28,7 @@
     "touch-cli": "^0.0.1"
   },
   "devDependencies": {
+    "@types/node": "^20.12.10",
     "@types/react": "^18.3.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
