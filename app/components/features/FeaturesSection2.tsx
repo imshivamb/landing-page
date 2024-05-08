@@ -29,7 +29,7 @@ const FeaturesSection2 = () => {
             <h6 className="font-semibold text-lg">
               Build an online storefront
             </h6>
-            <p className="font-medium text-gray-600 text-sm">
+            <p className="font-medium text-gray-600 text-base">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry&apos;s standard dummy
               text ever since the 1500s, {" "}
@@ -45,7 +45,7 @@ const FeaturesSection2 = () => {
             <h6 className="font-semibold text-lg">
               Build an online storefront
             </h6>
-            <p className="font-medium text-gray-600 text-sm">
+            <p className="font-medium text-gray-600 text-base">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry&apos;s standard dummy
               text ever since the 1500s, {" "}
@@ -61,7 +61,7 @@ const FeaturesSection2 = () => {
             <h6 className="font-semibold text-lg">
               Build an online storefront
             </h6>
-            <p className="font-medium text-gray-600 text-sm">
+            <p className="font-medium text-gray-600 text-base">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry&apos;s standard dummy
               text ever since the 1500s, {" "}
