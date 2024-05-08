@@ -1,33 +1,409 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
+  @tailwind components;
+  @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+  @layer base {
+    :root {
+      --background: 0 0% 100%;
+      --foreground: 222.2 84% 4.9%;
 
-@media (prefers-color-scheme: dark) {
+      --card: 0 0% 100%;
+      --card-foreground: 222.2 84% 4.9%;
+
+      --popover: 0 0% 100%;
+      --popover-foreground: 222.2 84% 4.9%;
+
+      --primary: 222.2 47.4% 11.2%;
+      --primary-foreground: 210 40% 98%;
+
+      --secondary: 210 40% 96.1%;
+      --secondary-foreground: 222.2 47.4% 11.2%;
+
+      --muted: 210 40% 96.1%;
+      --muted-foreground: 215.4 16.3% 46.9%;
+
+      --accent: 210 40% 96.1%;
+      --accent-foreground: 222.2 47.4% 11.2%;
+
+      --destructive: 0 84.2% 60.2%;
+      --destructive-foreground: 210 40% 98%;
+
+      --border: 214.3 31.8% 91.4%;
+      --input: 214.3 31.8% 91.4%;
+      --ring: 222.2 84% 4.9%;
+
+      --radius: 0.5rem;
+    }
+
+    .dark {
+      --background: 222.2 84% 4.9%;
+      --foreground: 210 40% 98%;
+
+      --card: 222.2 84% 4.9%;
+      --card-foreground: 210 40% 98%;
+
+      --popover: 222.2 84% 4.9%;
+      --popover-foreground: 210 40% 98%;
+
+      --primary: 210 40% 98%;
+      --primary-foreground: 222.2 47.4% 11.2%;
+
+      --secondary: 217.2 32.6% 17.5%;
+      --secondary-foreground: 210 40% 98%;
+
+      --muted: 217.2 32.6% 17.5%;
+      --muted-foreground: 215 20.2% 65.1%;
+
+      --accent: 217.2 32.6% 17.5%;
+      --accent-foreground: 210 40% 98%;
+
+      --destructive: 0 62.8% 30.6%;
+      --destructive-foreground: 210 40% 98%;
+
+      --border: 217.2 32.6% 17.5%;
+      --input: 217.2 32.6% 17.5%;
+      --ring: 212.7 26.8% 83.9%;
+    }
+  }
+
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+    --text-50: hsl(0, 0%, 60%);
+    --text-100: hsl(0, 0%, 50%);
+    --text-200: hsl(0, 0%, 48%);
+    --text-300: hsl(0, 0%, 45%);
+    --text-400: hsl(0, 0%, 40%);
+    --text-500: hsl(0, 0%, 18%);
+    --text-600: hsl(0, 0%, 15%);
+    --text-700: hsl(0, 0%, 13%);
+    --text-800: hsl(0, 0%, 10%);
+    --text-900: hsl(0, 0%, 8%);
+    --text-950: hsl(0, 0%, 5%);
+
+
+--background: hsl(0, 0%, 100%);
+
+
+--primary-50: hsl(51, 100%, 95%);
+--primary-100: hsl(49, 100%, 90%);
+--primary-200: hsl(50, 100%, 80%);
+--primary-300: hsl(50, 100%, 70%);
+--primary-400: hsl(50, 100%, 60%);
+--primary-500: hsl(50, 100%, 50%);
+--primary-600: hsl(50, 100%, 45%);
+--primary-700: hsl(50, 100%, 44%);
+--primary-800: hsl(50, 100%, 43%);
+--primary-900: hsl(51, 100%, 42%);
+--primary-950: hsl(48, 100%, 41%);
+
+--secondary-50: hsl(46, 100%, 95%);
+--secondary-100: hsl(46, 100%, 90%);
+--secondary-200: hsl(46, 100%, 80%);
+--secondary-300: hsl(46, 100%, 70%);
+--secondary-400: hsl(46, 100%, 60%);
+--secondary-500: hsl(46, 100%, 50%);
+--secondary-600: hsl(46, 100%, 40%);
+--secondary-700: hsl(46, 100%, 30%);
+--secondary-800: hsl(46, 100%, 20%);
+--secondary-900: hsl(46, 100%, 10%);
+--secondary-950: hsl(46, 100%, 5%);
+
+--accent-50: hsl(0, 0%, 95%);
+--accent-100: hsl(0, 0%, 90%);
+--accent-200: hsl(0, 0%, 80%);
+--accent-300: hsl(0, 0%, 70%);
+--accent-400: hsl(0, 0%, 60%);
+--accent-500: hsl(0, 0%, 50%);
+--accent-600: hsl(0, 0%, 40%);
+--accent-700: hsl(0, 0%, 30%);
+--accent-800: hsl(0, 0%, 20%);
+--accent-900: hsl(0, 0%, 10%);
+--accent-950: hsl(0, 0%, 5%);
+
+--cards: 4;
+	--cardHeight: 35vh;
+	--cardTopPadding: 1.5em;
+	--cardMargin: 4vw;
 }
 
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('/assets/fonts/Markpromedium.otf') format('otf');
+    font-weight: 600;
+    font-style: normal;
+  }
+  @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+    }
+  }
+  @keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+    }
+  }
+
+  @-webkit-keyframes swing-in-right-bck {
+    0% {
+      -webkit-transform: rotateY(70deg);
+              transform: rotateY(70deg);
+      -webkit-transform-origin: right;
+              transform-origin: right;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+      -webkit-transform-origin: right;
+              transform-origin: right;
+      opacity: 1;
+    }
+  }
+  @keyframes swing-in-right-bck {
+    0% {
+      -webkit-transform: rotateY(70deg);
+              transform: rotateY(70deg);
+      -webkit-transform-origin: right;
+              transform-origin: right;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+      -webkit-transform-origin: right;
+              transform-origin: right;
+      opacity: 1;
+    }
+  }
+
+  @keyframes page-flip {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(180deg);
+    }
+  }
+
+  @keyframes pop-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-4rem) scale(.8);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  .animate-pop-in {
+    animation: pop-in .6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+  }
+
+  .swiper-slide {
+    animation: slide 20s linear infinite;
+  }
+  
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+  
+
+  .h-subtitle {
+    animation-delay: .3s;
+  }
+
+  .h-title {
+    animation-delay:.5s;
+  }
+  .h-desc {
+    animation-delay: .8s;
+  }
+  .h-buttons {
+    animation-delay: 1s;
+  }
+
+  @keyframes text-pop-up-top{0%{transform:translateY(0);transform-origin:50% 50%;text-shadow:none}100%{transform:translateY(-50px);transform-origin:50% 50%;text-shadow:0 1px 0 #ccc,0 2px 0 #ccc,0 3px 0 #ccc,0 4px 0 #ccc,0 5px 0 #ccc,0 6px 0 #ccc,0 7px 0 #ccc,0 8px 0 #ccc,0 9px 0 #ccc,0 50px 30px rgba(0,0,0,.3)}}
+  @keyframes text-focus-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
+
+  .text-pop-up-top{animation:text-pop-up-top .5s cubic-bezier(.25,.46,.45,.94) both}
+  .text-focus-in{animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both}
+  .page-flip {
+    animation: page-flip 1s ease-in-out both;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+  }
+  
+  .swing-in-right-bck {
+    -webkit-animation: swing-in-right-bck 0.6s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+            animation: swing-in-right-bck 0.6s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+  }
+  .slide-top {
+    -webkit-animation: slide-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+
+  .focus-in-expand {
+    -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  .tracking-in-expand {
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+/* Reset default browser styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Box-sizing for easier layout */
+* {
+    box-sizing: border-box;
+}
+
+
+#cards {
+	list-style: none;
+	padding-left: 0;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(var(--cards), var(--cardHeight));
+	gap: var(--cardMargin);
+	padding-bottom: calc(var(--cards) * var(--cardTopPadding));
+	margin-bottom: var(--cardMargin);
+}
+
+#card1 {
+	--index: 1;
+}
+#card2 {
+	--index: 2;
+}
+#card3 {
+	--index: 3;
+}
+#card4 {
+	--index: 4;
+}
+
+.card {
+	position: sticky;
+	top:120px;
+	padding-top: calc(var(--index) * var(--cardTopPadding));
+}
+/* Set a base font and color */
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    font-family: "Gilroy-Bold", sans-serif;
+    font-optical-sizing: auto;
+    line-height: 1.6;
+    color: var(--text-800);
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+li {
+    list-style: none;
 }
+
+
+/* Responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+button {
+    padding: 0;
+    overflow: visible;
+    background: 0 0;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    touch-action: manipulation;
+}
+
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+.main-container {
+    max-width: 1350px;
+    margin-inline: auto;
+}
+
+
+
+
+  
