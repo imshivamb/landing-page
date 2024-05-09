@@ -8,7 +8,7 @@ const FeaturesSlide = () => {
       <div className="main-container mt-5 p-2 md:p-8 w-full">
         <div className="flex flex-col md:flex-row justify-between items-start w-full px-4 py-3">
           <div className="float-left w-full max-w-lg">
-            <h2 className="text-4xl leading-none mb-4 font-bold md:leading-tight sm:text-4xl md:text-5xl">
+            <h2 className="text-4xl leading-none mb-4 font-medium md:leading-tight sm:text-4xl md:text-5xl">
               Sell everywhere your customers are
             </h2>
           </div>

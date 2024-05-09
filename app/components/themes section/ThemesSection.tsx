@@ -9,7 +9,7 @@ const ThemesSection = () => {
       <div className="main-container p-2 md:p-8 w-full">
         <div className="flex flex-col md:flex-row justify-between items-center w-full px-4 py-3">
           <div className="float-left w-full max-w-xl">
-            <h2 className="text-4xl font-semibold md:font-bold leading-none mb-4 md:leading-tight sm:text-4xl md:text-5xl">
+            <h2 className="text-4xl font-medium leading-none mb-4 md:leading-tight sm:text-4xl md:text-5xl">
               eCommerce website templates built for success
             </h2>
           </div>

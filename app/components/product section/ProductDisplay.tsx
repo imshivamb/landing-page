@@ -14,10 +14,10 @@ const ProductDisplay = () => {
   const [selectedItem, setSelectedItem] = useState("item-1");
   const images = {
     "item-1": "/images/product-img.png",
-    "item-2": "/images/feature1.png",
-    "item-3": "/images/feature2.png",
-    "item-4": "/images/feature3.png",
-    "item-5": "/images/product-img.png",
+    "item-2": "/images/product2.jpg",
+    "item-3": "/images/product3.jpg",
+    "item-4": "/images/product2.jpg",
+    "item-5": "/images/product3.jpg",
   };
 
   return (
@@ -32,12 +32,12 @@ const ProductDisplay = () => {
               fill
               src={images[selectedItem]}
               alt="product-display image"
-              className="w-full aspect-1/1.2 h-full max-w-full"
+              className="w-full aspect-1/1.2  rounded-2xl h-full max-w-full"
             />
           )}
         </div>
         <div className="w-full md:w-1/2 pr-5 md:pr-16 md:pl-4 pl-5 py-4">
-          <h3 className=" leading-[1.1] md:leading-[55px] text-4xl mt-4 md:text-4xl lg:text-5xl font-semibold md:font-bold text-gray-800 max-w-[20ch]">
+          <h3 className=" leading-[1.1] md:leading-[55px] text-4xl mt-4 md:text-4xl lg:text-5xl font-medium text-gray-800 max-w-[20ch]">
             Sell your own products, or find products to sell
           </h3>
           <div className="h-[1px] bg-gray-300 w-full px-5 mt-6"></div>

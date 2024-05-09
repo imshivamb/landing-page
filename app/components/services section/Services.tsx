@@ -6,10 +6,10 @@ import { Button } from "../Button";
 
 const Services = () => {
   return (
-    <div className="bg-gradient-to-r from-black to-gray-800 px-6 py-6 md:px-16 md:py-16 mx-auto w-full md:max-w-full">
+    <div className="bg-gradient-to-r from-black to-gray-800 px-6 py-10 md:px-16 md:py-16 mx-auto w-full md:max-w-full">
       <div className="main-container relative w-full">
         <div className=" w-full  flex justify-start ">
-          <h2 className="text-4xl/10 text-start max-w-[500px] pb-5 font-bold leading-tight text-white sm:text-3xl md:text-5xl">
+          <h2 className="text-4xl/[1.3] text-start max-w-[500px] pb-5 font-medium text-white sm:text-3xl md:text-5xl/[1.3]">
             Everything you need to grow your team
           </h2>
         </div>
@@ -19,7 +19,7 @@ const Services = () => {
               <div className="shadow-sm w-[60px] h-[60px] flex items-center justify-center rounded-lg bg-white">
                 <Book size={24} />
               </div>
-              <h3 className="font-bold text-3xl text-white">Blog</h3>
+              <h3 className="font-medium text-3xl text-white">Blog</h3>
               <p className="font-light text-white text-base max-w-[30ch]">
                 You&apos;ll have a branded job board as a centralized place to
                 display all the open positions at your organization.{" "}
@@ -37,7 +37,7 @@ const Services = () => {
               <div className="shadow-sm w-[60px] h-[60px] flex items-center justify-center rounded-lg bg-white">
                 <UsersRound size={24} />
               </div>
-              <h3 className="font-bold text-3xl text-white">Community</h3>
+              <h3 className="font-medium text-3xl text-white">Community</h3>
               <p className="font-light text-white text-base max-w-[30ch]">
                 Connect with a community of brands, partners, and fellow
                 merchants who understand QPe.
@@ -55,7 +55,7 @@ const Services = () => {
               <div className="shadow-sm w-[60px] h-[60px] flex items-center justify-center rounded-lg bg-white">
                 <BadgeHelp size={24} />
               </div>
-              <h3 className="font-bold text-3xl text-white">Help Center</h3>
+              <h3 className="font-medium text-3xl text-white">Help Center</h3>
               <p className="font-light text-white text-base max-w-[30ch]">
                 Find answers with a dedicated helpdesk resource full of articles
                 and videos from our Support team.

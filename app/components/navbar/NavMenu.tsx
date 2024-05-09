@@ -21,7 +21,9 @@ export function NavigationMenuPage() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Features</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="text-base">
+            Features
+          </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
               <li className="row-span-3">
@@ -54,7 +56,9 @@ export function NavigationMenuPage() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Solutions</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="text-base">
+            Solutions
+          </NavigationMenuTrigger>
           <NavigationMenuContent className="w-full">
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-4 lg:w-[700px] ">
               {Object.entries(navComponents).map(([heading, components]) => (
@@ -75,7 +79,7 @@ export function NavigationMenuPage() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/docs" legacyBehavior passHref>
+          <Link href="/pricing" legacyBehavior passHref className="text-base">
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Pricing
             </NavigationMenuLink>

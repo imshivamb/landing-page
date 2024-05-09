@@ -15,7 +15,7 @@ const Testimonial = () => {
             <Badge className="bg-red-500/80 hover:bg-red-600 text-white mb-5 py-1.5 px-2.5">
               Our Community
             </Badge>
-            <h2 className="text-4xl font-bold mb-6 max-w-2xl text-center leading-relaxed sm:text-5xl md:text-6xl">
+            <h2 className="text-4xl font-medium mb-6 max-w-2xl text-center leading-relaxed sm:text-5xl md:text-6xl">
               What our Clients say about us
             </h2>
           </div>

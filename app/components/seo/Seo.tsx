@@ -20,7 +20,7 @@ const Seo = () => {
           className={`flex flex-col md:flex-row ${inView ? "slide-top delay-300" : ""} justify-between items-start w-full px-4 py-3`}
         >
           <div className={`float-left w-full  max-w-xl`}>
-            <h2 className="text-4xl font-semibold md:font-bold leading-[1.1]  mb-4 md:leading-tight sm:text-4xl md:text-5xl">
+            <h2 className="text-4xl font-medium leading-[1.1]  mb-4 md:leading-tight sm:text-4xl md:text-5xl">
               Boost Traffic and Revenue with full marketing suite
             </h2>
           </div>

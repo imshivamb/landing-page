@@ -20,7 +20,7 @@ const NumbersCard = ({ card }) => {
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className="flex flex-col items-start justify-start">
-        <h5 className="uppercase text-sm font-semibold mb-8 text-left">
+        <h5 className="uppercase text-sm font-medium mb-8 text-left">
           {card.title}
         </h5>
         <h3 className="text-5xl font-semibold">{card.percent}</h3>

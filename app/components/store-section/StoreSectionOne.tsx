@@ -11,7 +11,7 @@ const StoreSectionOne = () => {
           <Badge className="bg-violet-500/80 hover:bg-violet-600 text-white mb-0 py-1.5 px-2.5">
             Customize Store
           </Badge>
-          <h3 className="text-4xl md:text-5xl/tight font-semibold md:font-bold max-w-[15ch]">
+          <h3 className="text-4xl md:text-5xl/tight font-medium max-w-[15ch]">
             Manage all your businesses in one place
           </h3>
           <p className="text-lg/tight font-normal text-gray-500 max-w-[40ch]">

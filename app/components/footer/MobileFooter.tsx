@@ -25,7 +25,7 @@ const MobileFooter = () => {
                 alt="footer logo"
               />
             </Link>
-            <p className="text-sm font-light text-gray-600 max-w-[50ch]">
+            <p className="text-base font-light text-gray-600 max-w-[50ch]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
               ratione at, eum praesentium, aliquam nulla earum quae laborum
               natus soluta velit error? Minus provident aliquam nulla error cum
@@ -34,13 +34,13 @@ const MobileFooter = () => {
             <div className="flex flex-col gap-2">
               <Link
                 href="#"
-                className="text-gray-500 text-sm font-light hover:text-blue-800"
+                className="text-gray-500 text-base font-light hover:text-blue-800"
               >
                 About
               </Link>
               <Link
                 href="#"
-                className="text-gray-500 text-sm font-light hover:text-blue-800"
+                className="text-gray-500 text-base font-light hover:text-blue-800"
               >
                 Contact us
               </Link>
@@ -56,7 +56,7 @@ const MobileFooter = () => {
                 >
                   <AccordionTrigger>{item.title}</AccordionTrigger>
                   <AccordionContent>
-                    <ul className="flex flex-col *:pb-2 *:mt-2 *:text-sm *:font-light/loose">
+                    <ul className="flex flex-col *:pb-2 *:mt-2 *:text-base *:font-light/loose">
                       {item.subtitle.map((subtitle, subIndex) => (
                         <li
                           key={subIndex}
@@ -84,18 +84,18 @@ const MobileFooter = () => {
             <div className="flex flex-wrap items-center justify-start mt-4 md:mt-0 gap-x-12">
               <Link
                 href="#"
-                className="text-gray-500 text-sm hover:text-blue-800 font-light"
+                className="text-gray-500 text-base hover:text-blue-800 font-light"
               >
                 Terms of Use
               </Link>
               <Link
                 href="#"
-                className="text-gray-500 text-sm hover:text-blue-800 font-light"
+                className="text-gray-500 text-base hover:text-blue-800 font-light"
               >
                 Privacy Policy
               </Link>
 
-              <p className="text-gray-500 mt-4 md:mt-0 text-sm font-light">
+              <p className="text-gray-500 mt-4 md:mt-0 text-base font-light">
                 {" "}
                 &copy; 2024 QPe.com, Inc
               </p>

@@ -21,7 +21,7 @@ const Hero = () => {
               <h5 className="uppercase text-lg animate-pop-in h-subtitle md:text-xl font-light tracking-tight ">
                 CREATE MORE THAN AN ECOMMERCE WEBSITE
               </h5>
-              <h1 className="text-[40px] leading-[1.1] h-title animate-pop-in sm:text-5xl md:text-6xl lg:text-7xl font-semibold md:font-bold max-w-full md:max-w-3xl md:leading-relaxed pb-2">
+              <h1 className="text-[40px] leading-[1.1] h-title animate-pop-in sm:text-5xl md:text-6xl lg:text-7xl font-semibold md:font-medium max-w-full md:max-w-3xl md:leading-relaxed pb-2">
                 Making{" "}
                 <span className="bg-clip-text animate-pop-in text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
                   E-Commerce

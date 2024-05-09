@@ -19,7 +19,7 @@ const StoreSectionThree = () => {
           <div className="mb-0 bg-gray-100 text-gray-800 font-light text-base rounded-full  px-3 py-1">
             Notifications
           </div>
-          <h3 className="text-4xl md:text-5xl/tight font-semibold md:font-bold max-w-[20ch]">
+          <h3 className="text-4xl md:text-5xl/tight font-medium max-w-[20ch]">
             Real time notifications on account activity
           </h3>
           <p className="text-lg/tight font-normal text-gray-500 max-w-[40ch]">

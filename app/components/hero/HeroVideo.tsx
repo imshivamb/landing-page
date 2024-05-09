@@ -22,7 +22,7 @@ const HeroVideo = () => {
         <div className="flex flex-col items-start justify-start py-6 md:py-10 md:px-10 px-5 relative flex-1 w-full">
           <div className="">
             <div className="flex flex-col gap-6 text-start justify-center text-white items-start">
-              <h1 className="text-4xl slide-top sm:text-5xl md:text-5xl lg:text-6xl font-bold max-w-full md:max-w-2xl leading-none md:leading-relaxed pb-2">
+              <h1 className="text-4xl slide-top sm:text-5xl md:text-5xl lg:text-6xl font-medium max-w-full md:max-w-2xl leading-none md:leading-relaxed pb-2">
                 Making{" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
                   E-Commerce

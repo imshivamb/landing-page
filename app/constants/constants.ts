@@ -4,7 +4,7 @@ export const cardData = [
     {
         title: "SEO",
         percent: "25%",
-        backgroundColor: "bg-red-400",
+        backgroundColor: "bg-red-400/30",
         description1: "Description 1 for Card 1",
         description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
       },
@@ -12,20 +12,20 @@ export const cardData = [
         title: "ADVERTISING",
         percent: "50%",
         description1: "Description 1 for Card 2",
-        backgroundColor: "bg-teal-400",
+        backgroundColor: "bg-teal-400/30",
         description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
       },
       {
         title: "EMAIL MARKETING",
         percent: "75%",
-        backgroundColor: "bg-yellow-400",
+        backgroundColor: "bg-yellow-400/30",
         description1: "Description 1 for Card 3",
         description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
       },
       {
         title: "SOCIAL MEDIA",
         percent: "75%",
-        backgroundColor: "bg-orange-400",
+        backgroundColor: "bg-orange-400/30",
         description1: "Description 1 for Card 3",
         description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
       },
@@ -38,7 +38,7 @@ export const sliderCardData = [
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt obcaecati ipsum corrupti modi vel earum impedit non nostrum, saepe eaque soluta? Sunt minima explicabo ratione, excepturi possimus ut voluptas vitae.",
     link: "https://example.com/image1",
     image: "/images/card1.jpg",
-    backgroundColor: "#F17A74" 
+    backgroundColor: "#FFE4E1" 
   },
   {
     id: "card2",
@@ -46,7 +46,7 @@ export const sliderCardData = [
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt obcaecati ipsum corrupti modi vel earum impedit non nostrum, saepe eaque soluta? Sunt minima explicabo ratione, excepturi possimus ut voluptas vitae.",
     link: "https://example.com/image2",
     image: "/images/card2.jpg",
-    backgroundColor: "#7DE2FC" 
+    backgroundColor: "#F0F8FF" 
   },
   {
     id: "card3",
@@ -54,7 +54,7 @@ export const sliderCardData = [
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt obcaecati ipsum corrupti modi vel earum impedit non nostrum, saepe eaque soluta? Sunt minima explicabo ratione, excepturi possimus ut voluptas vitae.",
     link: "https://example.com/image3",
     image: "/images/card3.jpg",
-    backgroundColor: "#6DD7B9"
+    backgroundColor: "#D3D3D3"
   },
   {
     id: "card4",
@@ -62,7 +62,7 @@ export const sliderCardData = [
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt obcaecati ipsum corrupti modi vel earum impedit non nostrum, saepe eaque soluta? Sunt minima explicabo ratione, excepturi possimus ut voluptas vitae.",
     link: "https://example.com/image3",
     image: "/images/card4.jpg",
-    backgroundColor: "#FCD34D"
+    backgroundColor: "#FFE5B4"
   },
   
 ];
