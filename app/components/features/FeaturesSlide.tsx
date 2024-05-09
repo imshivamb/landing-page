@@ -5,7 +5,7 @@ import TopSlideCard from "./TopSlideCard";
 const FeaturesSlide = () => {
   return (
     <div className="w-full bg-white relative h-auto p-2 md:p-5">
-      <div className="main-container p-2 md:p-8 w-full">
+      <div className="main-container mt-5 p-2 md:p-8 w-full">
         <div className="flex flex-col md:flex-row justify-between items-start w-full px-4 py-3">
           <div className="float-left w-full max-w-lg">
             <h2 className="text-4xl leading-none mb-4 font-bold md:leading-tight sm:text-4xl md:text-5xl">
@@ -13,7 +13,7 @@ const FeaturesSlide = () => {
             </h2>
           </div>
           <div className="w-full max-w-lg float-end flex flex-col gap-4 items-start justify-start">
-            <p className="font-medium text-base leading-normal">
+            <p className="font-medium text-base text-gray-700 leading-normal">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
               obcaecati ipsum corrupti modi vel earum impedit non nostrum, saepe
               eaque soluta? Sunt minima explicabo ratione, excepturi possimus ut

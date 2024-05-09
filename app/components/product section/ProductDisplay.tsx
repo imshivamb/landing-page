@@ -37,7 +37,7 @@ const ProductDisplay = () => {
           )}
         </div>
         <div className="w-full md:w-1/2 pr-5 md:pr-16 md:pl-4 pl-5 py-4">
-          <h3 className=" leading-none md:leading-[55px] text-4xl md:text-4xl lg:text-5xl font-bold text-gray-800 max-w-[20ch]">
+          <h3 className=" leading-[1.1] md:leading-[55px] text-4xl mt-4 md:text-4xl lg:text-5xl font-semibold md:font-bold text-gray-800 max-w-[20ch]">
             Sell your own products, or find products to sell
           </h3>
           <div className="h-[1px] bg-gray-300 w-full px-5 mt-6"></div>
@@ -52,7 +52,7 @@ const ProductDisplay = () => {
                 <AccordionTrigger className="text-2xl font-semibold">
                   Physical Products
                 </AccordionTrigger>
-                <AccordionContent>
+                <AccordionContent className="text-base">
                   Yes. It adheres to the WAI-ARIA design pattern.
                 </AccordionContent>
               </AccordionItem>
@@ -60,7 +60,7 @@ const ProductDisplay = () => {
                 <AccordionTrigger className="text-2xl font-semibold">
                   Dropshipping
                 </AccordionTrigger>
-                <AccordionContent>
+                <AccordionContent className="text-base">
                   Yes. It comes with default styles that matches the other
                   components&apos; aesthetic.
                 </AccordionContent>
@@ -69,7 +69,7 @@ const ProductDisplay = () => {
                 <AccordionTrigger className="text-2xl font-semibold">
                   Print on Demand
                 </AccordionTrigger>
-                <AccordionContent>
+                <AccordionContent className="text-base">
                   Yes. It&apos;s animated by default, but you can disable it if
                   you prefer.
                 </AccordionContent>
@@ -78,7 +78,7 @@ const ProductDisplay = () => {
                 <AccordionTrigger className="text-2xl font-semibold">
                   Digital Products
                 </AccordionTrigger>
-                <AccordionContent>
+                <AccordionContent className="text-base">
                   Yes. It&apos;s animated by default, but you can disable it if
                   you prefer.
                 </AccordionContent>
@@ -87,7 +87,7 @@ const ProductDisplay = () => {
                 <AccordionTrigger className="text-2xl font-semibold">
                   Subscriptions
                 </AccordionTrigger>
-                <AccordionContent>
+                <AccordionContent className="text-base">
                   Yes. It&apos;s animated by default, but you can disable it if
                   you prefer.
                 </AccordionContent>

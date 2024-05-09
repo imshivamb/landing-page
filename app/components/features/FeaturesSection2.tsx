@@ -6,8 +6,8 @@ import { Button } from "../Button";
 
 const FeaturesSection2 = () => {
   return (
-    <div className="w-full h-full bg-[#E9C0E9] px-6 md:px-16 py-6 md:py-12">
-      <div className="flex flex-col items-center gap-2 justify-center">
+    <div className="w-full h-full bg-[#E9C0E9] px-5 md:px-16 py-6 md:py-12">
+      <div className="flex flex-col mt-5 items-center gap-2 justify-center">
         <Badge className="text-white bg-teal-600 hover:teal-700 py-1.5 px-2">
           Build Online Store
         </Badge>
@@ -29,7 +29,7 @@ const FeaturesSection2 = () => {
             <h6 className="font-semibold text-lg">
               Build an online storefront
             </h6>
-            <p className="font-medium text-gray-600 text-base">
+            <p className="font-medium text-gray-700 text-base pb-1.5">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry&apos;s standard dummy
               text ever since the 1500s, {" "}
@@ -45,7 +45,7 @@ const FeaturesSection2 = () => {
             <h6 className="font-semibold text-lg">
               Build an online storefront
             </h6>
-            <p className="font-medium text-gray-600 text-base">
+            <p className="font-medium text-gray-700 text-base pb-1.5">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry&apos;s standard dummy
               text ever since the 1500s, {" "}
@@ -61,7 +61,7 @@ const FeaturesSection2 = () => {
             <h6 className="font-semibold text-lg">
               Build an online storefront
             </h6>
-            <p className="font-medium text-gray-600 text-base">
+            <p className="font-medium text-gray-700 text-base pb-1.5">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry&apos;s standard dummy
               text ever since the 1500s, {" "}
