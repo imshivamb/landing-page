@@ -6,14 +6,14 @@ import { Button } from "../Button";
 
 const Services = () => {
   return (
-    <div className="bg-gradient-to-bl from-[#a8caba] to-[#5d4157] px-6 py-6 md:px-16 md:py-16 mx-auto w-full md:max-w-full">
+    <div className="bg-gradient-to-r from-black to-gray-800 px-6 py-6 md:px-16 md:py-16 mx-auto w-full md:max-w-full">
       <div className="main-container relative w-full">
-        <div className=" w-full  flex justify-start">
+        <div className=" w-full  flex justify-start ">
           <h2 className="text-4xl/10 text-start max-w-[500px] pb-5 font-bold leading-tight text-white sm:text-3xl md:text-5xl">
             Everything you need to grow your team
           </h2>
         </div>
-        <div className="flex flex-wrap items-center w-full gap-x-5 mt-6 md:mt-12">
+        <div className="flex flex-wrap items-center justify-center w-full gap-x-5 mt-6 md:mt-12">
           <div className="w-full sm:w-[45%] md:w-[30%] mb-6 p-4 bg-[rgba(255,255,255,0.1)] rounded-xl px-6 py-6 backdrop-blur-md border border-white border-opacity-20">
             <div className="flex flex-col gap-3 items-start justify-start">
               <div className="shadow-sm w-[60px] h-[60px] flex items-center justify-center rounded-lg bg-white">

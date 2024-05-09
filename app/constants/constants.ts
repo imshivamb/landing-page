@@ -37,7 +37,7 @@ export const sliderCardData = [
     title: "Sell on your website",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt obcaecati ipsum corrupti modi vel earum impedit non nostrum, saepe eaque soluta? Sunt minima explicabo ratione, excepturi possimus ut voluptas vitae.",
     link: "https://example.com/image1",
-    image: "/images/card-slider-img.png",
+    image: "/images/card1.jpg",
     backgroundColor: "#F17A74" 
   },
   {
@@ -45,15 +45,15 @@ export const sliderCardData = [
     title: "Sell on your website",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt obcaecati ipsum corrupti modi vel earum impedit non nostrum, saepe eaque soluta? Sunt minima explicabo ratione, excepturi possimus ut voluptas vitae.",
     link: "https://example.com/image2",
-    image: "/images/card-slider-img.png",
-    backgroundColor: "#F17A74" 
+    image: "/images/card2.jpg",
+    backgroundColor: "#7DE2FC" 
   },
   {
     id: "card3",
     title: "Sell on your website",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt obcaecati ipsum corrupti modi vel earum impedit non nostrum, saepe eaque soluta? Sunt minima explicabo ratione, excepturi possimus ut voluptas vitae.",
     link: "https://example.com/image3",
-    image: "/images/card-slider-img.png",
+    image: "/images/card3.jpg",
     backgroundColor: "#6DD7B9"
   },
   {
@@ -61,7 +61,7 @@ export const sliderCardData = [
     title: "Sell on your website",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt obcaecati ipsum corrupti modi vel earum impedit non nostrum, saepe eaque soluta? Sunt minima explicabo ratione, excepturi possimus ut voluptas vitae.",
     link: "https://example.com/image3",
-    image: "/images/card-slider-img.png",
+    image: "/images/card4.jpg",
     backgroundColor: "#FCD34D"
   },
   
@@ -133,53 +133,41 @@ export const socialMediaIcons:SocialMediaIcon[] = [
   export const testimonials = [
     
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "text": "The user interface is intuitive, making transactions a breeze. Whether I am making purchases or managing my diverse portfolio of digital currencies.",
         "name": "John Doe",
-        "avatar": "/images/avatar1.jpeg",
-        "company": "ABC Inc."
+        "avatar": "/images/test1.png",
+        "company": "ABC Inc.",
+        "companyLogo": "/images/testlogo.png"
       },
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "name": " Alice Johnson",
-        "avatar": "/images/avatar2.png",
-        "company": "ABC Inc."
+        "text": "I'm a freelancer, and managing my earnings across different digitalplatforms used to be a hassle. That's until I discovered Block.",
+        "name": " John Doe",
+        "avatar": "/images/test2.png",
+        "company": "ABC Inc.",
+        "companyLogo": "/images/testlogo.png"
       },
       {
-        "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "name": "Jane Smith",
-        "avatar": "/images/avatar3.jpg",
-        "company": "XYZ Corp."
-      },
-      {
-        "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "name": "Jane Smith",
-        "avatar": "/images/avatar3.jpg",
-        "company": "XYZ Corp."
+        "text": "its user-friendly interface makes it accessible for both beginners and experienced traders. I can not think of my trading business without Block.",
+        "name": "John Doe",
+        "avatar": "/images/test1.png",
+        "company": "XYZ Corp.",
+        "companyLogo": "/images/testlogo.png"
       },
       {
         "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "name": "Jane Smith",
-        "avatar": "/images/avatar3.jpg",
-        "company": "XYZ Corp."
+        "name": "John Doe",
+        "avatar": "/images/test2.png",
+        "company": "XYZ Corp.",
+        "companyLogo": "/images/testlogo.png"
       },
       {
         "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "name": "Jane Smith",
-        "avatar": "/images/avatar3.jpg",
-        "company": "XYZ Corp."
+        "name": "John Doe",
+        "avatar": "/images/test1.png",
+        "company": "XYZ Corp.",
+        "companyLogo": "/images/testlogo.png"
       },
-      {
-        "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "name": "Jane Smith",
-        "avatar": "/images/avatar3.jpg",
-        "company": "XYZ Corp."
-      },
-      {
-        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "name": "Mark Smith",
-        "avatar": "/images/avatar4.jpeg",
-        "company": "123 Industries"
-      }
+      
     ]
     
   

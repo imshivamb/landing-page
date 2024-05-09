@@ -5,11 +5,11 @@ import { Button } from "../Button";
 
 const ThemesSection = () => {
   return (
-    <div className="w-full pt-12 pb-8 mt-52 md:mt-6 bg-[#CDE4E1] ">
+    <div className="w-full pt-12 pb-8 mt-5 md:mt-6 bg-[#CDE4E1] ">
       <div className="main-container p-2 md:p-8 w-full">
         <div className="flex flex-col md:flex-row justify-between items-center w-full px-4 py-3">
           <div className="float-left w-full max-w-xl">
-            <h2 className="text-4xl font-bold leading-none mb-4 md:leading-tight sm:text-4xl md:text-5xl">
+            <h2 className="text-4xl font-semibold md:font-bold leading-none mb-4 md:leading-tight sm:text-4xl md:text-5xl">
               eCommerce website templates built for success
             </h2>
           </div>
@@ -30,7 +30,7 @@ const ThemesSection = () => {
         style={{ scrollbarWidth: "none" }}
       >
         <div className="relative flex justify-start items-start w-full pb-10 gap-8 pr-6">
-          <div className="relative max-h-[325px] h-full w-full flex-shrink-0 max-w-[500px]">
+          <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[325px] md:max-w-[500px]">
             <Image
               src="/images/theme1.jpg"
               alt="theme 1"
@@ -39,7 +39,7 @@ const ThemesSection = () => {
               className="w-full h-full flex flex-shrink-0 rounded-xl"
             />
           </div>
-          <div className="relative max-h-[325px] h-full w-full flex-shrink-0 max-w-[170px]">
+          <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[100px] md:max-w-[170px]">
             <Image
               src="/images/theme2.jpg"
               alt="theme 1"
@@ -48,7 +48,7 @@ const ThemesSection = () => {
               className="w-full h-full flex flex-shrink-0 rounded-xl"
             />
           </div>
-          <div className="relative max-h-[325px] h-full w-full flex-shrink-0 max-w-[500px]">
+          <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[325px] md:max-w-[500px]">
             <Image
               src="/images/theme3.jpg"
               alt="theme 1"
@@ -57,7 +57,7 @@ const ThemesSection = () => {
               className="w-full h-full flex flex-shrink-0 rounded-xl"
             />
           </div>
-          <div className="relative max-h-[325px] h-full w-full flex-shrink-0 max-w-[500px]">
+          <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[325px] md:max-w-[500px]">
             <Image
               src="/images/theme1.jpg"
               alt="theme 1"
@@ -66,7 +66,7 @@ const ThemesSection = () => {
               className="w-full h-full flex flex-shrink-0 rounded-xl"
             />
           </div>
-          <div className="relative max-h-[352px] h-full w-full flex-shrink-0 max-w-[170px]">
+          <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[100px] md:max-w-[170px]">
             <Image
               src="/images/theme2.jpg"
               alt="theme 1"
@@ -75,7 +75,7 @@ const ThemesSection = () => {
               className="w-full h-full flex flex-shrink-0 rounded-xl"
             />
           </div>
-          <div className="relative max-h-[325px] h-full w-full flex-shrink-0 max-w-[170px]">
+          <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[100px] md:max-w-[170px]">
             <Image
               src="/images/theme2.jpg"
               alt="theme 1"

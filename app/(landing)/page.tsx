@@ -13,6 +13,7 @@ import StoreSectionThree from "../components/store-section/StoreSectionThree";
 import StoreSectionTwo from "../components/store-section/StoreSectionTwo";
 import Subscribe from "../components/subscribe/Subscribe";
 import Testimonial from "../components/testimonials/Testimonial";
+import Testimonial2 from "../components/testimonials/Testimonial2";
 import ThemesSection from "../components/themes section/ThemesSection";
 
 export default function Home() {
@@ -28,7 +29,7 @@ export default function Home() {
       <StoreSectionOne />
       {/* <StoreSectionTwo /> */}
       <StoreSectionThree />
-      <Testimonial />
+      <Testimonial2 />
       <Services />
       <Subscribe />
       <div className="hidden md:block">

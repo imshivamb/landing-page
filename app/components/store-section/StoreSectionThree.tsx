@@ -6,20 +6,20 @@ import { WandSparkles } from "lucide-react";
 const StoreSectionThree = () => {
   return (
     <div className="mx-auto w-full px-4 md:px-12 main-container mt-6 md:mt-16">
-      <div className="flex flex-col md:flex-row items-start justify-start gap-5 w-full px-3 md:px-6 py-4">
+      <div className="flex flex-col md:flex-row items-start justify-start gap-5 w-full px-2 md:px-6 py-4">
         <div className="block w-full p-3 md:p-5 md:w-1/2 relative min-h-[500px]">
           <Image
-            src="/images/store2.png"
+            src="/images/product2.jpg"
             alt="store feature"
             fill
-            className="object-contain w-full"
+            className="object-cover rounded-xl w-full"
           />
         </div>
         <div className="flex w-full md:w-1/2 flex-col p-3 md:p-5 gap-4 items-start justify-start">
           <div className="mb-0 bg-gray-100 text-gray-800 font-light text-base rounded-full  px-3 py-1">
             Notifications
           </div>
-          <h3 className="text-3xl md:text-5xl/tight font-semibold max-w-[20ch]">
+          <h3 className="text-4xl md:text-5xl/tight font-semibold md:font-bold max-w-[20ch]">
             Real time notifications on account activity
           </h3>
           <p className="text-lg/tight font-normal text-gray-500 max-w-[40ch]">
@@ -27,7 +27,7 @@ const StoreSectionThree = () => {
             your financials. Connect your bank account and your card to
             Milestone.
           </p>
-          <div className="flex gap-4 items-stretch pt-6 flex-col md:flex-row">
+          <div className="flex gap-4 w-full items-stretch pt-6 flex-col md:flex-row">
             <div className="w-full flex flex-col shadow-md rounded-xl bg-white px-5 py-4">
               <div className="flex items-center gap-3">
                 <p className="text-2xl font-semibold">₹999</p>
