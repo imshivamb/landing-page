@@ -20,7 +20,7 @@ const MobileFooter = () => {
             <Link href="/">
               <Image
                 src="/images/logo.png"
-                width={60}
+                width={120}
                 height={60}
                 alt="footer logo"
               />

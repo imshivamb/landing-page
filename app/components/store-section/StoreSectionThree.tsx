@@ -6,7 +6,7 @@ import { WandSparkles } from "lucide-react";
 const StoreSectionThree = () => {
   return (
     <div className="mx-auto w-full px-4 md:px-12 main-container mt-6 md:mt-16">
-      <div className="flex flex-col md:flex-row items-start justify-start gap-5 w-full px-2 md:px-6 py-4">
+      <div className="flex flex-col md:flex-row items-start justify-start gap-5 w-full px-0 md:px-6 py-4">
         <div className="block w-full p-3 md:p-5 md:w-1/2 relative min-h-[500px]">
           <Image
             src="/images/product2.jpg"
@@ -15,7 +15,7 @@ const StoreSectionThree = () => {
             className="object-cover rounded-xl w-full"
           />
         </div>
-        <div className="flex w-full md:w-1/2 flex-col p-3 md:p-5 gap-4 items-start justify-start">
+        <div className="flex w-full md:w-1/2 flex-col p-2 md:p-5 gap-4 items-start justify-start">
           <div className="mb-0 bg-gray-100 text-gray-800 font-light text-base rounded-full  px-3 py-1">
             Notifications
           </div>

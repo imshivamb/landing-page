@@ -13,7 +13,7 @@ import Image from "next/image";
 const Testimonial2 = () => {
   return (
     <div className="w-full bg-[#F5FFFA]">
-      <div className="main-container px-4 pt-10 md:p-8 w-full">
+      <div className="main-container px-6 pt-10 md:p-8 w-full">
         <div className="flex flex-col items-start justify-start w-full max-w-full">
           <Badge className="bg-red-500/80 hover:bg-red-600 text-white mb-5 py-1.5 px-2.5">
             Our Community

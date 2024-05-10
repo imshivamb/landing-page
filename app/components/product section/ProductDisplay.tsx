@@ -49,7 +49,7 @@ const ProductDisplay = () => {
               onValueChange={setSelectedItem}
             >
               <AccordionItem value="item-1" className="py-1.5">
-                <AccordionTrigger className="text-2xl font-semibold">
+                <AccordionTrigger className="text-2xl font-medium">
                   Physical Products
                 </AccordionTrigger>
                 <AccordionContent className="text-base">
@@ -57,7 +57,7 @@ const ProductDisplay = () => {
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2" className="py-1.5">
-                <AccordionTrigger className="text-2xl font-semibold">
+                <AccordionTrigger className="text-2xl font-medium">
                   Dropshipping
                 </AccordionTrigger>
                 <AccordionContent className="text-base">
@@ -66,7 +66,7 @@ const ProductDisplay = () => {
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3" className="py-1.5">
-                <AccordionTrigger className="text-2xl font-semibold">
+                <AccordionTrigger className="text-2xl font-medium">
                   Print on Demand
                 </AccordionTrigger>
                 <AccordionContent className="text-base">
@@ -75,7 +75,7 @@ const ProductDisplay = () => {
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-4" className="py-1.5">
-                <AccordionTrigger className="text-2xl font-semibold">
+                <AccordionTrigger className="text-2xl font-medium">
                   Digital Products
                 </AccordionTrigger>
                 <AccordionContent className="text-base">
@@ -84,7 +84,7 @@ const ProductDisplay = () => {
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-5" className="py-1.5">
-                <AccordionTrigger className="text-2xl font-semibold">
+                <AccordionTrigger className="text-2xl font-medium">
                   Subscriptions
                 </AccordionTrigger>
                 <AccordionContent className="text-base">
