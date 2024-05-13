@@ -21,7 +21,7 @@ export function NavigationMenuPage() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-base">
+          <NavigationMenuTrigger className="text-base hidden">
             Features
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -56,7 +56,7 @@ export function NavigationMenuPage() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-base">
+          <NavigationMenuTrigger className="text-base hidden">
             Solutions
           </NavigationMenuTrigger>
           <NavigationMenuContent className="w-full">
@@ -78,9 +78,16 @@ export function NavigationMenuPage() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/pricing" legacyBehavior passHref className="text-base">
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+        <NavigationMenuItem className="text-base">
+          <Link
+            href="https://www.goqpe.com/home/new_plan"
+            legacyBehavior
+            passHref
+            className="text-base"
+          >
+            <NavigationMenuLink
+              className={`${navigationMenuTriggerStyle()} !text-base`}
+            >
               Pricing
             </NavigationMenuLink>
           </Link>

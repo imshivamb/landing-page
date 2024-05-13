@@ -8,10 +8,10 @@ import { NavigationMenuPage } from "./NavMenu";
 const Navbar = () => {
   return (
     <header>
-      <div className="nav-wrapper z-[9999] w-full mx-auto pt-0 md:pt-6 px-0 md:px-10 block fixed left-0 top-0 bottom-auto right-0">
+      <div className="nav-wrapper z-[9999] w-full mx-auto pt-0  px-0 block fixed left-0 top-0 bottom-auto right-0">
         <div
           id="nav"
-          className="bg-white rounded-none md:rounded-2xl mx-auto tracking-tight text-base leading-normal shadow-lg relative block"
+          className="bg-white rounded-none mx-auto tracking-tight text-base leading-normal shadow-lg relative block"
         >
           <div id="nav-content-wrapper" className="mx-auto px-[1.5rem] w-full">
             <div
