@@ -37,7 +37,7 @@ const Testimonial2 = () => {
                     className="absolute z-[2] w-full h-full bottom-0 right-0"
                   ></Image>
 
-                  <p className=" font-semibold leading-[1.3] text-gray-800 px-4 md:px-10 py-6 md:py-12 italic text-base md:text-[20px]">
+                  <p className=" font-semibold leading-[1.3] text-gray-800 px-4 md:px-10 py-6 md:py-12 text-base md:text-[20px]">
                     &quot;{testimonial.text}&quot;
                   </p>
                   <div className="flex gap-3 md:mt-4 items-center justify-start">

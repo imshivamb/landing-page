@@ -17,6 +17,7 @@ module.exports = {
       },
     },
     extend: {
+      base: '18px',
       listStyleImage: {
         checkmark: 'url("/images/check-icon.png")',
       },
