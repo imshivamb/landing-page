@@ -21,9 +21,8 @@ const Hero = () => {
       />
       <div id="hero-section" className="w-full pt-[120px] z-10 h-auto">
         <div className="flex flex-col items-center justify-center py-6 md:py-10 md:px-10 px-5 relative flex-1 w-100">
-          <div className="main-container">
+          <div className="main-container mb-8">
             <div className="flex flex-col gap-6 text-center justify-center text-white items-center">
-              
               <h5 className="uppercase text-lg animate-pop-in h-subtitle md:text-xl font-light tracking-tight ">
                 CREATE MORE THAN AN ECOMMERCE WEBSITE
               </h5>
@@ -51,14 +50,15 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className=" aspect-[1.8/1] md:aspect-[2.4/1] w-full relative mt-8">
-            <Image
-              src="/images/dashboard-img.png"
-              fill
-              alt="image"
-              loading="lazy"
-              className="w-full max-w-full px-3 md:px-6 object-contain aspect-[2.4/1]"
-            />
+          <div className=" aspect-[1.8/1] md:aspect-[2.4/1] mx-auto flex justify-center w-full relative mt-8">
+            <video
+              src="/videos/file.mp4"
+              muted
+              autoPlay
+              loop
+              poster="/images/thumbnail.jpg"
+              className="rounded-xl w-auto max-w-full"
+            ></video>
           </div>
         </div>
       </div>
