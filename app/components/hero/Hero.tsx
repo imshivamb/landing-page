@@ -62,7 +62,7 @@ const Hero = () => {
                 autoPlay
                 loop
                 poster="/images/thumbnail.jpg"
-                className="rounded-xl w-auto max-w-full"
+                className="rounded-xl w-full max-w-full"
               ></video>
             </div>
           </ContainerScroll>
