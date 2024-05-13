@@ -55,7 +55,7 @@ const Hero = () => {
               </div>
             }
           >
-            <div className=" aspect-[1.8/1] md:aspect-[2.4/1] mx-auto flex justify-center w-full relative">
+            <div className=" md:aspect-auto mx-auto flex justify-center w-full relative">
               <video
                 src="/videos/file.mp4"
                 muted
