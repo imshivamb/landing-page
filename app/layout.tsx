@@ -4,8 +4,7 @@ import localFont from "next/font/local";
 
 const questrial = Questrial({ subsets: ["latin"], weight: ["400"] });
 // const helvetica = localFont({
-//   src: "./Helvetica.woff2",
-//   variable: "--helvetica",
+//   src: "../public/Helvetica.woff2",
 // });
 
 export const metadata = {

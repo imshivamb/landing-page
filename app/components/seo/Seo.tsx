@@ -41,7 +41,7 @@ const Seo = () => {
         </div>
         <div
           ref={ref2}
-          className={`w-full max-w-6xl mx-auto slider mt-8 ${inView2 ? "slide-top delay-1000" : ""}`}
+          className={`w-full max-w-7xl mx-auto slider mt-8 ${inView2 ? "slide-top delay-1000" : ""}`}
         >
           <PointsGrid />
         </div>

@@ -2,6 +2,7 @@
 
 import clsx from "clsx";
 import React, { useState } from "react";
+import { WobbleCard } from "../ui/wobble-card";
 
 const NumbersCard = ({ card }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -19,7 +20,7 @@ const NumbersCard = ({ card }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="flex flex-col items-start justify-start">
+      <WobbleCard className="flex flex-col items-start justify-start">
         <h5 className="uppercase text-sm font-medium mb-8 text-left">
           {card.title}
         </h5>
@@ -28,10 +29,10 @@ const NumbersCard = ({ card }) => {
           {card.description1}
         </p>
         <div className="w-[90%] h-[1px] bg-gray-500 my-2"></div>
-        <p className="text-base font-medium text-gray-600 mt-2 pb-5">
+        <p className="text-base font-medium text-gray-600 mt-2 pb-3">
           {card.description2}
         </p>
-      </div>
+      </WobbleCard>
     </div>
   );
 };
