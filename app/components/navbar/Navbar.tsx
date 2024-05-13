@@ -25,7 +25,7 @@ const Navbar = () => {
                     alt=""
                     width={130}
                     height={60}
-                    className="max-h-[50px] max-w-[150px] flex flex-shrink-0 w-full flex-row h-auto items-start justify-start"
+                    className="max-h-[50px] max-w-[110px] md:max-w-[150px] flex flex-shrink-0 w-full flex-row h-auto items-start justify-start"
                   />
                 </Link>
               </div>
