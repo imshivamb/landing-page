@@ -1,7 +1,12 @@
 import { Questrial } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
 
 const questrial = Questrial({ subsets: ["latin"], weight: ["400"] });
+// const helvetica = localFont({
+//   src: "./Helvetica.woff2",
+//   variable: "--helvetica",
+// });
 
 export const metadata = {
   title: "Launch Your Ecommerce business - Build Online Store with QPe",

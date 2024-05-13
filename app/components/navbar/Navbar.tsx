@@ -23,9 +23,9 @@ const Navbar = () => {
                   <Image
                     src="/images/logo.png"
                     alt=""
-                    width={130}
-                    height={60}
-                    className="max-h-[50px] max-w-[110px] md:max-w-[150px] flex flex-shrink-0 w-full flex-row h-auto items-start justify-start"
+                    width={100}
+                    height={50}
+                    className="max-h-[50px] max-w-[95px] md:max-w-[150px] flex flex-shrink-0 w-full flex-row h-auto items-start justify-start"
                   />
                 </Link>
               </div>
