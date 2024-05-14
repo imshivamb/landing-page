@@ -1,14 +1,12 @@
 "use client";
-
-import Image from "next/image";
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "../ui/accordion";
-import { motion } from "framer-motion";
 
 const ProductDisplay = () => {
   const [selectedItem, setSelectedItem] = useState("item-1");
@@ -23,21 +21,22 @@ const ProductDisplay = () => {
   return (
     <div className="main-container w-full px-4 md:px-7 pt-8 pb-12 mt-5">
       <div className="flex justify-between items-start gap-5 flex-col md:flex-row">
-        <div
-          className={`image-container w-full md:w-1/2 relative max-w-[550px] min-h-[400px] md:min-h-[550px] px-6 py-4 ${selectedItem ? "swing-in-right-bck" : ""}`}
-        >
-          {selectedItem && (
-            <Image
-              key={selectedItem}
-              fill
+        <div className="image-container w-full md:w-1/2 relative max-w-[550px] min-h-[400px] md:min-h-[550px] px-6 py-4">
+          <motion.div
+            key={selectedItem}
+            initial={{ opacity: 0, rotateY: 180 }}
+            animate={{ opacity: 1, rotateY: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <img
               src={images[selectedItem]}
-              alt="product-display image"
-              className="w-full aspect-1/1.2  rounded-2xl h-full max-w-full"
+              alt="product-display"
+              className="w-full aspect-1/1.2 rounded-2xl h-full max-w-full"
             />
-          )}
+          </motion.div>
         </div>
         <div className="w-full md:w-1/2 pr-5 md:pr-16 md:pl-4 pl-5 py-4">
-          <h3 className=" leading-[1.1] md:leading-[55px] text-4xl mt-4 md:text-4xl lg:text-5xl font-medium text-gray-800 max-w-[20ch]">
+          <h3 className="leading-[1.1] md:leading-[55px] text-4xl mt-4 md:text-4xl lg:text-5xl font-medium text-gray-800 max-w-[20ch]">
             Sell your own products, or find products to sell
           </h3>
           <div className="h-[1px] bg-gray-300 w-full px-5 mt-6"></div>

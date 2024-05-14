@@ -7,7 +7,7 @@ import { ContainerScroll } from "../ui/container-scroll-animation";
 
 const Hero = () => {
   return (
-    <div className="relative w-full bg-black/[0.96] antialiased bg-grid-white/[0.02] overflow-hidden">
+    <div className="relative w-full hero-div bg-black/[0.96] antialiased bg-grid-white/[0.02] overflow-hidden ">
       {/* <div className="hero-banner absolute inset-0 w-full z-0">
         <Image
           src="/images/hero-banner.png"
