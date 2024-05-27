@@ -18,7 +18,7 @@ import {
 const ProductDisplayTabs = () => {
   return (
     <div className="main-container w-full px-4 md:px-7 pt-8 pb-12 mt-5">
-      <Tabs defaultValue="account" className="w-full">
+      <Tabs defaultValue="learning" className="w-full">
         <TabsList className="flex items-center justify-start md:gap-0  gap-4 overflow-hidden overflow-x-auto *:flex *:items-center *:gap-1 *:w-fit *:text-lg *:font-medium *:md:w-[20%] *:shrink-0 *:flex-nowrap">
           <TabsTrigger value="learning">
             <Workflow size={16} /> Automation
