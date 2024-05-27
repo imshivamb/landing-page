@@ -43,8 +43,10 @@ const ThemesSection = () => {
         <div className="relative flex justify-start items-start w-full pb-10 gap-8 pr-6">
           <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[325px] md:max-w-[600px]">
             <Image
-              src={theme1}
+              src="/images/theme1.jpg"
               alt="theme 1"
+              width={500}
+              height={325}
               className="w-full hover:scale-105 object-cover object-center transition-all duration-500 h-full flex flex-shrink-0 rounded-xl"
             />
           </div>
