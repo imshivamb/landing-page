@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Button } from "../Button";
 import { WandSparkles } from "lucide-react";
+import { features2, featuresimage } from "../../constants/imagesImport";
 
 const StoreSectionThree = () => {
   return (
@@ -9,7 +10,7 @@ const StoreSectionThree = () => {
       <div className="flex flex-col md:flex-row items-start justify-start gap-5 w-full px-0 md:px-6 py-4">
         <div className="block w-full p-3 md:p-5 md:w-1/2 relative min-h-[500px]">
           <Image
-            src="/images/product2.jpg"
+            src={featuresimage}
             alt="store feature"
             fill
             className="object-cover rounded-xl w-full"

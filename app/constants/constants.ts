@@ -37,7 +37,7 @@ export const sliderCardData = [
     title: "Sell on your e-commerce website",
     description: "Launch your products on your custom e-commerce website. Leverage powerful tools and features to attract and convert visitors into loyal customers.",
     link: "https://example.com/image1",
-    image: "/images/card1.jpg",
+    image: "/images/sell1.png",
     backgroundColor: "#FFE4E1" 
   },
   {
@@ -69,7 +69,7 @@ export const sliderCardData = [
     title: "Sell globally",
     description: "Expand your business horizons globally and optimize cross-border sales effortlessly through your QPe store. Seamlessly enter international markets with multilingual capabilities, currency conversion, and a wide array of trusted payment options.",
     link: "https://example.com/image3",
-    image: "/images/card4.jpg",
+    image: "/images/sellglobal.png",
     backgroundColor: "#FFE5E4"
   },
   

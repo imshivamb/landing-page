@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Button } from "../Button";
 import { Badge } from "../ui/badge";
+import { features1 } from "../../constants/imagesImport";
 
 const StoreSectionOne = () => {
   return (
@@ -57,7 +58,7 @@ const StoreSectionOne = () => {
         </div>
         <div className="block w-full md:w-1/2 p-5 relative min-h-[500px]">
           <Image
-            src="/images/product3.jpg"
+            src={features1}
             alt="store feature"
             fill
             className="object-cover rounded-xl w-full"

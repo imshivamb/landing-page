@@ -1,10 +1,6 @@
 import { Button } from "../Button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs";
-import tab1 from "../../../public/images/tab1.jpg";
-import tab2 from "../../../public/images/tab2.png";
-import tab3 from "../../../public/images/tab3.jpg";
-import tab4 from "../../../public/images/tab4.jpg";
-import tab5 from "../../../public/images/tab5.jpg";
+import { automation, campaigns, tabs3 } from "../../constants/imagesImport";
 import Image from "next/image";
 import {
   ArrowRight,
@@ -60,7 +56,7 @@ const ProductDisplayTabs = () => {
               </div>
               <div className=" w-full md:w-[60%] h-auto">
                 <Image
-                  src={tab1}
+                  src={automation}
                   alt="automation"
                   className=" rounded-br-[70px] rounded-bl-lg   w-full object-cover rounded-t-lg"
                 />
@@ -88,7 +84,7 @@ const ProductDisplayTabs = () => {
               </div>
               <div className=" w-full md:w-[60%] h-auto">
                 <Image
-                  src={tab2}
+                  src={campaigns}
                   alt="automation"
                   className=" rounded-br-[70px] rounded-bl-lg   w-full object-cover rounded-t-lg"
                 />
@@ -117,7 +113,7 @@ const ProductDisplayTabs = () => {
               </div>
               <div className=" w-full md:w-[60%] h-auto">
                 <Image
-                  src={tab3}
+                  src={automation}
                   alt="automation"
                   className=" rounded-br-[70px] rounded-bl-lg  w-full object-cover rounded-t-lg"
                 />
@@ -147,7 +143,7 @@ const ProductDisplayTabs = () => {
               </div>
               <div className=" w-full md:w-[60%] h-auto">
                 <Image
-                  src={tab4}
+                  src={campaigns}
                   alt="automation"
                   className=" rounded-br-[70px] rounded-bl-lg   w-full object-cover rounded-t-lg"
                 />
@@ -175,7 +171,7 @@ const ProductDisplayTabs = () => {
               </div>
               <div className=" w-full md:w-[60%] h-auto">
                 <Image
-                  src={tab5}
+                  src={tabs3}
                   alt="automation"
                   className=" rounded-br-[70px] rounded-bl-lg   w-full object-cover rounded-t-lg"
                 />

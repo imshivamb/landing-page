@@ -2,6 +2,16 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Button } from "../Button";
+import {
+  theme1,
+  theme2,
+  theme3,
+  theme4,
+  theme5,
+  theme6,
+  theme7,
+  theme8,
+} from "../../constants/imagesImport";
 
 const ThemesSection = () => {
   return (
@@ -10,7 +20,7 @@ const ThemesSection = () => {
         <div className="flex flex-col md:flex-row justify-between items-center w-full px-4 py-3">
           <div className="float-left w-full max-w-xl">
             <h2 className="text-4xl font-medium leading-none mb-4 md:leading-tight sm:text-4xl md:text-5xl">
-              QPe Themes Created for commerce success
+              QPe Themes Created for E-commerce success
             </h2>
           </div>
           <div className="w-full max-w-lg float-end flex flex-col gap-4 items-start justify-start">
@@ -31,13 +41,11 @@ const ThemesSection = () => {
         style={{ scrollbarWidth: "none" }}
       >
         <div className="relative flex justify-start items-start w-full pb-10 gap-8 pr-6">
-          <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[325px] md:max-w-[500px]">
+          <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[325px] md:max-w-[600px]">
             <Image
-              src="/images/theme1.jpg"
+              src={theme1}
               alt="theme 1"
-              width={500}
-              height={325}
-              className="w-full hover:scale-105 transition-all duration-500 h-full flex flex-shrink-0 rounded-xl"
+              className="w-full hover:scale-105 object-cover object-center transition-all duration-500 h-full flex flex-shrink-0 rounded-xl"
             />
           </div>
           <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[100px] md:max-w-[170px]">
