@@ -15,7 +15,7 @@ export const Button: React.FC<ButtonProps> = ({
   icon,
 }) => {
   const buttonCLass = clsx(
-    "text-[15px] py-2 md:py-2 px-4 font-semibold w-auto max-w-[230px] rounded-2xl hover:-translate-y-1 transition-all ease-in-out duration-300 hover:shadow-md",
+    "text-[15px] py-2 md:py-2 px-4 font-semibold w-auto max-w-[230px] rounded-full hover:-translate-y-1 transition-all ease-in-out duration-300 hover:shadow-md",
     className
   );
   return (
