@@ -45,7 +45,7 @@ export const sliderCardData = [
     title: "Sell on marketplaces",
     description: "Sell on top marketplaces like eBay, Etsy, Amazon, and Flipkart. Manage all your sales seamlessly from your QPe dashboard.",
     link: "https://example.com/image2",
-    image: "/images/card2.jpg",
+    image: "/images/card6.png",
     backgroundColor: "#F0F8FF" 
   },
   {
