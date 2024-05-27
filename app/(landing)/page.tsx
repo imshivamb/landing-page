@@ -1,3 +1,4 @@
+import Awards from "../components/awards section/Awards";
 import FeaturesSection from "../components/features/FeaturesSection";
 import FeaturesSection2 from "../components/features/FeaturesSection2";
 import FeaturesSlide from "../components/features/FeaturesSlide";
@@ -6,6 +7,7 @@ import MobileFooter from "../components/footer/MobileFooter";
 import Hero from "../components/hero/Hero";
 import Navbar from "../components/navbar/Navbar";
 import ProductDisplay from "../components/product section/ProductDisplay";
+import ProductDisplayTabs from "../components/product section/ProductDisplayTabs";
 import Seo from "../components/seo/Seo";
 import Services from "../components/services section/Services";
 import StoreSectionOne from "../components/store-section/StoreSectionOne";
@@ -21,8 +23,9 @@ export default function Home() {
     <div className=" mx-auto antialiased">
       <Navbar />
       <Hero />
+      <Awards />
       <Seo />
-      <ProductDisplay />
+      <ProductDisplayTabs />
       <FeaturesSection2 />
       <FeaturesSlide />
       <ThemesSection />

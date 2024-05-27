@@ -7,7 +7,7 @@ import { WobbleCard } from "../ui/wobble-card";
 const NumbersCard = ({ card }) => {
   const [isHovered, setIsHovered] = useState(false);
   const cardClass = clsx(
-    "border rounded-xl border-gray-800 transition-all p-3 md:p-5",
+    "border rounded-xl border-gray-800 transition-all h-full p-3 md:p-5",
     {
       "bg-white": !isHovered,
       [card.backgroundColor]: isHovered,
@@ -25,11 +25,11 @@ const NumbersCard = ({ card }) => {
           {card.title}
         </h5>
         <h3 className="text-5xl font-semibold">{card.percent}</h3>
-        <p className="text-base font-medium text-gray-600 mt-3">
+        <p className="text-base font-medium text-gray-800 mt-3">
           {card.description1}
         </p>
         <div className="w-[90%] h-[1px] bg-gray-500 my-2"></div>
-        <p className="text-base font-medium text-gray-600 mt-2 pb-3">
+        <p className="text-base font-medium text-gray-800 mt-2 pb-3">
           {card.description2}
         </p>
       </WobbleCard>

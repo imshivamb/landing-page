@@ -3,9 +3,9 @@ import "./globals.css";
 import localFont from "next/font/local";
 
 const questrial = Questrial({ subsets: ["latin"], weight: ["400"] });
-// const helvetica = localFont({
-//   src: "../public/fonts/HelveticaNeueMedium.otf",
-// });
+const satoshi = localFont({
+  src: "../public/fonts/RedHatDisplay-Variable.ttf",
+});
 
 export const metadata = {
   title: "Launch Your Ecommerce business - Build Online Store with QPe",
@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={questrial.className}>{children}</body>
+      <body className={satoshi.className}>{children}</body>
     </html>
   );
 }

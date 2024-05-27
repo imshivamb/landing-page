@@ -2,67 +2,75 @@ import { BsTwitterX } from "react-icons/bs";
 
 export const cardData = [
     {
-        title: "SEO",
-        percent: "25%",
+        title: "Enterprise E-Commerce",
+        percent: "60%",
         backgroundColor: "bg-red-400/30",
-        description1: "Description 1 for Card 1",
-        description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        description1: "Tech cost reduced with QPe's full-stack solution for enterprise e-commerce.",
+        description2: "Launch enterprise-grade e-commerce stores tailored for optimal performance."
       },
       {
-        title: "ADVERTISING",
-        percent: "50%",
-        description1: "Description 1 for Card 2",
+        title: "Launch with No-Code",
+        percent: "40%",
+        description1: "More profits on average for QPe sites due to no-code setup. Save time and cost on coding, increase profits. ",
         backgroundColor: "bg-teal-400/30",
-        description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        description2: "Pick a domain, upload products, customize themes and start selling online in minutes. Powering the future of e-commerce with no-code solutions."
       },
       {
-        title: "EMAIL MARKETING",
-        percent: "75%",
+        title: "QPe Pro Plus",
+        percent: "55%",
         backgroundColor: "bg-yellow-400/30",
-        description1: "Description 1 for Card 3",
-        description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        description1: "Higher revenue for QPe sites using QPe Pro Plus as they get dedicated resources to eliminate the downtime, and improve performance matrix.",
+        description2: "Drive down tech costs with dedicated resources in QPe Pro Plus and boost sales revenue with our fully customized, all-in-one solution."
       },
       {
-        title: "SOCIAL MEDIA",
-        percent: "75%",
+        title: "Retail E-Commerce",
+        percent: "45%",
         backgroundColor: "bg-orange-400/30",
-        description1: "Description 1 for Card 3",
-        description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        description1: "Increase in sales and cost down by 30% due to all in one retail e-commerce solution of QPe",
+        description2: "Manage, run and grow retail & e-commerce from a common platform. From manual orders to faster transactions, QPe leverages automation to run business efficiently."
       },
 ]
 
 
 export const sliderCardData = [
   { id: "card1",
-    title: "Sell on your website",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt obcaecati ipsum corrupti modi vel earum impedit non nostrum, saepe eaque soluta? Sunt minima explicabo ratione, excepturi possimus ut voluptas vitae.",
+    title: "Sell on your e-commerce website",
+    description: "Launch your products on your custom e-commerce website. Leverage powerful tools and features to attract and convert visitors into loyal customers.",
     link: "https://example.com/image1",
     image: "/images/card1.jpg",
     backgroundColor: "#FFE4E1" 
   },
   {
     id: "card2",
-    title: "Sell on your website",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt obcaecati ipsum corrupti modi vel earum impedit non nostrum, saepe eaque soluta? Sunt minima explicabo ratione, excepturi possimus ut voluptas vitae.",
+    title: "Sell on marketplaces",
+    description: "Sell on top marketplaces like eBay, Etsy, Amazon, and Flipkart. Manage all your sales seamlessly from your QPe dashboard.",
     link: "https://example.com/image2",
     image: "/images/card2.jpg",
     backgroundColor: "#F0F8FF" 
   },
   {
     id: "card3",
-    title: "Sell on your website",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt obcaecati ipsum corrupti modi vel earum impedit non nostrum, saepe eaque soluta? Sunt minima explicabo ratione, excepturi possimus ut voluptas vitae.",
+    title: "Sell on social media ",
+    description: "Sell on social media platforms with ease. Use integrated tools to grow your audience and boost sales on Facebook, Instagram, and more.",
     link: "https://example.com/image3",
     image: "/images/card3.jpg",
     backgroundColor: "#D3D3D3"
   },
   {
     id: "card4",
-    title: "Sell on your website",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt obcaecati ipsum corrupti modi vel earum impedit non nostrum, saepe eaque soluta? Sunt minima explicabo ratione, excepturi possimus ut voluptas vitae.",
+    title: "Sell in-person",
+    description: "Sell in-person with a comprehensive POS system designed for seamless integration between your online and retail stores. Easily create manual orders, accept payments, and generate KOT/bills in your physical store.",
     link: "https://example.com/image3",
     image: "/images/card4.jpg",
     backgroundColor: "#FFE5B4"
+  },
+  {
+    id: "card5",
+    title: "Sell globally",
+    description: "Expand your business horizons globally and optimize cross-border sales effortlessly through your QPe store. Seamlessly enter international markets with multilingual capabilities, currency conversion, and a wide array of trusted payment options.",
+    link: "https://example.com/image3",
+    image: "/images/card4.jpg",
+    backgroundColor: "#FFE5E4"
   },
   
 ];
@@ -227,4 +235,4 @@ export const socialMediaIcons:SocialMediaIcon[] = [
       ],
     };
     
-    
+ 

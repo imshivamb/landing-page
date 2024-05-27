@@ -10,7 +10,7 @@ import { cardData } from "../../constants/constants";
 const PointsGrid = () => {
   return (
     <Carousel className=" ">
-      <CarouselContent className="*:basis-2/3 *:md:basis-1/4">
+      <CarouselContent className="*:basis-[80%] *:md:basis-1/4">
         {cardData.map((card, index) => (
           <CarouselItem key={index} className="">
             <NumbersCard card={card} />

@@ -10,13 +10,14 @@ const ThemesSection = () => {
         <div className="flex flex-col md:flex-row justify-between items-center w-full px-4 py-3">
           <div className="float-left w-full max-w-xl">
             <h2 className="text-4xl font-medium leading-none mb-4 md:leading-tight sm:text-4xl md:text-5xl">
-              eCommerce website templates built for success
+              QPe Themes Created for commerce success
             </h2>
           </div>
           <div className="w-full max-w-lg float-end flex flex-col gap-4 items-start justify-start">
             <p className="font-medium text-base leading-normal">
-              Discover over 500 free and fully customizable website templates,
-              including{" "}
+              Transform your online store with our meticulously crafted QPe
+              themes. Designed for e-commerce success, our eCommerce website
+              templates ensure a seamless customer experience.
               <span>
                 <Link href="#">eCommerce templates</Link>
               </span>{" "}
@@ -36,7 +37,7 @@ const ThemesSection = () => {
               alt="theme 1"
               width={500}
               height={325}
-              className="w-full h-full flex flex-shrink-0 rounded-xl"
+              className="w-full hover:scale-105 transition-all duration-500 h-full flex flex-shrink-0 rounded-xl"
             />
           </div>
           <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[100px] md:max-w-[170px]">
@@ -45,7 +46,7 @@ const ThemesSection = () => {
               alt="theme 1"
               width={170}
               height={325}
-              className="w-full h-full flex flex-shrink-0 rounded-xl"
+              className="w-full hover:scale-105 transition-all duration-500 h-full flex flex-shrink-0 rounded-xl"
             />
           </div>
           <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[325px] md:max-w-[500px]">
@@ -54,7 +55,7 @@ const ThemesSection = () => {
               alt="theme 1"
               width={500}
               height={325}
-              className="w-full h-full flex flex-shrink-0 rounded-xl"
+              className="w-full hover:scale-105 transition-all duration-500 h-full flex flex-shrink-0 rounded-xl"
             />
           </div>
           <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[325px] md:max-w-[500px]">
@@ -63,7 +64,7 @@ const ThemesSection = () => {
               alt="theme 1"
               width={500}
               height={325}
-              className="w-full h-full flex flex-shrink-0 rounded-xl"
+              className="w-full hover:scale-105 transition-all duration-500 h-full flex flex-shrink-0 rounded-xl"
             />
           </div>
           <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[100px] md:max-w-[170px]">
@@ -72,7 +73,7 @@ const ThemesSection = () => {
               alt="theme 1"
               width={170}
               height={325}
-              className="w-full h-full flex flex-shrink-0 rounded-xl"
+              className="w-full hover:scale-105 transition-all duration-500 h-full flex flex-shrink-0 rounded-xl"
             />
           </div>
           <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[100px] md:max-w-[170px]">
@@ -81,7 +82,7 @@ const ThemesSection = () => {
               alt="theme 1"
               width={170}
               height={325}
-              className="w-full h-full flex flex-shrink-0 rounded-xl"
+              className="w-full hover:scale-105 transition-all duration-500 h-full flex flex-shrink-0 rounded-xl"
             />
           </div>
         </div>

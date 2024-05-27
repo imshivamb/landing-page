@@ -21,15 +21,14 @@ const Seo = () => {
         >
           <div className={`float-left w-full  max-w-xl`}>
             <h2 className="text-4xl font-medium leading-[1.1]  mb-4 md:leading-tight sm:text-4xl md:text-5xl">
-              Boost Traffic and Revenue with full marketing suite
+              Build High Performance E-Commerce Stores
             </h2>
           </div>
           <div className="w-full max-w-lg float-end flex flex-col gap-4 items-start justify-start">
             <p className={`font-medium text-[17px] leading-normal`}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              obcaecati ipsum corrupti modi vel earum impedit non nostrum, saepe
-              eaque soluta? Sunt minima explicabo ratione, excepturi possimus ut
-              voluptas vitae.
+              Seamlessly create visually stunning and high-converting online
+              stores with built-in tools. Empowering new age entrepreneurs with
+              full-stack e-commerce solutions.
             </p>
             <div className="py-2">
               <Button

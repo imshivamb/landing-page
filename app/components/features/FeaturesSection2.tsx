@@ -9,10 +9,10 @@ const FeaturesSection2 = () => {
     <div className="w-full h-full bg-[#E6E6FA] px-5 md:px-16 py-6 md:py-12">
       <div className="flex flex-col mt-5 items-center gap-2 justify-center">
         <Badge className="text-white bg-teal-600 hover:teal-700 py-1.5 px-2">
-          Build Online Store
+          Build an Online Store
         </Badge>
         <h2 className="font-medium text-4xl md:text-5xl mt-2 tracking-tight">
-          Your Store, your Way
+          Simplifying E-Commerce for All
         </h2>
       </div>
       <div className="banner-img relative w-full flex justify-center mt-5">
@@ -24,15 +24,12 @@ const FeaturesSection2 = () => {
         />
       </div>
       <div className="flex justify-center w-full">
-        <div className=" max-w-6xl w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-3 justify-center items-stretch">
+        <div className=" max-w-full w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-3 justify-center items-stretch">
           <div className="grid-item flex flex-col items-start justify-start gap-2 p-4">
-            <h6 className="font-semibold text-lg">
-              Build an online storefront
-            </h6>
+            <h6 className="font-semibold text-lg">Create Your Storefront</h6>
             <p className="font-medium text-gray-700 text-base pb-1.5">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&apos;s standard dummy
-              text ever since the 1500s, {" "}
+              Create your storefront effortlessly, no coding required. Enjoy
+              99.99% uptime reliability for uninterrupted business growth.
             </p>
             <Link href="#">
               <Button
@@ -43,12 +40,12 @@ const FeaturesSection2 = () => {
           </div>
           <div className="grid-item flex flex-col items-start justify-start gap-2 p-4">
             <h6 className="font-semibold text-lg">
-              Build an online storefront
+              Shape Your Brand, Your Way
             </h6>
             <p className="font-medium text-gray-700 text-base pb-1.5">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&apos;s standard dummy
-              text ever since the 1500s, {" "}
+              Choose from curated templates, tailored for high conversion and
+              SEO optimization. Find the perfect theme to showcase your unique
+              brand identity.
             </p>
             <Link href="#">
               <Button
@@ -59,12 +56,13 @@ const FeaturesSection2 = () => {
           </div>
           <div className="grid-item flex flex-col items-start justify-start gap-2 p-4">
             <h6 className="font-semibold text-lg">
-              Build an online storefront
+              Go Bigger with App Integrations
             </h6>
             <p className="font-medium text-gray-700 text-base pb-1.5">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&apos;s standard dummy
-              text ever since the 1500s, {" "}
+              Scale your business effortlessly and unlock a world of
+              possibilities with our suite of 200+ integrations. From tracking
+              analytics to managing shipments, payments, taxes, and more, expand
+              your online store with ease.
             </p>
             <Link href="#">
               <Button
