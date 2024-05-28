@@ -10,6 +10,8 @@ import {
   heroBg,
   heroImg1,
   heroImg2,
+  hero1,
+  hero2,
   heroImg3,
 } from "../../constants/imagesImport";
 
@@ -111,7 +113,7 @@ const Hero = () => {
           <div className="relative hero-image-section z-10  w-full max-w-7xl mx-auto">
             <div className="primary-image flex items-center justify-center relative">
               <Image
-                src={heroImg2}
+                src={hero1}
                 alt="Hero image 1"
                 className="w-full h-full max-w-[700px] max-h-[550px] rounded-lg shadow-lg"
               />
@@ -125,7 +127,7 @@ const Hero = () => {
             </div>
             <div className="third-image absolute right-[50px] top-[50px] hidden md:block w-auto">
               <Image
-                src={heroImg3}
+                src={hero2}
                 alt="hero-image-3"
                 className="w-full h-full max-w-[300px] shadow-lg rounded-lg hover:scale-105 transition-all duration-300"
               />

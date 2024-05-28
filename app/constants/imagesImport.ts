@@ -30,8 +30,10 @@ import tab5 from "../../public/images/tab5.jpg";
 import features3 from "../../public/images/product3.jpg";
 import storegraphic from "../../public/images/Website Graphic 1.jpg"
 import storegraphic2 from "../../public/images/Website Graphic2.jpg"
+import hero1 from "../../public/images/1.jpg";
+import hero2 from "../../public/images/2.jpg";
 
 
-export { award1, award2,tab1, tab2, tab3, tab4, tab5,features3, storegraphic, storegraphic2,  award3, automation, features1,features2, featuresimage, tabs3, sellglobal, campaigns, award4, award5, heroBg, heroImg1, heroImg2, heroImg3, theme1, theme2, theme3, theme8, theme4, theme5,theme6,theme7
+export { award1, award2,tab1, tab2, tab3, tab4,hero1, hero2, tab5,features3, storegraphic, storegraphic2,  award3, automation, features1,features2, featuresimage, tabs3, sellglobal, campaigns, award4, award5, heroBg, heroImg1, heroImg2, heroImg3, theme1, theme2, theme3, theme8, theme4, theme5,theme6,theme7
 
 }
