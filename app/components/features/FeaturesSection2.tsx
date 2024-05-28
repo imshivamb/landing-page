@@ -3,7 +3,7 @@ import { Badge } from "../ui/badge";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "../Button";
-import { storegraphic } from "../../constants/imagesImport";
+import { storegraphic, storegraphic2 } from "../../constants/imagesImport";
 
 const FeaturesSection2 = () => {
   return (
@@ -17,7 +17,7 @@ const FeaturesSection2 = () => {
         </h2>
       </div>
       <div className="banner-img relative w-full flex my-8 justify-center">
-        <Image src={storegraphic} alt="dashboard image" />
+        <Image src={storegraphic2} alt="dashboard image" />
       </div>
       <div className="flex justify-center w-full">
         <div className=" max-w-full w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-3 justify-center items-stretch">
