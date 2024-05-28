@@ -119,7 +119,7 @@ const Hero = () => {
                 className="w-full h-full max-w-[700px] max-h-[550px] rounded-lg shadow-2xl"
               />
             </div>
-            <div className="second-image absolute left-[50px] top-[100px] hidden md:block w-auto">
+            <div className="second-image absolute left-[50px] top-[130px] hidden md:block w-auto">
               <Image
                 src={hero3}
                 alt="hero-image-2"
