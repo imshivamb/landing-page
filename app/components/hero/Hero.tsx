@@ -115,7 +115,7 @@ const Hero = () => {
               <Image
                 src={hero1}
                 alt="Hero image 1"
-                className="w-full h-full max-w-[700px] max-h-[550px] rounded-lg shadow-lg"
+                className="w-full h-full max-w-[700px] max-h-[550px] rounded-lg shadow-2xl"
               />
             </div>
             <div className="second-image absolute left-[50px] top-[50px] hidden md:block w-auto">
@@ -129,7 +129,7 @@ const Hero = () => {
               <Image
                 src={hero2}
                 alt="hero-image-3"
-                className="w-full h-full max-w-[300px] shadow-lg rounded-lg hover:scale-105 transition-all duration-300"
+                className="w-full h-full max-w-[300px] shadow-2xl rounded-lg hover:scale-105 transition-all duration-300"
               />
             </div>
           </div>
