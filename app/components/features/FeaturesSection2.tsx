@@ -8,7 +8,7 @@ const FeaturesSection2 = () => {
   return (
     <div className="w-full h-full bg-[#E6E6FA] px-5 md:px-16 py-6 md:py-12">
       <div className="flex flex-col mt-5 items-center gap-2 justify-center">
-        <Badge className="text-white bg-teal-600 hover:teal-700 py-1.5 px-2">
+        <Badge className="text-white bg-teal-600 py-1.5 px-2">
           Build an Online Store
         </Badge>
         <h2 className="font-medium text-4xl md:text-5xl mt-2 tracking-tight">

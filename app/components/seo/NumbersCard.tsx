@@ -1,15 +1,14 @@
 "use client";
 
 import clsx from "clsx";
-import React, { useState } from "react";
-import { WobbleCard } from "../ui/wobble-card";
+import { useState } from "react";
 
 const NumbersCard = ({ card }) => {
   const [isHovered, setIsHovered] = useState(false);
   const cardClass = clsx(
     "border rounded-xl border-gray-800 transition-all h-full p-3 md:p-5",
     {
-      "bg-white": !isHovered,
+      "bg-white ": !isHovered,
       [card.backgroundColor]: isHovered,
     }
   );
@@ -20,7 +19,7 @@ const NumbersCard = ({ card }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <WobbleCard className="flex flex-col items-start justify-start">
+      <div className="flex flex-col items-start justify-start">
         <h5 className="uppercase text-sm font-medium mb-8 text-left">
           {card.title}
         </h5>
@@ -32,7 +31,7 @@ const NumbersCard = ({ card }) => {
         <p className="text-base font-medium text-gray-800 mt-2 pb-3">
           {card.description2}
         </p>
-      </WobbleCard>
+      </div>
     </div>
   );
 };

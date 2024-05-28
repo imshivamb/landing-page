@@ -22,8 +22,14 @@ import features2 from "../../public/images/features2.png"
 import sellglobal from "../../public/images/sellglobal.png"
 import automation from "../../public/images/automation.png";
 import featuresimage from "../../public/images/featuresimage.png";
+import tab1 from "../../public/images/tab1.jpg";
+import tab2 from "../../public/images/tab2.png";
+import tab3 from "../../public/images/tab3.jpg";
+import tab4 from "../../public/images/tab4.jpg";
+import tab5 from "../../public/images/tab5.jpg";
+import features3 from "../../public/images/product3.jpg";
 
 
-export { award1, award2, award3, automation, features1,features2, featuresimage, tabs3, sellglobal, campaigns, award4, award5, heroBg, heroImg1, heroImg2, heroImg3, theme1, theme2, theme3, theme8, theme4, theme5,theme6,theme7
+export { award1, award2,tab1, tab2, tab3, tab4, tab5,features3, award3, automation, features1,features2, featuresimage, tabs3, sellglobal, campaigns, award4, award5, heroBg, heroImg1, heroImg2, heroImg3, theme1, theme2, theme3, theme8, theme4, theme5,theme6,theme7
 
 }

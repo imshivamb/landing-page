@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Button } from "../Button";
 import { Badge } from "../ui/badge";
-import { features1 } from "../../constants/imagesImport";
+import { features1, features3 } from "../../constants/imagesImport";
 
 const StoreSectionOne = () => {
   return (
@@ -15,7 +15,7 @@ const StoreSectionOne = () => {
           <h3 className="text-4xl md:text-5xl/tight font-medium max-w-[15ch]">
             Robust infrastructure engineered for your brand&apos;s growth
           </h3>
-          <p className="text-lg/tight font-normal text-gray-500 max-w-[40ch]">
+          <p className="text-base/normal font-medium text-gray-800 max-w-[40ch]">
             Unmatched performance speed. Our robust, speed-optimized
             infrastructure ensures rapid page loading, delivering a superior
             online shopping experience for your customers.
@@ -58,9 +58,8 @@ const StoreSectionOne = () => {
         </div>
         <div className="block w-full md:w-1/2 p-5 relative min-h-[500px]">
           <Image
-            src={features1}
+            src={features3}
             alt="store feature"
-            fill
             className="object-cover rounded-xl w-full"
           />
         </div>

@@ -12,7 +12,7 @@ const Subscribe = () => {
         <h2 className="mt-5 text-4xl/[40px] md:text-5xl/[50px] max-w-4xl lg:text-6xl/[60px] font-medium">
           Powering 45000+ eCommerce entrepreneurs, enterprise and d2c brands
         </h2>
-        <p className="mt-4 text-base md:text-lg text-gray-600 ">
+        <p className="mt-4 text-base md:text-lg font-medium text-gray-800 ">
           Get started for free, then upgrade from ₹1,799 INR / month.
         </p>
         <div className="flex gap-3 mt-5 items-center">

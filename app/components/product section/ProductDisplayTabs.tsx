@@ -1,6 +1,15 @@
 import { Button } from "../Button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs";
-import { automation, campaigns, tabs3 } from "../../constants/imagesImport";
+import {
+  automation,
+  campaigns,
+  tabs3,
+  tab1,
+  tab2,
+  tab3,
+  tab4,
+  tab5,
+} from "../../constants/imagesImport";
 import Image from "next/image";
 import {
   ArrowRight,
@@ -43,7 +52,7 @@ const ProductDisplayTabs = () => {
                 <h2 className=" text-2xl md:text-3xl font-semibold leading-normal">
                   Facebook and Instagram Automation
                 </h2>
-                <p className="text-lg md:block hidden font-normal leading-[1.3]">
+                <p className="text-base md:block hidden font-medium leading-[1.3]">
                   Automate your Facebook and Instagram activities with ease.
                   Schedule posts, manage brand pages, auto-reply to comments,
                   and capture leads for effective marketing.
@@ -56,7 +65,7 @@ const ProductDisplayTabs = () => {
               </div>
               <div className=" w-full md:w-[60%] h-auto">
                 <Image
-                  src={automation}
+                  src={tab1}
                   alt="automation"
                   className=" rounded-br-[70px] rounded-bl-lg   w-full object-cover rounded-t-lg"
                 />
@@ -71,7 +80,7 @@ const ProductDisplayTabs = () => {
                 <h2 className=" text-2xl md:text-3xl font-semibold leading-normal">
                   Content Marketing and SEO Tools
                 </h2>
-                <p className="text-lg md:block hidden font-normal leading-[1.3]">
+                <p className="text-base md:block hidden font-medium leading-[1.3]">
                   Grow your audience and boost traffic with built-in blogging
                   tools. Enhance visibility using SEO features to optimize title
                   tags, meta descriptions, and product details.
@@ -84,7 +93,7 @@ const ProductDisplayTabs = () => {
               </div>
               <div className=" w-full md:w-[60%] h-auto">
                 <Image
-                  src={campaigns}
+                  src={tab2}
                   alt="automation"
                   className=" rounded-br-[70px] rounded-bl-lg   w-full object-cover rounded-t-lg"
                 />
@@ -99,7 +108,7 @@ const ProductDisplayTabs = () => {
                 <h2 className=" text-2xl md:text-3xl font-semibold leading-normal">
                   Integrated Messenger Chatbots
                 </h2>
-                <p className="text-lg md:block hidden font-normal leading-[1.3]">
+                <p className="text-base md:block hidden font-medium leading-[1.3]">
                   Leverage integrated messenger chatbots synced with your
                   e-commerce store to automate order processing and assist
                   customers. From product selection to checkout and invoicing,
@@ -113,7 +122,7 @@ const ProductDisplayTabs = () => {
               </div>
               <div className=" w-full md:w-[60%] h-auto">
                 <Image
-                  src={automation}
+                  src={tab3}
                   alt="automation"
                   className=" rounded-br-[70px] rounded-bl-lg  w-full object-cover rounded-t-lg"
                 />
@@ -128,7 +137,7 @@ const ProductDisplayTabs = () => {
                 <h2 className=" text-2xl md:text-3xl font-semibold leading-normal">
                   Email, SMS and Whatsapp Marketing
                 </h2>
-                <p className="text-lg md:block hidden font-normal leading-[1.3]">
+                <p className="text-base md:block hidden font-medium leading-[1.3]">
                   Boost your e-commerce store&apos;s performance with targeted
                   email/SMS marketing. Easily integrate third-party
                   autoresponders or use your own SMTP to launch effective email
@@ -143,7 +152,7 @@ const ProductDisplayTabs = () => {
               </div>
               <div className=" w-full md:w-[60%] h-auto">
                 <Image
-                  src={campaigns}
+                  src={tab4}
                   alt="automation"
                   className=" rounded-br-[70px] rounded-bl-lg   w-full object-cover rounded-t-lg"
                 />
@@ -158,7 +167,7 @@ const ProductDisplayTabs = () => {
                 <h2 className=" text-2xl md:text-3xl font-semibold leading-normal">
                   Data-Driven Insights
                 </h2>
-                <p className="text-lg md:block hidden font-normal leading-[1.3]">
+                <p className="text-base md:block hidden font-medium leading-[1.3]">
                   Optimize your marketing strategy with actionable insights from
                   detailed analytics. Make informed business decisions and drive
                   growth with strategic marketing reports.
@@ -171,7 +180,7 @@ const ProductDisplayTabs = () => {
               </div>
               <div className=" w-full md:w-[60%] h-auto">
                 <Image
-                  src={tabs3}
+                  src={tab5}
                   alt="automation"
                   className=" rounded-br-[70px] rounded-bl-lg   w-full object-cover rounded-t-lg"
                 />

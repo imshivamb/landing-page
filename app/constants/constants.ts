@@ -37,7 +37,7 @@ export const sliderCardData = [
     title: "Sell on your e-commerce website",
     description: "Launch your products on your custom e-commerce website. Leverage powerful tools and features to attract and convert visitors into loyal customers.",
     link: "https://example.com/image1",
-    image: "/images/sell1.png",
+    image: "/images/card2.jpg",
     backgroundColor: "#FFE4E1" 
   },
   {
@@ -45,7 +45,7 @@ export const sliderCardData = [
     title: "Sell on marketplaces",
     description: "Sell on top marketplaces like eBay, Etsy, Amazon, and Flipkart. Manage all your sales seamlessly from your QPe dashboard.",
     link: "https://example.com/image2",
-    image: "/images/card6.png",
+    image: "/images/card1.jpg",
     backgroundColor: "#F0F8FF" 
   },
   {
