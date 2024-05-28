@@ -13,6 +13,7 @@ import {
   hero1,
   hero2,
   heroImg3,
+  hero3,
 } from "../../constants/imagesImport";
 
 const Hero = () => {
@@ -118,9 +119,9 @@ const Hero = () => {
                 className="w-full h-full max-w-[700px] max-h-[550px] rounded-lg shadow-2xl"
               />
             </div>
-            <div className="second-image absolute left-[50px] top-[50px] hidden md:block w-auto">
+            <div className="second-image absolute left-[50px] top-[100px] hidden md:block w-auto">
               <Image
-                src={heroImg1}
+                src={hero3}
                 alt="hero-image-2"
                 className="w-full h-full max-w-[350px] shadow-lg rounded-lg hover:scale-105 transition-all duration-300"
               />
