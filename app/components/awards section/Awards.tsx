@@ -11,7 +11,7 @@ import Image from "next/image";
 const Awards = () => {
   return (
     <div className=" pt-6 max-w-7xl mx-auto p-2 mt-8 md:p-8 w-full">
-      <div className="flex flex-wrap items-center justify-center gap-5 md:gap-0 md:justify-evenly w-full *:w-[50%] *:max-w-[150px] *:md:w-[20%] *:md:max-w-[150px]">
+      <div className="flex flex-wrap items-center justify-evenly gap-5 md:gap-0 md:justify-evenly w-full *:w-[50%] *:max-w-[120px] *:md:w-[20%] *:md:max-w-[150px]">
         <Image src={award1} alt="Awards" />
         <Image src={award2} alt="Awards" />
         <Image src={award3} alt="Awards" />
