@@ -99,7 +99,7 @@ const Hero = () => {
                 <Link href="">
                   <Button
                     text="Start free trial"
-                    className="leading-tight text-white bg-gray-800"
+                    className="leading-tight text-white bg-violet-500"
                   />
                 </Link>
                 <Link href="">
