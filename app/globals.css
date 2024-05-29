@@ -432,11 +432,7 @@ button:not(:disabled) {
   clip-path: circle(100.4% at 98% 107%);
 }
 
-@media(max-width:768px) {
-  .subscribe-img {
-    clip-path: circle(130.7% at 100% 165%);
-}
-}
+
 
 @keyframes slide-scroll {
   from {
@@ -446,8 +442,56 @@ button:not(:disabled) {
     transform: translateX(-100%);
   }
 }
+
+@keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 45s linear infinite;
+}
+
   
 .logos-slide {
-  animation: 5s slide-scroll infinite linear;
+  animation: 25s slide-scroll infinite linear;
   
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos::before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos::after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos::before, .logos::after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  z-index: 2;
+  content: '';
+}
+
+@media(max-width:768px) {
+  .subscribe-img {
+    clip-path: circle(130.7% at 100% 165%);
+}
+
+.logos-slide {
+  animation: 10s slide-scroll infinite linear;
+  
+}
 }

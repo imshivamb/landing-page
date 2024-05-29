@@ -6,6 +6,7 @@ import Footer from "../components/footer/Footer";
 import MobileFooter from "../components/footer/MobileFooter";
 import Hero from "../components/hero/Hero";
 import ImageScroll from "../components/infinite-scroll/Image-scroll";
+import TextScroll from "../components/infinite-scroll/text-scroll";
 import Navbar from "../components/navbar/Navbar";
 import ProductDisplay from "../components/product section/ProductDisplay";
 import ProductDisplayTabs from "../components/product section/ProductDisplayTabs";
@@ -28,6 +29,7 @@ export default function Home() {
       <Awards />
       <Seo />
       <ImageScroll />
+
       <ProductDisplayTabs />
       <FeaturesSection2 />
       <FeaturesSlide />
@@ -35,9 +37,11 @@ export default function Home() {
       <StoreSectionOne />
       {/* <StoreSectionTwo /> */}
       <StoreSectionThree />
+
       <Testimonial2 />
       <Services />
       <Subscribe2 />
+      <TextScroll />
       <div className="hidden md:block">
         <Footer />
       </div>

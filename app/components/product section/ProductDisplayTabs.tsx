@@ -23,6 +23,20 @@ import {
 const ProductDisplayTabs = () => {
   return (
     <div className="main-container w-full px-4 md:px-7 pt-8 pb-12 mt-5">
+      <div className="flex flex-col md:flex-row justify-between items-start w-full px-4 mb-6 py-3">
+        <div className="float-left w-full max-w-3xl">
+          <h2 className="text-4xl font-medium leading-none mb-4 md:leading-tight sm:text-4xl md:text-5xl">
+            Built In Marketing Automation Tools. E-Commerce Marketing Simplified
+          </h2>
+        </div>
+        <div className="w-full max-w-lg float-end flex flex-col gap-4 items-start justify-start">
+          <p className="font-medium text-base leading-normal pt-5">
+            Utilize our built-in marketing tools to streamline your e-commerce
+            strategy. Simplify your marketing efforts and reach the right
+            customers with ease.
+          </p>
+        </div>
+      </div>
       <Tabs defaultValue="learning" className="w-full">
         <TabsList className="flex items-center justify-start md:gap-0  gap-4 overflow-hidden overflow-x-auto *:flex *:items-center *:gap-1 *:w-fit *:text-lg *:font-medium *:md:w-[20%] *:shrink-0 *:flex-nowrap">
           <TabsTrigger value="learning">
