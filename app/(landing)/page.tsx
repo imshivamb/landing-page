@@ -5,6 +5,7 @@ import FeaturesSlide from "../components/features/FeaturesSlide";
 import Footer from "../components/footer/Footer";
 import MobileFooter from "../components/footer/MobileFooter";
 import Hero from "../components/hero/Hero";
+import ImageScroll from "../components/infinite-scroll/Image-scroll";
 import Navbar from "../components/navbar/Navbar";
 import ProductDisplay from "../components/product section/ProductDisplay";
 import ProductDisplayTabs from "../components/product section/ProductDisplayTabs";
@@ -26,6 +27,7 @@ export default function Home() {
       <Hero />
       <Awards />
       <Seo />
+      {/* <ImageScroll /> */}
       <ProductDisplayTabs />
       <FeaturesSection2 />
       <FeaturesSlide />
@@ -35,7 +37,7 @@ export default function Home() {
       <StoreSectionThree />
       <Testimonial2 />
       <Services />
-      <Subscribe />
+      <Subscribe2 />
       <div className="hidden md:block">
         <Footer />
       </div>

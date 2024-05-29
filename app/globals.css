@@ -428,7 +428,26 @@ button:not(:disabled) {
     margin-inline: auto;
 }
 
+.subscribe-img {
+  clip-path: circle(100.4% at 98% 107%);
+}
 
+@media(max-width:768px) {
+  .subscribe-img {
+    clip-path: circle(130.7% at 100% 165%);
+}
+}
 
-
+@keyframes slide-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
   
+.logo-slide-container {
+  animation: 10s slide-scroll infinite linear;
+ 
+}

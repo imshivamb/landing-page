@@ -34,8 +34,14 @@ import hero1 from "../../public/images/1.jpg";
 import hero2 from "../../public/images/2.jpg";
 import hero3 from "../../public/images/3.jpg";
 import subscribe from "../../public/images/subscribe.jpg";
+import scroll1 from "../../public/images/heineken.svg";
+import scroll2 from "../../public/images/tele.svg";
+import scroll3 from "../../public/images/bestseller.svg";
+import scroll4 from "../../public/images/zoom.svg";
+import scroll5 from "../../public/images/reuters.svg";
+import scroll6 from "../../public/images/xerox.svg";
 
 
-export { award1, award2,tab1, tab2, tab3, tab4,hero1, hero2,hero3,subscribe, tab5,features3, storegraphic, storegraphic2,  award3, automation, features1,features2, featuresimage, tabs3, sellglobal, campaigns, award4, award5, heroBg, heroImg1, heroImg2, heroImg3, theme1, theme2, theme3, theme8, theme4, theme5,theme6,theme7
+export { award1, award2,tab1, tab2, tab3, tab4,hero1, hero2,hero3,subscribe, tab5,features3, storegraphic, storegraphic2,  award3,scroll1, scroll2, scroll3, scroll4, scroll5,scroll6, automation, features1,features2, featuresimage, tabs3, sellglobal, campaigns, award4, award5, heroBg, heroImg1, heroImg2, heroImg3, theme1, theme2, theme3, theme8, theme4, theme5,theme6,theme7
 
 }

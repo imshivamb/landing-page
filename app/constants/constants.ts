@@ -37,7 +37,7 @@ export const sliderCardData = [
     title: "Sell on your e-commerce website",
     description: "Launch your products on your custom e-commerce website. Leverage powerful tools and features to attract and convert visitors into loyal customers.",
     link: "https://example.com/image1",
-    image: "/images/card2.jpg",
+    image: "/images/4.jpg",
     backgroundColor: "#FFE4E1" 
   },
   {
@@ -61,7 +61,7 @@ export const sliderCardData = [
     title: "Sell in-person",
     description: "Sell in-person with a comprehensive POS system designed for seamless integration between your online and retail stores. Easily create manual orders, accept payments, and generate KOT/bills in your physical store.",
     link: "https://example.com/image3",
-    image: "/images/card4.jpg",
+    image: "/images/7.jpg",
     backgroundColor: "#FFE5B4"
   },
   {
@@ -69,7 +69,7 @@ export const sliderCardData = [
     title: "Sell globally",
     description: "Expand your business horizons globally and optimize cross-border sales effortlessly through your QPe store. Seamlessly enter international markets with multilingual capabilities, currency conversion, and a wide array of trusted payment options.",
     link: "https://example.com/image3",
-    image: "/images/sellglobal.png",
+    image: "/images/6.jpg",
     backgroundColor: "#FFE5E4"
   },
   
