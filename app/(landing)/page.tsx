@@ -32,19 +32,19 @@ export default function Home() {
       <Seo />
       <ImageScroll />
 
-      <ProductDisplayTabs />
       <FeaturesSection2 />
       <FeaturesSlide />
+      <ProductDisplayTabs />
       <Integrations />
       <ThemesSection />
       <StoreSectionOne />
       {/* <StoreSectionTwo /> */}
       <StoreSectionThree />
-
-      <Testimonial3 />
-      <Services />
-      <Subscribe2 />
       <TextScroll />
+      <Testimonial3 />
+      {/* <Services /> */}
+      <Subscribe2 />
+
       <div className="hidden md:block">
         <Footer />
       </div>

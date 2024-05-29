@@ -37,7 +37,7 @@ const Hero = () => {
         fill="white"
       />
       <div id="hero-section" className="w-full pt-[120px] z-10 h-auto">
-        <div className="flex flex-col items-center justify-center py-6 md:py-10 md:px-10 px-5 relative flex-1 w-100">
+        <div className="flex flex-col items-center justify-center pb-6 md:pb-0 pt-6 md:pt-10 md:px-10 px-5 relative flex-1 w-100">
           {/* <ContainerScroll
             titleComponent={
               <div className="main-container mb-8">
@@ -87,10 +87,10 @@ const Hero = () => {
               <h5 className="uppercase text-lg animate-pop-in h-subtitle md:text-xl font-medium tracking-tight ">
                 CREATE MORE THAN AN ECOMMERCE WEBSITE
               </h5>
-              <h1 className="text-[40px] leading-[1.1] bg-clip-text text-transparent text-white bg-opacity-50 h-title animate-pop-in sm:text-5xl md:text-6xl lg:text-7xl font-semibold md:font-medium max-w-full md:max-w-4xl md:leading-[1.7] pb-2">
+              <h1 className="text-[40px] leading-[1.1] bg-clip-text text-transparent text-white bg-opacity-50 h-title animate-pop-in sm:text-5xl md:text-6xl lg:text-6xl font-semibold md:font-medium max-w-full md:max-w-4xl md:leading-[1.7] pb-2">
                 Making E-Commerce Affordable & Accessible for Everyone
               </h1>
-              <p className="font-medium text-balance animate-pop-in h-desc capitalize text-base leading-[1.6] md:text-lg max-w-2xl">
+              <p className="font-medium text-balance animate-pop-in h-desc capitalize text-base leading-[1.6] md:text-lg max-w-4xl">
                 Effortlessly launch a captivating online store and increase
                 customer conversions. All-in-one platform designed to help your
                 business thrive and grow.
@@ -111,6 +111,19 @@ const Hero = () => {
               </div>
             </div>
           </div>
+
+          {/* <div className=" md:aspect-auto mx-auto flex justify-center w-full relative">
+            <video
+              src="/videos/file.mp4"
+              muted
+              autoPlay
+              loop
+              poster="/images/thumbnail.jpg"
+              className="rounded-xl w-full max-w-full"
+            ></video>
+          </div> */}
+        </div>
+        <div className="w-full max-w-full bg-gradient-to-b from-[#0d0028] from-50% to-white to-50% pb-2">
           <div className="relative hero-image-section z-10  w-full max-w-7xl mx-auto">
             <div className="primary-image flex items-center justify-center relative">
               <Image
@@ -134,17 +147,6 @@ const Hero = () => {
               />
             </div>
           </div>
-
-          {/* <div className=" md:aspect-auto mx-auto flex justify-center w-full relative">
-            <video
-              src="/videos/file.mp4"
-              muted
-              autoPlay
-              loop
-              poster="/images/thumbnail.jpg"
-              className="rounded-xl w-full max-w-full"
-            ></video>
-          </div> */}
         </div>
       </div>
     </div>
