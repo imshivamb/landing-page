@@ -27,7 +27,7 @@ export default function Home() {
       <Hero />
       <Awards />
       <Seo />
-      {/* <ImageScroll /> */}
+      <ImageScroll />
       <ProductDisplayTabs />
       <FeaturesSection2 />
       <FeaturesSlide />

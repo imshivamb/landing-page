@@ -45,7 +45,7 @@ export const sliderCardData = [
     title: "Sell on marketplaces",
     description: "Sell on top marketplaces like eBay, Etsy, Amazon, and Flipkart. Manage all your sales seamlessly from your QPe dashboard.",
     link: "https://example.com/image2",
-    image: "/images/card1.jpg",
+    image: "/images/8.jpg",
     backgroundColor: "#F0F8FF" 
   },
   {
@@ -53,7 +53,7 @@ export const sliderCardData = [
     title: "Sell on social media ",
     description: "Sell on social media platforms with ease. Use integrated tools to grow your audience and boost sales on Facebook, Instagram, and more.",
     link: "https://example.com/image3",
-    image: "/images/card3.jpg",
+    image: "/images/5.jpg",
     backgroundColor: "#D3D3D3"
   },
   {

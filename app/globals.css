@@ -447,7 +447,7 @@ button:not(:disabled) {
   }
 }
   
-.logo-slide-container {
-  animation: 10s slide-scroll infinite linear;
- 
+.logos-slide {
+  animation: 5s slide-scroll infinite linear;
+  
 }
