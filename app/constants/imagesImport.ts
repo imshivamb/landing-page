@@ -22,12 +22,12 @@ import features2 from "../../public/images/features2.png"
 import sellglobal from "../../public/images/sellglobal.png"
 import automation from "../../public/images/automation.png";
 import featuresimage from "../../public/images/featuresimage.png";
-import tab1 from "../../public/images/tab1.jpg";
+import tab1 from "../../public/images/10.jpg";
 import tab2 from "../../public/images/tab2.png";
 import tab3 from "../../public/images/tab3.jpg";
 import tab4 from "../../public/images/marketing.jpg";
 import tab5 from "../../public/images/tab5.jpg";
-import features3 from "../../public/images/product3.jpg";
+import features3 from "../../public/images/11.jpg";
 import storegraphic from "../../public/images/Website Graphic 1.jpg"
 import storegraphic2 from "../../public/images/Website Graphic New.png"
 import hero1 from "../../public/images/1.jpg";
@@ -40,8 +40,14 @@ import scroll3 from "../../public/images/bestseller.svg";
 import scroll4 from "../../public/images/zoom.svg";
 import scroll5 from "../../public/images/reuters.svg";
 import scroll6 from "../../public/images/xerox.svg";
+import int1 from "../../public/images/int1.png";
+import int2 from "../../public/images/int2.svg";
+import int3 from "../../public/images/int3.svg";
+import int4 from "../../public/images/int4.svg";
+import int5 from "../../public/images/int5.svg";
+import int6 from "../../public/images/int6.jpg";
 
 
-export { award1, award2,tab1, tab2, tab3, tab4,hero1, hero2,hero3,subscribe, tab5,features3, storegraphic, storegraphic2,  award3,scroll1, scroll2, scroll3, scroll4, scroll5,scroll6, automation, features1,features2, featuresimage, tabs3, sellglobal, campaigns, award4, award5, heroBg, heroImg1, heroImg2, heroImg3, theme1, theme2, theme3, theme8, theme4, theme5,theme6,theme7
+export { award1, award2,tab1, tab2, tab3, int1, int2, int3, int4, int5, int6, tab4,hero1, hero2,hero3,subscribe, tab5,features3, storegraphic, storegraphic2,  award3,scroll1, scroll2, scroll3, scroll4, scroll5,scroll6, automation, features1,features2, featuresimage, tabs3, sellglobal, campaigns, award4, award5, heroBg, heroImg1, heroImg2, heroImg3, theme1, theme2, theme3, theme8, theme4, theme5,theme6,theme7
 
 }

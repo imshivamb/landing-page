@@ -6,6 +6,7 @@ import Footer from "../components/footer/Footer";
 import MobileFooter from "../components/footer/MobileFooter";
 import Hero from "../components/hero/Hero";
 import ImageScroll from "../components/infinite-scroll/Image-scroll";
+import Integrations from "../components/infinite-scroll/integrations";
 import TextScroll from "../components/infinite-scroll/text-scroll";
 import Navbar from "../components/navbar/Navbar";
 import ProductDisplay from "../components/product section/ProductDisplay";
@@ -19,6 +20,7 @@ import Subscribe from "../components/subscribe/Subscribe";
 import Subscribe2 from "../components/subscribe/Subscribe2";
 import Testimonial from "../components/testimonials/Testimonial";
 import Testimonial2 from "../components/testimonials/Testimonial2";
+import Testimonial3 from "../components/testimonials/Testimonial3";
 import ThemesSection from "../components/themes section/ThemesSection";
 
 export default function Home() {
@@ -33,12 +35,13 @@ export default function Home() {
       <ProductDisplayTabs />
       <FeaturesSection2 />
       <FeaturesSlide />
+      <Integrations />
       <ThemesSection />
       <StoreSectionOne />
       {/* <StoreSectionTwo /> */}
       <StoreSectionThree />
 
-      <Testimonial2 />
+      <Testimonial3 />
       <Services />
       <Subscribe2 />
       <TextScroll />

@@ -485,6 +485,30 @@ button:not(:disabled) {
   content: '';
 }
 
+.carousel-item::before, .carousel-item::after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  z-index: 2;
+  content: '';
+}
+
+.carousel-item::before {
+  left: 0;
+  opacity: 50%;
+  
+}
+
+.carousel-item::after {
+  right: 0;
+  opacity: 50%;
+}
+
+.testimonial-slide:first-child {
+  margin-left: 200px;
+}
+
 @media(max-width:768px) {
   .subscribe-img {
     clip-path: circle(130.7% at 100% 165%);
@@ -493,5 +517,17 @@ button:not(:disabled) {
 .logos-slide {
   animation: 10s slide-scroll infinite linear;
   
+}
+.testimonial-slide:first-child {
+  margin-left: 0px;
+}
+
+.carousel-item::before, .carousel-item::after {
+  position: absolute;
+  top: 0;
+  width: 0px;
+  height: 100%;
+  z-index: 2;
+  content: '';
 }
 }

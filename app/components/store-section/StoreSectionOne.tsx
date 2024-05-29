@@ -9,7 +9,7 @@ const StoreSectionOne = () => {
     <div className="mx-auto w-full px-4 md:px-12 main-container mt-6 md:mt-16">
       <div className="flex flex-col md:flex-row items-start justify-start w-full px-0 md:px-6 py-4">
         <div className="flex w-full md:w-1/2 flex-col p-2 md:p-5 gap-4 items-start justify-start">
-          <Badge className="bg-violet-500/80 hover:bg-violet-600 text-white mb-0 py-1.5 px-2.5">
+          <Badge className="bg-violet-500/20 text-violet-600 mb-0 py-1.5 px-2.5">
             Customize Store
           </Badge>
           <h3 className="text-4xl md:text-5xl/tight font-medium max-w-[15ch]">

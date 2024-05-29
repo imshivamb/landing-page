@@ -15,7 +15,7 @@ const Testimonial2 = () => {
     <div className="w-full bg-[#F5FFFA]">
       <div className="main-container px-6 pt-10 md:p-8 w-full">
         <div className="flex flex-col items-center justify-center w-full max-w-full">
-          <Badge className="bg-red-500/80 hover:bg-red-600 text-white mb-5 py-1.5 px-2.5">
+          <Badge className="bg-red-500/20 text-red-600 mb-5 py-1.5 px-2.5">
             Our Community
           </Badge>
           <h2 className="text-4xl font-medium mb-6 max-w-[15ch] md:max-w-lg text-center leading-[1.2] md:leading-[1.1] sm:text-5xl md:text-6xl">

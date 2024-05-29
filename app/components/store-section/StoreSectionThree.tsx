@@ -16,7 +16,7 @@ const StoreSectionThree = () => {
           />
         </div>
         <div className="flex w-full md:w-1/2 flex-col p-2 md:p-5 gap-4 items-start justify-start">
-          <div className="mb-0 bg-gray-200 text-gray-800 font-medium text-base rounded-full  px-3 py-1">
+          <div className="mb-0 bg-gray-200 text-gray-800 font-medium text-xs rounded-full  px-3 py-1">
             Notifications
           </div>
           <h3 className="text-4xl md:text-5xl/tight font-medium max-w-[20ch]">

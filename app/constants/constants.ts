@@ -75,6 +75,42 @@ export const sliderCardData = [
   
 ];
 
+export const testimonialsData = [
+  {
+    id: "testimonial1",
+    description: "QPe's platform has transformed our business. The tools are incredibly easy to use and the customer service is exceptional. Highly recommended!",
+    avatar: "/images/avatar1.jpeg",
+    name: "John Doe",
+    title: "CEO, TechCorp",
+    image: "/images/testimonial1.jpg",
+  },
+  {
+    id: "testimonial2",
+    description: "We've seen a significant increase in our sales since switching to QPe. The integration with social media has been particularly beneficial.",
+    avatar: "/images/avatar2.png",
+    name: "Jane Smith",
+    title: "Marketing Director, ShopEase",
+    image: "/images/testimonial2.jpg",
+  },
+  {
+    id: "testimonial3",
+    description: "The QPe platform is a game-changer. The analytics and reporting tools provide invaluable insights, helping us to make informed decisions.",
+    avatar: "/images/avatar3.jpg",
+    name: "Alice Johnson",
+    title: "COO, MarketGiant",
+    image: "/images/testimonial3.jpg",
+  },
+  {
+    id: "testimonial4",
+    description: "QPe's e-commerce solutions are top-notch. The seamless integration with various marketplaces has simplified our operations and boosted our revenue.",
+    avatar: "/images/avatar4.jpeg",
+    name: "Michael Brown",
+    title: "Founder, TrendyGoods",
+    image: "/images/testimonial4.jpg",
+  }
+];
+
+
 export const footerLinks = [
   {
     "title": "Product",

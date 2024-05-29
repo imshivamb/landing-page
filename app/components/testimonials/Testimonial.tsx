@@ -12,7 +12,7 @@ const Testimonial = () => {
       <div className="main-container p-2 md:p-8 w-full">
         <div className="flex flex-col md:flex-row justify-between items-start w-full px-4 py-3">
           <div className="flex flex-col items-center justify-center w-full max-w-full">
-            <Badge className="bg-red-500/80 hover:bg-red-600 text-white mb-5 py-1.5 px-2.5">
+            <Badge className="bg-red-500/20 hover:bg-red-600/20 text-red-500 mb-5 py-1.5 px-2.5">
               Our Community
             </Badge>
             <h2 className="text-4xl font-medium mb-6 max-w-2xl text-center leading-relaxed sm:text-5xl md:text-6xl">

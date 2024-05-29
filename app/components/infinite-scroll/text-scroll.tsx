@@ -9,7 +9,7 @@ const TextScroll = () => {
     <div className="pt-8 md:pt-10 box-border pb-8 md:pb-16">
       <a
         href=""
-        className="relative overflow-hidden flex items-center whitespace-nowrap py-5 md:py-12 px-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+        className="relative overflow-hidden flex items-center whitespace-nowrap py-5 md:py-8 px-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
       >
         <div className=" flex flex-none animate-marquee whitespace-nowrap">
           {[...Array(5)].map((_, index) => (
