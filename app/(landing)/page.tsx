@@ -14,6 +14,7 @@ import StoreSectionOne from "../components/store-section/StoreSectionOne";
 import StoreSectionThree from "../components/store-section/StoreSectionThree";
 import StoreSectionTwo from "../components/store-section/StoreSectionTwo";
 import Subscribe from "../components/subscribe/Subscribe";
+import Subscribe2 from "../components/subscribe/Subscribe2";
 import Testimonial from "../components/testimonials/Testimonial";
 import Testimonial2 from "../components/testimonials/Testimonial2";
 import ThemesSection from "../components/themes section/ThemesSection";
