@@ -24,10 +24,10 @@ const Services = () => {
                 You&apos;ll have a branded job board as a centralized place to
                 display all the open positions at your organization.{" "}
               </p>
-              <Link href="">
+              <Link href="" className="mt-2">
                 <Button
                   text="Learn more"
-                  className="bg-gray-700/20 border border-white text-white "
+                  className="bg-white/90 border leading-tight border-white text-gray-800 "
                 />
               </Link>
             </div>
@@ -42,10 +42,10 @@ const Services = () => {
                 Connect with a community of brands, partners, and fellow
                 merchants who understand QPe.
               </p>
-              <Link href="">
+              <Link href="" className="mt-2">
                 <Button
                   text="Learn more"
-                  className="bg-gray-700/20 border border-white text-white "
+                  className="bg-white/90 border leading-tight border-white text-gray-800 "
                 />
               </Link>
             </div>
@@ -60,10 +60,10 @@ const Services = () => {
                 Find answers with a dedicated helpdesk resource full of articles
                 and videos from our Support team.
               </p>
-              <Link href="">
+              <Link href="" className="mt-2">
                 <Button
                   text="Learn more"
-                  className="bg-gray-700/20 border border-white text-white "
+                  className="bg-white/90 border leading-tight border-white text-gray-800 "
                 />
               </Link>
             </div>

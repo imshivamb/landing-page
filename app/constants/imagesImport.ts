@@ -29,9 +29,9 @@ import tab4 from "../../public/images/marketing.jpg";
 import tab5 from "../../public/images/tab5.jpg";
 import features3 from "../../public/images/11.jpg";
 import storegraphic from "../../public/images/Website Graphic 1.jpg"
-import storegraphic2 from "../../public/images/Website Graphic New.png"
+import storegraphic2 from "../../public/images/Website Graphic.png"
 import hero1 from "../../public/images/1.jpg";
-import hero2 from "../../public/images/tab.jpg";
+import hero2 from "../../public/images/2.jpg";
 import hero3 from "../../public/images/3.jpg";
 import subscribe from "../../public/images/subscribe.jpg";
 import scroll1 from "../../public/images/heineken.svg";

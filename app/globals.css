@@ -494,16 +494,16 @@ button:not(:disabled) {
   content: '';
 }
 
-.carousel-item::before {
+/* .carousel-item::before {
   left: 0;
-  opacity: 50%;
+  backdrop-filter: blur(10px);
   
 }
 
 .carousel-item::after {
   right: 0;
-  opacity: 50%;
-}
+  backdrop-filter: blur(10px);
+} */
 
 .testimonial-slide:first-child {
   margin-left: 200px;

@@ -4,6 +4,7 @@ import React from "react";
 import { Button } from "../Button";
 import PointsGrid from "./PointsGrid";
 import { useInView } from "react-intersection-observer";
+import { ArrowRight } from "lucide-react";
 
 const Seo = () => {
   const [ref, inView] = useInView({
@@ -30,10 +31,16 @@ const Seo = () => {
               stores with built-in tools. Empowering new age entrepreneurs with
               full-stack e-commerce solutions.
             </p>
-            <div className="py-2">
+            <div className="py-2 group">
               <Button
                 text="Launch your Store"
-                className="text-white bg-gray-800"
+                icon={
+                  <ArrowRight
+                    size={18}
+                    className=" group-hover:translate-x-2 transition-all duration-300"
+                  />
+                }
+                className="text-white flex items-center gap-1.5 bg-gray-800"
               />
             </div>
           </div>
