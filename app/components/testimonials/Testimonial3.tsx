@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Badge } from "../ui/badge";
 import {
   Carousel,
@@ -9,12 +9,35 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
+  type CarouselApi,
 } from "../ui/carousel";
 import { testimonialsData } from "../../constants/constants";
 import Image from "next/image";
 import { Quote } from "lucide-react";
 
 const Testimonial3 = () => {
+  const [api, setApi] = useState<CarouselApi | undefined>(undefined);
+  const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
+
+  useEffect(() => {
+    if (!api) return;
+
+    // Set the total count of slides and the initial current slide index
+    setCurrentSlideIndex(api.selectedScrollSnap());
+
+    // Update the current slide index when the carousel selection changes
+    const handleSelect = () => {
+      setCurrentSlideIndex(api.selectedScrollSnap());
+    };
+
+    api.on("select", handleSelect);
+
+    // Cleanup event listener on unmount
+    return () => {
+      api.off("select", handleSelect);
+    };
+  }, [api]);
+
   return (
     <div className="w-full bg-[#F5FFFA] py-12">
       <div className="main-container px-6 pt-10 md:p-8 w-full">
@@ -27,18 +50,18 @@ const Testimonial3 = () => {
           </h2>
         </div>
       </div>
-      <Carousel className="carousel-item mb-12">
+      <Carousel setApi={setApi} className="carousel-item mb-12">
         <CarouselContent className="ml-0">
           {testimonialsData.map((testimonial, index) => (
             <CarouselItem
               data-index={index}
               key={testimonial.id}
-              className=" md:basis-[75%] testimonial-slide p-4 md:max-h-[420px] overflow-hidden min-h-[400px]"
+              className={`md:basis-[75%] testimonial-slide p-4 md:max-h-[420px] overflow-hidden min-h-[400px] ${currentSlideIndex === index ? "opacity-100" : "opacity-50"}`}
             >
-              <div className="p-6 bg-[#0a380a] md:max-h-[400px] min-h-[400px] relative shadow-lg rounded-2xl overflow-hidden text-start  max-w-full w-full mx-auto">
+              <div className="p-6 bg-[#0a380a] md:max-h-[400px] min-h-[400px] relative shadow-lg rounded-2xl overflow-hidden text-start max-w-full w-full mx-auto">
                 <div className="flex flex-col-reverse text-white items-start justify-start md:flex-row w-full">
-                  <div className=" w-full md:w-2/3 relative flex flex-col gap-32 pr-8">
-                    <div className="absolute  top-[20px] left-0">
+                  <div className="w-full md:w-2/3 relative flex flex-col gap-32 pr-8">
+                    <div className="absolute top-[20px] left-0">
                       <Quote
                         fill="gray"
                         stroke="gray"
@@ -58,7 +81,7 @@ const Testimonial3 = () => {
                           alt={testimonial.name}
                           width={60}
                           height={60}
-                          className=" rounded-full mx-auto mb-4"
+                          className="rounded-full mx-auto mb-4"
                         />
                       </div>
                       <div className="flex flex-col gap-1.5">

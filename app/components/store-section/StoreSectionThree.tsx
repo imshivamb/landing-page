@@ -26,7 +26,7 @@ const StoreSectionThree = () => {
   };
   return (
     <div className="mx-auto w-full px-4 md:px-6 main-container mt-6 md:mt-16">
-      <div className="flex flex-col md:flex-row items-start justify-start gap-5 w-full px-0 md:px-6 py-4">
+      <div className="flex flex-col md:flex-row items-center justify-start gap-5 w-full px-0 md:px-6 py-4">
         <div className="block w-full p-3 md:p-5 md:w-1/2 relative min-h-[500px]">
           <Image
             src={currentImage}

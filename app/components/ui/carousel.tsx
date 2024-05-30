@@ -178,6 +178,8 @@ const CarouselItem = React.forwardRef<
 >(({ className, ...props }, ref) => {
   const { orientation, api } = useCarousel();
   const currentSlideIndex = api?.selectedScrollSnap() || 0;
+  console.log("Current Slide Index:", currentSlideIndex);
+  console.log("Item Data Index:", props["data-index"]);
 
   return (
     <div
