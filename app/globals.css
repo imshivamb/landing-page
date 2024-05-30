@@ -439,7 +439,7 @@ button:not(:disabled) {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-50%);;
   }
 }
 
@@ -458,7 +458,7 @@ button:not(:disabled) {
 
   
 .logos-slide {
-  animation: 25s slide-scroll infinite linear;
+  animation: 45s slide-scroll infinite linear;
   
 }
 

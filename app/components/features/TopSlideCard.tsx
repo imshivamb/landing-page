@@ -13,7 +13,7 @@ const TopSlideCard = ({ sliderData }) => {
       >
         <div className="flex w-full md:w-1/2 flex-col gap-4 items-start justify-start">
           <h4 className=" text-3xl md:text-4xl/normal font-medium">{title}</h4>
-          <p className="text-base/normal font-normal ">{description}</p>
+          <p className="text-base/normal font-medium ">{description}</p>
           <Link href={link}>
             <Button text="Get Started" className="text-white bg-gray-800" />
           </Link>

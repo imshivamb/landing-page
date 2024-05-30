@@ -52,7 +52,7 @@ const Integrations = () => {
         </div>
       </div>
       <div className="pt-8 md:pt-10 box-border pb-8 md:pb-16 md:px-2 px-5">
-        <div className="logos relative overflow-hidden flex items-center whitespace-nowrap py-12 px-0 bg-white">
+        <div className="logos relative overflow-hidden border border-gray-300 rounded-lg flex items-center whitespace-nowrap py-12 px-0 bg-white">
           {[...Array(2)].map((_, index) => (
             <div
               key={index}

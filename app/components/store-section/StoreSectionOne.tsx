@@ -20,7 +20,7 @@ const StoreSectionOne = () => {
             infrastructure ensures rapid page loading, delivering a superior
             online shopping experience for your customers.
           </p>
-          <ul className="list-none  *:text-lg/tight *:font-normal *:py-1.5 *:text-gray-700 *:max-w-[40ch]">
+          <ul className="list-none  *:text-base/tight *:font-medium *:py-1.5 *:text-gray-700 *:max-w-[40ch]">
             <li className="flex items-center gap-1.5">
               <Image
                 src="/images/check-icon.png"

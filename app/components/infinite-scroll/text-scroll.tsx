@@ -6,7 +6,7 @@ const TextScroll = () => {
   const text = "Start Your Free Trial";
 
   return (
-    <div className="pt-8 md:pt-10 box-border pb-8 md:pb-16">
+    <div className="pt-0 box-border pb-0">
       <a
         href=""
         className="relative overflow-hidden flex items-center whitespace-nowrap py-5 md:py-8 px-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"

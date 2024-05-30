@@ -16,7 +16,7 @@ import { Quote } from "lucide-react";
 
 const Testimonial3 = () => {
   return (
-    <div className="w-full bg-[#F5FFFA]">
+    <div className="w-full bg-[#F5FFFA] py-12">
       <div className="main-container px-6 pt-10 md:p-8 w-full">
         <div className="flex flex-col items-center justify-center w-full max-w-full">
           <Badge className="bg-red-500/20 text-red-600 mb-5 py-1.5 px-2.5">
@@ -29,12 +29,13 @@ const Testimonial3 = () => {
       </div>
       <Carousel className="carousel-item mb-12">
         <CarouselContent className="ml-0">
-          {testimonialsData.map((testimonial) => (
+          {testimonialsData.map((testimonial, index) => (
             <CarouselItem
+              data-index={index}
               key={testimonial.id}
-              className=" md:basis-2/3 testimonial-slide p-4 md:max-h-[450px] min-h-[450px]"
+              className=" md:basis-2/3 testimonial-slide p-4 md:max-h-[420px] overflow-hidden min-h-[400px]"
             >
-              <div className="p-6 bg-[#400b0b] min-h-[400px] relative shadow-lg rounded-2xl overflow-hidden text-start  max-w-full w-full mx-auto">
+              <div className="p-6 bg-[#0a380a] md:max-h-[400px] min-h-[400px] relative shadow-lg rounded-2xl overflow-hidden text-start  max-w-full w-full mx-auto">
                 <div className="flex flex-col-reverse text-white items-start justify-start md:flex-row w-full">
                   <div className=" w-full md:w-2/3 relative flex flex-col gap-28 pr-8">
                     <div className="absolute  top-[20px] left-0">
@@ -83,8 +84,8 @@ const Testimonial3 = () => {
           ))}
         </CarouselContent>
         <CarouselDots />
-        <CarouselPrevious className="border border-gray-800 bg-teal-500 text-white h-12 w-12 hover:text-white hover:bg-teal-600" />
-        <CarouselNext className="border border-gray-800 bg-teal-500 text-white h-12 w-12 hover:text-white hover:bg-teal-600" />
+        <CarouselPrevious className="border border-gray-800 bg-teal-500 text-white h-12 w-20 hover:text-white hover:bg-teal-600" />
+        <CarouselNext className="border border-gray-800 bg-teal-500 text-white h-12 w-20 hover:text-white hover:bg-teal-600" />
       </Carousel>
     </div>
   );

@@ -176,7 +176,8 @@ const CarouselItem = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
 >(({ className, ...props }, ref) => {
-  const { orientation } = useCarousel();
+  const { orientation, api } = useCarousel();
+  const currentSlideIndex = api?.selectedScrollSnap() || 0;
 
   return (
     <div
@@ -184,10 +185,14 @@ const CarouselItem = React.forwardRef<
       role="group"
       aria-roledescription="slide"
       className={cn(
-        "min-w-0 shrink-0 grow-0 basis-full",
+        "min-w-0 shrink-0 grow-0 basis-full transition-opacity duration-300",
         orientation === "horizontal" ? "pl-4" : "pt-4",
+        currentSlideIndex === props["data-index"]
+          ? "opacity-100"
+          : "opacity-50",
         className
       )}
+      data-index={props["data-index"]}
       {...props}
     />
   );
@@ -208,7 +213,7 @@ const CarouselPrevious = React.forwardRef<
       className={cn(
         "absolute  h-8 w-8 rounded-full",
         orientation === "horizontal"
-          ? "left-1/3 -bottom-11 -translate-y-1/2"
+          ? "left-[20%] -bottom-12 -translate-y-1/2"
           : "-top-12 left-1/2 -translate-x-1/2 rotate-90",
         className
       )}
@@ -237,7 +242,7 @@ const CarouselNext = React.forwardRef<
       className={cn(
         "absolute h-8 w-8 rounded-full border border-gray-400",
         orientation === "horizontal"
-          ? "right-1/3 -bottom-11 -translate-y-1/2"
+          ? "right-[20%] -bottom-12 -translate-y-1/2"
           : " left-1/2 -translate-x-1/2 rotate-90",
         className
       )}
@@ -280,13 +285,13 @@ const CarouselDots = React.forwardRef<
 
   if (numberOfSlides > 1) {
     return (
-      <div ref={ref} className={`flex justify-center mt-8 ${props.className}`}>
+      <div ref={ref} className={`flex justify-center pt-16 ${props.className}`}>
         {Array.from({ length: numberOfSlides }, (_, i) => (
           <Button
             key={i}
             className={`mx-1  h-1.5 w-1.5 rounded-full p-0 ${
               i === currentSlide
-                ? "scale-125 transform w-8 bg-teal-500 hover:bg-teal-600"
+                ? "scale-125 transform duration-300 transition-all w-8 bg-teal-500 hover:bg-teal-600"
                 : "bg-teal-300 hover:bg-teal-300"
             }`}
             aria-label={`Go to slide ${i + 1}`}

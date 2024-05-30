@@ -3,6 +3,7 @@ import FeaturesSection from "../components/features/FeaturesSection";
 import FeaturesSection2 from "../components/features/FeaturesSection2";
 import FeaturesSlide from "../components/features/FeaturesSlide";
 import Footer from "../components/footer/Footer";
+import FooterCopyright from "../components/footer/FooterCopyright";
 import MobileFooter from "../components/footer/MobileFooter";
 import Hero from "../components/hero/Hero";
 import ImageScroll from "../components/infinite-scroll/Image-scroll";
@@ -34,13 +35,14 @@ export default function Home() {
 
       <FeaturesSection2 />
       <FeaturesSlide />
-      <ProductDisplayTabs />
+
       <Integrations />
       <ThemesSection />
+      <ProductDisplayTabs />
       <StoreSectionOne />
       {/* <StoreSectionTwo /> */}
       <StoreSectionThree />
-      <TextScroll />
+
       <Testimonial3 />
       {/* <Services /> */}
       <Subscribe2 />
@@ -50,6 +52,8 @@ export default function Home() {
       </div>
 
       <MobileFooter />
+      <TextScroll />
+      <FooterCopyright />
     </div>
   );
 }
