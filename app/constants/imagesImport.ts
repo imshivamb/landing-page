@@ -27,7 +27,7 @@ import tab1 from "../../public/images/10.jpg";
 import tab2 from "../../public/images/12.jpg";
 import tab3 from "../../public/images/tab3.jpg";
 import tab4 from "../../public/images/marketing.jpg";
-import tab5 from "../../public/images/tab5.jpg";
+import tab5 from "../../public/images/24.jpg";
 import features3 from "../../public/images/11.jpg";
 import storegraphic from "../../public/images/Website Graphic 1.jpg"
 import storegraphic2 from "../../public/images/Website Graphic.png"

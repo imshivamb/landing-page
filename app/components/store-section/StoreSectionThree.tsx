@@ -14,10 +14,12 @@ import {
 const StoreSectionThree = () => {
   const [currentImage, setCurrentImage] = useState(features1);
   const [clickedDiv, setClickedDiv] = useState(null);
+  const [shouldAnimate, setShouldAnimate] = useState(false);
 
   const handleImageChange = (image, divIndex) => {
     setCurrentImage(image);
     setClickedDiv(divIndex);
+    setShouldAnimate(true);
   };
 
   const getClassNames = (divIndex) => {
@@ -32,7 +34,10 @@ const StoreSectionThree = () => {
           <Image
             src={currentImage}
             alt="store feature"
-            className="object-cover rounded-xl w-full"
+            className={`object-cover rounded-xl w-full ${
+              shouldAnimate ? "animate-zoom" : ""
+            }`}
+            onAnimationEnd={() => setShouldAnimate(false)}
           />
         </div>
         <div className="flex w-full md:w-1/2 flex-col p-2 md:p-5 gap-4 items-start justify-start">
