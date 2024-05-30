@@ -208,7 +208,7 @@ const CarouselPrevious = React.forwardRef<
       className={cn(
         "absolute  h-8 w-8 rounded-full",
         orientation === "horizontal"
-          ? "-left-12 top-1/2 -translate-y-1/2"
+          ? "left-1/3 -bottom-11 -translate-y-1/2"
           : "-top-12 left-1/2 -translate-x-1/2 rotate-90",
         className
       )}
@@ -235,10 +235,10 @@ const CarouselNext = React.forwardRef<
       variant={variant}
       size={size}
       className={cn(
-        "absolute h-8 w-8 rounded-full",
+        "absolute h-8 w-8 rounded-full border border-gray-400",
         orientation === "horizontal"
-          ? "-right-12 top-1/2 -translate-y-1/2"
-          : "-bottom-12 left-1/2 -translate-x-1/2 rotate-90",
+          ? "right-1/3 -bottom-11 -translate-y-1/2"
+          : " left-1/2 -translate-x-1/2 rotate-90",
         className
       )}
       disabled={!canScrollNext}
@@ -252,6 +252,55 @@ const CarouselNext = React.forwardRef<
 });
 CarouselNext.displayName = "CarouselNext";
 
+const CarouselDots = React.forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLDivElement>
+>((props, ref) => {
+  const { api } = useCarousel();
+  const [updateState, setUpdateState] = React.useState(false);
+  const toggleUpdateState = React.useCallback(
+    () => setUpdateState((prevState) => !prevState),
+    []
+  );
+
+  React.useEffect(() => {
+    if (api) {
+      api.on("select", toggleUpdateState);
+      api.on("reInit", toggleUpdateState);
+
+      return () => {
+        api.off("select", toggleUpdateState);
+        api.off("reInit", toggleUpdateState);
+      };
+    }
+  }, [api, toggleUpdateState]);
+
+  const numberOfSlides = api?.scrollSnapList().length || 0;
+  const currentSlide = api?.selectedScrollSnap() || 0;
+
+  if (numberOfSlides > 1) {
+    return (
+      <div ref={ref} className={`flex justify-center mt-8 ${props.className}`}>
+        {Array.from({ length: numberOfSlides }, (_, i) => (
+          <Button
+            key={i}
+            className={`mx-1  h-1.5 w-1.5 rounded-full p-0 ${
+              i === currentSlide
+                ? "scale-125 transform w-8 bg-teal-500 hover:bg-teal-600"
+                : "bg-teal-300 hover:bg-teal-300"
+            }`}
+            aria-label={`Go to slide ${i + 1}`}
+            onClick={() => api?.scrollTo(i)}
+          />
+        ))}
+      </div>
+    );
+  } else {
+    return <></>;
+  }
+});
+CarouselDots.displayName = "CarouselDots";
+
 export {
   type CarouselApi,
   Carousel,
@@ -259,4 +308,5 @@ export {
   CarouselItem,
   CarouselPrevious,
   CarouselNext,
+  CarouselDots,
 };

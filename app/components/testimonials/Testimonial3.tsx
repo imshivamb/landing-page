@@ -5,6 +5,7 @@ import { Badge } from "../ui/badge";
 import {
   Carousel,
   CarouselContent,
+  CarouselDots,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
@@ -26,7 +27,7 @@ const Testimonial3 = () => {
           </h2>
         </div>
       </div>
-      <Carousel className="carousel-item">
+      <Carousel className="carousel-item mb-12">
         <CarouselContent className="ml-0">
           {testimonialsData.map((testimonial) => (
             <CarouselItem
@@ -81,8 +82,9 @@ const Testimonial3 = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        {/* <CarouselPrevious />
-        <CarouselNext /> */}
+        <CarouselDots />
+        <CarouselPrevious className="border border-gray-800 bg-teal-500 text-white h-12 w-12 hover:text-white hover:bg-teal-600" />
+        <CarouselNext className="border border-gray-800 bg-teal-500 text-white h-12 w-12 hover:text-white hover:bg-teal-600" />
       </Carousel>
     </div>
   );

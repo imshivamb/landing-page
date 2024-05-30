@@ -123,13 +123,13 @@ const Hero = () => {
             ></video>
           </div> */}
         </div>
-        <div className="w-full max-w-full bg-gradient-to-b from-[#0d0028] from-50% to-white to-50% pb-2">
+        <div className="w-full max-w-full bg-gradient-to-b from-[#0d0028] from-50% to-white to-50% pt-5 pb-5">
           <div className="relative hero-image-section z-10  w-full max-w-7xl mx-auto">
             <div className="primary-image flex items-center justify-center relative">
               <Image
                 src={hero1}
                 alt="Hero image 1"
-                className="w-full h-full max-w-[700px] max-h-[550px] rounded-lg shadow-2xl"
+                className="w-full h-full max-w-[700px] max-h-[550px] rounded-lg shadow-lg"
               />
             </div>
             <div className="second-image absolute left-[50px] top-[130px] hidden md:block w-auto">
@@ -143,7 +143,7 @@ const Hero = () => {
               <Image
                 src={hero2}
                 alt="hero-image-3"
-                className="w-full h-full max-w-[300px] shadow-2xl rounded-lg hover:scale-105 transition-all duration-300"
+                className="w-full h-full max-w-[300px] shadow-lg rounded-lg hover:scale-105 transition-all duration-300"
               />
             </div>
           </div>
