@@ -88,7 +88,11 @@ const Hero = () => {
                 CREATE MORE THAN AN ECOMMERCE WEBSITE
               </h5>
               <h1 className="text-[40px] leading-[1.1] bg-clip-text text-transparent text-white bg-opacity-50 h-title animate-pop-in sm:text-5xl md:text-6xl lg:text-6xl font-semibold md:font-medium max-w-full md:max-w-4xl md:leading-[1.7] pb-2">
-                Making E-Commerce Affordable & Accessible for Everyone
+                Making{" "}
+                <span className="gradient-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+                  E-Commerce
+                </span>{" "}
+                Affordable & Accessible for Everyone
               </h1>
               <p className="font-medium text-balance animate-pop-in h-desc text-base leading-[1.6] md:text-lg max-w-4xl">
                 Effortlessly launch a captivating online store and increase

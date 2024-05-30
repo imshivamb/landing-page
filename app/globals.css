@@ -466,6 +466,10 @@ button:not(:disabled) {
   animation-play-state: paused;
 }
 
+.gradient-text {
+  -webkit-background-clip: text;
+}
+
 .logos::before {
   left: 0;
   background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
