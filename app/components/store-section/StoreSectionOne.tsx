@@ -56,7 +56,7 @@ const StoreSectionOne = () => {
             />
           </div>
         </div>
-        <div className="block w-full md:w-1/2 p-5 relative min-h-[500px]">
+        <div className="block w-full md:w-1/2 p-5 relative md:min-h-[500px]">
           <Image
             src={features3}
             alt="store feature"

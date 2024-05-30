@@ -14,9 +14,12 @@ const TextScroll = () => {
         <div className=" flex flex-none animate-marquee whitespace-nowrap">
           {[...Array(5)].map((_, index) => (
             <div key={index} className="flex items-center mx-5 ">
-              <span className="text-xl md:text-4xl font-semibold uppercase gradient-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                {text}
-              </span>
+              <p className="text-xl md:text-4xl font-semibold uppercase ">
+                <span className="text-white">Start Your </span>
+                <span className="gradient-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+                  Free Trial
+                </span>
+              </p>
               <ArrowRight className="ml-2 text-white" size={40} />
             </div>
           ))}
@@ -24,9 +27,12 @@ const TextScroll = () => {
         <div className=" flex flex-none animate-marquee whitespace-nowrap">
           {[...Array(5)].map((_, index) => (
             <div key={index} className="flex items-center mx-5 ">
-              <span className=" text-xl md:text-4xl font-semibold uppercase gradient-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                {text}
-              </span>
+              <p className="text-xl md:text-4xl font-semibold uppercase ">
+                <span className="text-white">Start Your </span>
+                <span className="gradient-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+                  Free Trial
+                </span>
+              </p>
               <ArrowRight className="ml-2 text-white" size={40} />
             </div>
           ))}

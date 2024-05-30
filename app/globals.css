@@ -462,6 +462,14 @@ button:not(:disabled) {
   
 }
 
+
+.logos2-slide {
+  animation: 20s slide-scroll infinite linear;
+  
+}
+
+
+
 .logos:hover .logos-slide {
   animation-play-state: paused;
 }
@@ -481,6 +489,25 @@ button:not(:disabled) {
 }
 
 .logos::before, .logos::after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  z-index: 2;
+  content: '';
+}
+
+.logos2::before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos2::after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos2::before, .logos::after {
   position: absolute;
   top: 0;
   width: 250px;
@@ -548,6 +575,11 @@ button:not(:disabled) {
 }
 
 .logos-slide {
+  animation: 30s slide-scroll infinite linear;
+  
+}
+
+.logos2-slide {
   animation: 10s slide-scroll infinite linear;
   
 }
@@ -559,6 +591,15 @@ button:not(:disabled) {
   position: absolute;
   top: 0;
   width: 0px;
+  height: 100%;
+  z-index: 2;
+  content: '';
+}
+
+.logos::before, .logos::after {
+  position: absolute;
+  top: 0;
+  width: 50px;
   height: 100%;
   z-index: 2;
   content: '';

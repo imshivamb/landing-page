@@ -56,7 +56,7 @@ const Integrations = () => {
           {[...Array(2)].map((_, index) => (
             <div
               key={index}
-              className="logos-slide inline-flex flex-none justify-evenly w-full *:h-[80px] *:w-[80px] *:mx-10"
+              className="logos2-slide inline-flex flex-none justify-evenly w-full *:h-[80px] *:w-[80px] *:mx-10"
             >
               {images.map((src, idx) => (
                 <Image key={idx} src={src} alt="brand logo" />

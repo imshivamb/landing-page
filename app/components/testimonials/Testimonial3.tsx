@@ -57,8 +57,8 @@ const Testimonial3 = () => {
               className={`md:basis-[75%] testimonial-slide p-4 md:max-h-[420px] overflow-hidden min-h-[400px] ${currentSlideIndex === index ? "opacity-100" : "opacity-50"}`}
             >
               <div className="p-6 bg-[#00BDA8] md:max-h-[400px] min-h-[400px] relative shadow-lg rounded-2xl overflow-hidden text-start max-w-full w-full mx-auto">
-                <div className="flex flex-col-reverse text-white items-start justify-start md:flex-row w-full">
-                  <div className="w-full md:w-2/3 relative flex flex-col gap-32 pr-8">
+                <div className="flex flex-col-reverse relative text-white items-start justify-start md:flex-row w-full">
+                  <div className="w-full md:w-2/3 relative  h-full md:max-h-[360px] min-h-[360px] flex flex-col gap-20 md:pr-8">
                     <div className="absolute top-[20px] left-0">
                       <Quote
                         fill="white"
@@ -68,11 +68,11 @@ const Testimonial3 = () => {
                       />
                     </div>
                     <div className="flex flex-col pt-8 gap-3 w-full">
-                      <p className="text-white text-xl font-medium tracking-wide mb-4">
+                      <p className="text-white text-base md:text-xl font-medium tracking-wide mb-4">
                         {testimonial.description}
                       </p>
                     </div>
-                    <div className="pt-6 border-t border-gray-100 flex gap-4 justify-start items-start w-full">
+                    <div className="pt-6 absolute bottom-2  border-t border-gray-100 flex gap-4 justify-start items-start w-full">
                       <div className="">
                         <Image
                           src={testimonial.avatar}
