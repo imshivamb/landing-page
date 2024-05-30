@@ -8,7 +8,7 @@ const Subscribe2 = () => {
   return (
     <div className="w-full bg-gradient-to-b from-white from-85% to-gray-50 to-85% ">
       <div className="main-container rounded-3xl overflow-hidden mt-8 w-[90%] md:w-full">
-        <div className="w-full grid grid-cols-1 md:min-h-[450px] md:grid-cols-2 h-full bg-[#043C88]">
+        <div className="w-full grid grid-cols-1 md:min-h-[450px] md:grid-cols-2 h-full bg-[#10002A]">
           <div className="max-w-full w-full flex flex-col items-center md:items-start py-8 px-6 lg:py-10 lg:px-10 justify-center text-center md:text-start">
             <h2 className="mt-5 text-pretty text-3xl/[40px] text-white md:text-4xl/[50px] max-w-4xl lg:text-[45px]/[60px] font-semibold">
               Powering 45000+ eCommerce entrepreneurs, enterprise and d2c brands

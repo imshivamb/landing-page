@@ -22,9 +22,9 @@ const Testimonial3 = () => {
   useEffect(() => {
     if (!api) return;
 
-      setCurrentSlideIndex(api.selectedScrollSnap());
+    setCurrentSlideIndex(api.selectedScrollSnap());
 
-       const handleSelect = () => {
+    const handleSelect = () => {
       setCurrentSlideIndex(api.selectedScrollSnap());
     };
 
@@ -56,13 +56,13 @@ const Testimonial3 = () => {
               key={testimonial.id}
               className={`md:basis-[75%] testimonial-slide p-4 md:max-h-[420px] overflow-hidden min-h-[400px] ${currentSlideIndex === index ? "opacity-100" : "opacity-50"}`}
             >
-              <div className="p-6 bg-[#0a380a] md:max-h-[400px] min-h-[400px] relative shadow-lg rounded-2xl overflow-hidden text-start max-w-full w-full mx-auto">
+              <div className="p-6 bg-[#00BDA8] md:max-h-[400px] min-h-[400px] relative shadow-lg rounded-2xl overflow-hidden text-start max-w-full w-full mx-auto">
                 <div className="flex flex-col-reverse text-white items-start justify-start md:flex-row w-full">
                   <div className="w-full md:w-2/3 relative flex flex-col gap-32 pr-8">
                     <div className="absolute top-[20px] left-0">
                       <Quote
-                        fill="gray"
-                        stroke="gray"
+                        fill="white"
+                        stroke="white"
                         className="opacity-40 rotate-180 z-0"
                         size={50}
                       />
