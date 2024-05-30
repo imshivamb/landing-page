@@ -33,11 +33,11 @@ const Testimonial3 = () => {
             <CarouselItem
               data-index={index}
               key={testimonial.id}
-              className=" md:basis-2/3 testimonial-slide p-4 md:max-h-[420px] overflow-hidden min-h-[400px]"
+              className=" md:basis-[75%] testimonial-slide p-4 md:max-h-[420px] overflow-hidden min-h-[400px]"
             >
               <div className="p-6 bg-[#0a380a] md:max-h-[400px] min-h-[400px] relative shadow-lg rounded-2xl overflow-hidden text-start  max-w-full w-full mx-auto">
                 <div className="flex flex-col-reverse text-white items-start justify-start md:flex-row w-full">
-                  <div className=" w-full md:w-2/3 relative flex flex-col gap-28 pr-8">
+                  <div className=" w-full md:w-2/3 relative flex flex-col gap-32 pr-8">
                     <div className="absolute  top-[20px] left-0">
                       <Quote
                         fill="gray"

@@ -17,18 +17,18 @@ const FooterCopyright = () => {
           <div className="flex flex-wrap items-center justify-start mt-4 md:mt-0 gap-x-12">
             <Link
               href="#"
-              className="text-gray-500 text-base hover:text-blue-800 font-light"
+              className="text-gray-800 text-base hover:text-blue-800 font-medium"
             >
               Terms of Use
             </Link>
             <Link
               href="#"
-              className="text-gray-500 text-base hover:text-blue-800 font-light"
+              className="text-gray-800 text-base hover:text-blue-800 font-medium"
             >
               Privacy Policy
             </Link>
 
-            <p className="text-gray-500 mt-4 md:mt-0 text-base font-light">
+            <p className="text-gray-800 mt-4 md:mt-0 text-base font-medium">
               {" "}
               &copy; 2024 QPe.com, Inc
             </p>

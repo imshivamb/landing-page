@@ -1,5 +1,5 @@
 import award2 from "../../public/images/grating.svg";
-import award3 from "../../public/images/s-advice.png";
+import award3 from "../../public/images/Logo 21.png";
 import award4 from "../../public/images/inc42.png";
 import award5 from "../../public/images/Msme India.png";
 import heroBg from "../../public/images/bg-effect.jpg";

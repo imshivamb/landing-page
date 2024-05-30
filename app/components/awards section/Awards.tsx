@@ -93,18 +93,18 @@ const Awards = () => {
 
         <a
           href=""
-          className="flex flex-col text-center mx-3 md:mx-5 w-full items-center justify-center"
+          className="flex flex-col text-center mx-3 md:mx-5 w-full mb-3 items-center justify-center"
         >
-          <div className="lg:text-6xl font-extrabold md:text-4xl text-3xl pb-1">
+          <div className="lg:text-6xl font-extrabold md:text-4xl text-3xl pb-2">
             4.8
           </div>
-          <div className="my-1.5 w-full">
+          <div className="my-2.5 w-full">
             <span className="flex justify-center relative">
               <span className="achievement-rating-g2 inline-block text-lg leading-normal"></span>
             </span>
           </div>
           <div className="w-full flex justify-center">
-            <Image src={award3} alt="g2" className="max-w-[40px]" />
+            <Image src={award3} alt="g2" className="max-w-[140px]" />
           </div>
         </a>
       </div>

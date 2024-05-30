@@ -74,7 +74,7 @@ const ProductDisplayTabs = () => {
                 <Button
                   icon={<ArrowRight size={18} />}
                   text="Learn More"
-                  className="text-white flex gap-1.5 items-center bg-gray-800 !w-fit mt-5"
+                  className="text-white flex gap-2.5 items-center bg-gray-800 !w-fit mt-5"
                 ></Button>
               </div>
               <div className=" w-full md:w-[60%] h-auto">
