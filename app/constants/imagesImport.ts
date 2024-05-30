@@ -16,8 +16,10 @@ import theme7 from "../../public/images/theme7.png";
 import theme8 from "../../public/images/theme8.png";
 import tabs3 from  "../../public/images/Layer 2.png";
 import campaigns from "../../public/images/tabs2.png";
-import features1 from "../../public/images/features1.png"
-import features2 from "../../public/images/features2.png"
+import features1 from "../../public/images/20.jpg"
+import features2 from "../../public/images/21.jpg"
+import featuresImg3 from "../../public/images/22.jpg"
+import features4 from "../../public/images/23.jpg"
 import sellglobal from "../../public/images/sellglobal.png"
 import automation from "../../public/images/automation.png";
 import featuresimage from "../../public/images/featuresimage.png";
@@ -65,6 +67,6 @@ import award1 from "../../public/images/captera.svg";
 
 
 export { award1, award2,tab1, tab2, tab3, int1, int2, int3, int4, int5, int6,int7, int8, tab4,hero1, hero2,hero3,subscribe, tab5,features3, storegraphic, storegraphic2,  award3,scroll1, scroll2, scroll3, scroll4, scroll5,scroll6, scroll7, scroll8, scroll9, scroll10,
-    scroll11, scroll12, scroll13, scroll14, scroll15, scroll16,scroll17,scroll18,scroll19,scroll20, automation, features1,features2, featuresimage, tabs3, sellglobal, campaigns, award4, award5, heroBg, heroImg1, heroImg2, heroImg3, theme1, theme2, theme3, theme8, theme4, theme5,theme6,theme7
+    scroll11, scroll12, scroll13, scroll14, scroll15, featuresImg3, features4, scroll16,scroll17,scroll18,scroll19,scroll20, automation, features1,features2, featuresimage, tabs3, sellglobal, campaigns, award4, award5, heroBg, heroImg1, heroImg2, heroImg3, theme1, theme2, theme3, theme8, theme4, theme5,theme6,theme7
 
 }

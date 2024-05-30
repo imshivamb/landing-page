@@ -22,11 +22,9 @@ const Testimonial3 = () => {
   useEffect(() => {
     if (!api) return;
 
-    // Set the total count of slides and the initial current slide index
-    setCurrentSlideIndex(api.selectedScrollSnap());
+      setCurrentSlideIndex(api.selectedScrollSnap());
 
-    // Update the current slide index when the carousel selection changes
-    const handleSelect = () => {
+       const handleSelect = () => {
       setCurrentSlideIndex(api.selectedScrollSnap());
     };
 

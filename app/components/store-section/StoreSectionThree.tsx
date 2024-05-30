@@ -7,7 +7,8 @@ import { WandSparkles } from "lucide-react";
 import {
   features1,
   features2,
-  featuresimage,
+  featuresImg3,
+  features4,
 } from "../../constants/imagesImport";
 
 const StoreSectionThree = () => {
@@ -44,7 +45,7 @@ const StoreSectionThree = () => {
           <div className="flex flex-col gap-4 mt-4 w-full">
             <div
               className={getClassNames(1)}
-              onClick={() => handleImageChange(features2, 1)}
+              onClick={() => handleImageChange(features1, 1)}
             >
               <h4 className="text-2xl font-semibold text-gray-800 leading-normal">
                 Sell Physical Products
@@ -58,7 +59,7 @@ const StoreSectionThree = () => {
             </div>
             <div
               className={getClassNames(2)}
-              onClick={() => handleImageChange(featuresimage, 2)}
+              onClick={() => handleImageChange(features2, 2)}
             >
               <h4 className="text-2xl font-semibold text-gray-800 leading-normal">
                 Dropshipping
@@ -72,7 +73,7 @@ const StoreSectionThree = () => {
             </div>
             <div
               className={getClassNames(3)}
-              onClick={() => handleImageChange(features1, 3)}
+              onClick={() => handleImageChange(featuresImg3, 3)}
             >
               <h4 className="text-2xl font-semibold text-gray-800 leading-normal">
                 Print on Demand
@@ -87,7 +88,7 @@ const StoreSectionThree = () => {
             </div>
             <div
               className={getClassNames(4)}
-              onClick={() => handleImageChange(featuresimage, 4)}
+              onClick={() => handleImageChange(features4, 4)}
             >
               <h4 className="text-2xl font-semibold text-gray-800 leading-normal">
                 Sell Digital Products
