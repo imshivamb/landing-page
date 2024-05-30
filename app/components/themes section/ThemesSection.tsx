@@ -52,7 +52,7 @@ const ThemesSection = () => {
           </div>
           <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[100px] md:max-w-[170px]">
             <Image
-              src="/images/theme2.jpg"
+              src="/images/16.png"
               alt="theme 1"
               width={170}
               height={325}

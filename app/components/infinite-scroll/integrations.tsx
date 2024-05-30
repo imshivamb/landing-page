@@ -28,14 +28,14 @@ const Integrations = () => {
       >
         <div className={`float-left w-full  max-w-2xl`}>
           <h2 className="text-4xl font-medium leading-[1.1]  mb-4 md:leading-tight sm:text-4xl md:text-5xl">
-            Integrate your social media accounts to your store
+            Sell smarter, sell faster with apps integration
           </h2>
         </div>
         <div className="w-full max-w-lg float-end flex flex-col gap-4 items-start justify-start">
           <p className={`font-medium text-[17px] leading-normal pt-4`}>
-            Seamlessly create visually stunning and high-converting online
-            stores with built-in tools. Empowering new age entrepreneurs with
-            full-stack e-commerce solutions.
+            Integrate your favorite apps to streamline processes and supercharge
+            your sales growth. Take your business to the next level with
+            powerful app integrations.
           </p>
           <div className="py-2 group">
             <Button
