@@ -37,20 +37,20 @@ const Awards = () => {
         </a>
         <a
           href=""
-          className="flex flex-col text-center  mt-3 mx-3 md:mx-5 w-full items-center justify-center"
+          className="flex flex-col text-center mx-3 md:mx-5 w-full items-center justify-center"
         >
-          <div className="w-full flex justify-center">
-            <Image src={award5} alt="g2" className="max-w-[60px]" />
-          </div>
-          <div className="lg:text-[45px] tracking-tighter font-extrabold md:text-4xl text-3xl pb-1">
+          <div className="lg:text-[45px] tracking-tighter font-extrabold md:text-4xl text-3xl pb-1.5">
             Best
           </div>
-          <div className="my-1.5 w-full">
+          <div className="my-2 w-full">
             <span className="flex justify-center relative">
               <span className=" inline-block text-[15px] font-bold leading-relaxed ">
                 Tech Startup (2023)
               </span>
             </span>
+          </div>
+          <div className="w-full flex justify-center">
+            <Image src={award5} alt="g2" className="max-w-[110px]" />
           </div>
         </a>
         <a

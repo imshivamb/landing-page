@@ -44,11 +44,11 @@ const ProductDisplayTabs = () => {
           </TabsTrigger>
           <TabsTrigger value="sales">
             <Pyramid size={16} />
-            Marketing & SEO
+            SEO Tools
           </TabsTrigger>
           <TabsTrigger value="security">
             <EarthLock size={16} />
-            Information Security
+            Messenger Chatbots
           </TabsTrigger>
           <TabsTrigger value="marketing">
             <Drum size={16} />
@@ -56,7 +56,7 @@ const ProductDisplayTabs = () => {
           </TabsTrigger>
           <TabsTrigger value="customer">
             <Phone size={16} />
-            Customer Service
+            Analytics
           </TabsTrigger>
         </TabsList>
         <TabsContent value="learning">
