@@ -38,12 +38,12 @@ const ThemesSection = () => {
       </div>
       <div
         className="pl-6 md:pl-16  w-full overflow-hidden overflow-x-auto flex  h-full pr-6"
-        style={{ scrollbarWidth: "none" }}
+        // style={{ scrollbarWidth: "none" }}
       >
         <div className="relative flex justify-start items-start w-full pb-10 gap-8 pr-6">
-          <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[325px] md:max-w-[600px]">
+          <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[325px] md:max-w-[500px]">
             <Image
-              src="/images/theme1.jpg"
+              src="/images/13.png"
               alt="theme 1"
               width={500}
               height={325}
@@ -61,7 +61,7 @@ const ThemesSection = () => {
           </div>
           <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[325px] md:max-w-[500px]">
             <Image
-              src="/images/theme3.jpg"
+              src="/images/14.png"
               alt="theme 1"
               width={500}
               height={325}
@@ -70,7 +70,7 @@ const ThemesSection = () => {
           </div>
           <div className="relative max-h-[200px] md:max-h-[325px] h-full w-full flex-shrink-0 max-w-[325px] md:max-w-[500px]">
             <Image
-              src="/images/theme1.jpg"
+              src="/images/15.png"
               alt="theme 1"
               width={500}
               height={325}

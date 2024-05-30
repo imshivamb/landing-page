@@ -12,7 +12,7 @@ const FeaturesSection2 = () => {
         <Badge className="text-teal-600 bg-teal-600/20 py-1.5 px-2">
           Build an Online Store
         </Badge>
-        <h2 className="font-medium text-4xl md:text-5xl mt-2 tracking-tight">
+        <h2 className="font-medium text-4xl text-center md:text-start md:text-5xl mt-2 tracking-tight">
           Simplifying E-Commerce for All
         </h2>
       </div>

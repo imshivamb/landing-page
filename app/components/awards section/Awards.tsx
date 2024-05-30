@@ -58,7 +58,7 @@ const Awards = () => {
           className="flex flex-col text-center mx-3 md:mx-5 w-full items-center justify-center"
         >
           <div className="lg:text-6xl font-extrabold md:text-4xl text-3xl pb-1.5">
-            4.9
+            5.0
           </div>
           <div className="my-1.5 w-full">
             <span className="flex justify-center relative">
@@ -96,7 +96,7 @@ const Awards = () => {
           className="flex flex-col text-center mx-3 md:mx-5 w-full mb-3 items-center justify-center"
         >
           <div className="lg:text-6xl font-extrabold md:text-4xl text-3xl pb-2">
-            4.8
+            5.0
           </div>
           <div className="my-2.5 w-full">
             <span className="flex justify-center relative">
