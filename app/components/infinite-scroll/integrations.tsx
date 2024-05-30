@@ -14,11 +14,13 @@ import {
   int4,
   int5,
   int6,
+  int7,
+  int8,
 } from "../../constants/imagesImport";
 import Image from "next/image";
 
 const Integrations = () => {
-  const images = [int1, int2, int3, int4, int5, int6];
+  const images = [int1, int2, int3, int4, int5, int6, int7, int8];
   return (
     <div className="main-container pt-6 p-2 md:p-8 w-full">
       <div
@@ -49,12 +51,12 @@ const Integrations = () => {
           </div>
         </div>
       </div>
-      <div className="pt-8 md:pt-10 box-border pb-8 md:pb-16 md:px-10 px-5">
+      <div className="pt-8 md:pt-10 box-border pb-8 md:pb-16 md:px-2 px-5">
         <div className="logos relative overflow-hidden flex items-center whitespace-nowrap py-12 px-0 bg-white">
           {[...Array(2)].map((_, index) => (
             <div
               key={index}
-              className="logos-slide inline-flex flex-none justify-evenly w-full *:h-[100px] *:w-[100px] *:mx-10"
+              className="logos-slide inline-flex flex-none justify-evenly w-full *:h-[80px] *:w-[80px] *:mx-10"
             >
               {images.map((src, idx) => (
                 <Image key={idx} src={src} alt="brand logo" />

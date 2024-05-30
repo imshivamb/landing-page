@@ -40,14 +40,16 @@ import scroll3 from "../../public/images/bestseller.svg";
 import scroll4 from "../../public/images/zoom.svg";
 import scroll5 from "../../public/images/reuters.svg";
 import scroll6 from "../../public/images/xerox.svg";
-import int1 from "../../public/images/int1.png";
-import int2 from "../../public/images/int2.svg";
-import int3 from "../../public/images/int3.svg";
-import int4 from "../../public/images/int4.svg";
-import int5 from "../../public/images/int5.svg";
-import int6 from "../../public/images/int6.jpg";
+import int1 from "../../public/images/paypal.png";
+import int2 from "../../public/images/razorpay.jpeg";
+import int3 from "../../public/images/stripe.jpeg";
+import int4 from "../../public/images/twilio.png";
+import int5 from "../../public/images/mailgun.png";
+import int6 from "../../public/images/mailchimp.jpeg";
+import int7 from "../../public/images/shiprocket.png";
+import int8 from "../../public/images/porter.jpeg";
 
 
-export { award1, award2,tab1, tab2, tab3, int1, int2, int3, int4, int5, int6, tab4,hero1, hero2,hero3,subscribe, tab5,features3, storegraphic, storegraphic2,  award3,scroll1, scroll2, scroll3, scroll4, scroll5,scroll6, automation, features1,features2, featuresimage, tabs3, sellglobal, campaigns, award4, award5, heroBg, heroImg1, heroImg2, heroImg3, theme1, theme2, theme3, theme8, theme4, theme5,theme6,theme7
+export { award1, award2,tab1, tab2, tab3, int1, int2, int3, int4, int5, int6,int7, int8, tab4,hero1, hero2,hero3,subscribe, tab5,features3, storegraphic, storegraphic2,  award3,scroll1, scroll2, scroll3, scroll4, scroll5,scroll6, automation, features1,features2, featuresimage, tabs3, sellglobal, campaigns, award4, award5, heroBg, heroImg1, heroImg2, heroImg3, theme1, theme2, theme3, theme8, theme4, theme5,theme6,theme7
 
 }
