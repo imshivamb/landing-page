@@ -21,8 +21,44 @@ const Awards = () => {
           href=""
           className="flex flex-col text-center mx-3 md:mx-5 w-full items-center justify-center"
         >
+          <div className="lg:text-[45px] tracking-tighter font-extrabold md:text-4xl text-3xl pb-1.5">
+            Top 30
+          </div>
+          <div className="my-2 w-full">
+            <span className="flex justify-center relative">
+              <span className=" inline-block text-[15px] py-1 font-bold leading-relaxed ">
+                Startups (May 2022)
+              </span>
+            </span>
+          </div>
+          <div className="w-full flex justify-center">
+            <Image src={award4} alt="g2" className="max-w-[100px]" />
+          </div>
+        </a>
+        <a
+          href=""
+          className="flex flex-col text-center  mt-3 mx-3 md:mx-5 w-full items-center justify-center"
+        >
+          <div className="w-full flex justify-center">
+            <Image src={award5} alt="g2" className="max-w-[60px]" />
+          </div>
+          <div className="lg:text-[45px] tracking-tighter font-extrabold md:text-4xl text-3xl pb-1">
+            Best
+          </div>
+          <div className="my-1.5 w-full">
+            <span className="flex justify-center relative">
+              <span className=" inline-block text-[15px] font-bold leading-relaxed ">
+                Tech Startup (2023)
+              </span>
+            </span>
+          </div>
+        </a>
+        <a
+          href=""
+          className="flex flex-col text-center mx-3 md:mx-5 w-full items-center justify-center"
+        >
           <div className="lg:text-6xl font-extrabold md:text-4xl text-3xl pb-1.5">
-            5.0
+            4.9
           </div>
           <div className="my-1.5 w-full">
             <span className="flex justify-center relative">
@@ -30,9 +66,14 @@ const Awards = () => {
             </span>
           </div>
           <div className="w-full flex justify-center">
-            <Image src={award1} alt="captera" className="max-w-[110px]" />
+            <Image
+              src={award1}
+              alt="captera"
+              className="max-w-[110px] h-[34px]"
+            />
           </div>
         </a>
+
         <a
           href=""
           className="flex flex-col text-center mx-3 md:mx-5 w-full items-center justify-center"
@@ -49,12 +90,13 @@ const Awards = () => {
             <Image src={award2} alt="g2" className="max-w-[110px]" />
           </div>
         </a>
+
         <a
           href=""
           className="flex flex-col text-center mx-3 md:mx-5 w-full items-center justify-center"
         >
-          <div className="lg:text-6xl font-extrabold md:text-4xl text-3xl pb-1.5">
-            5.0
+          <div className="lg:text-6xl font-extrabold md:text-4xl text-3xl pb-1">
+            4.8
           </div>
           <div className="my-1.5 w-full">
             <span className="flex justify-center relative">
@@ -63,24 +105,6 @@ const Awards = () => {
           </div>
           <div className="w-full flex justify-center">
             <Image src={award3} alt="g2" className="max-w-[40px]" />
-          </div>
-        </a>
-        <a
-          href=""
-          className="flex flex-col text-center mx-3 md:mx-5 w-full items-center justify-center"
-        >
-          <div className="lg:text-[45px] tracking-tighter font-extrabold md:text-4xl text-3xl pb-1.5">
-            Top 30
-          </div>
-          <div className="my-1.5 w-full">
-            <span className="flex justify-center relative">
-              <span className=" inline-block text-[15px] py-1 font-bold leading-relaxed ">
-                Startups (May 2022)
-              </span>
-            </span>
-          </div>
-          <div className="w-full flex justify-center">
-            <Image src={award4} alt="g2" className="max-w-[100px]" />
           </div>
         </a>
       </div>
