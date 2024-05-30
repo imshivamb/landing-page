@@ -509,6 +509,20 @@ button:not(:disabled) {
   margin-left: 200px;
 }
 
+.achievement-rating-ct::before {
+  content: "★★★★★";
+  background: linear-gradient(90deg, #68c5ed calc(5 / 5* 100%), #b5dbee calc(5 / 5* 100%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.achievement-rating-g2::before {
+  content: "★★★★★";
+  background: linear-gradient(90deg, #ef4b2e calc(5 / 5* 100%), #f79f92 calc(5 / 5* 100%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @media(max-width:768px) {
   .subscribe-img {
     clip-path: circle(130.7% at 100% 165%);

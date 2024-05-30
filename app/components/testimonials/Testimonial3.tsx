@@ -32,7 +32,7 @@ const Testimonial3 = () => {
           {testimonialsData.map((testimonial) => (
             <CarouselItem
               key={testimonial.id}
-              className=" md:basis-2/3 testimonial-slide p-4"
+              className=" md:basis-2/3 testimonial-slide p-4 md:max-h-[450px] min-h-[450px]"
             >
               <div className="p-6 bg-[#400b0b] min-h-[400px] relative shadow-lg rounded-2xl overflow-hidden text-start  max-w-full w-full mx-auto">
                 <div className="flex flex-col-reverse text-white items-start justify-start md:flex-row w-full">

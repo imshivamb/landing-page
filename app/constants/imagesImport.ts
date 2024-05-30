@@ -1,7 +1,6 @@
-import award1 from "../../public/images/award1.jpg";
-import award2 from "../../public/images/award2.jpg";
-import award3 from "../../public/images/award3.jpg";
-import award4 from "../../public/images/award4.jpg";
+import award2 from "../../public/images/grating.svg";
+import award3 from "../../public/images/s-advice.png";
+import award4 from "../../public/images/inc42.png";
 import award5 from "../../public/images/award5.jpg";
 import heroBg from "../../public/images/bg-effect.jpg";
 import heroImg1 from "../../public/images/hero-img1.jpg";
@@ -48,6 +47,7 @@ import int5 from "../../public/images/mailgun.png";
 import int6 from "../../public/images/mailchimp.jpeg";
 import int7 from "../../public/images/shiprocket.png";
 import int8 from "../../public/images/porter.jpeg";
+import award1 from "../../public/images/captera.svg";
 
 
 export { award1, award2,tab1, tab2, tab3, int1, int2, int3, int4, int5, int6,int7, int8, tab4,hero1, hero2,hero3,subscribe, tab5,features3, storegraphic, storegraphic2,  award3,scroll1, scroll2, scroll3, scroll4, scroll5,scroll6, automation, features1,features2, featuresimage, tabs3, sellglobal, campaigns, award4, award5, heroBg, heroImg1, heroImg2, heroImg3, theme1, theme2, theme3, theme8, theme4, theme5,theme6,theme7
