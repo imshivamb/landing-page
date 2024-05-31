@@ -25,7 +25,7 @@ import automation from "../../public/images/automation.png";
 import featuresimage from "../../public/images/featuresimage.png";
 import tab1 from "../../public/images/10.jpg";
 import tab2 from "../../public/images/12.jpg";
-import tab3 from "../../public/images/tab3.jpg";
+import tab3 from "../../public/images/25.jpg";
 import tab4 from "../../public/images/marketing.jpg";
 import tab5 from "../../public/images/24.jpg";
 import features3 from "../../public/images/11.jpg";

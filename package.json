@@ -1,5 +1,6 @@
 {
   "name": "qpe-main",
+  "homepage": "https://www.goqpe.com/v4",
   "version": "0.1.0",
   "private": true,
   "scripts": {

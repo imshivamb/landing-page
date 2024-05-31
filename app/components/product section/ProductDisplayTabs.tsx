@@ -13,10 +13,13 @@ import {
 import Image from "next/image";
 import {
   ArrowRight,
+  Bot,
   Drum,
   EarthLock,
+  LineChart,
   Phone,
   Pyramid,
+  Rocket,
   Workflow,
 } from "lucide-react";
 
@@ -40,22 +43,22 @@ const ProductDisplayTabs = () => {
       <Tabs defaultValue="learning" className="w-full">
         <TabsList className="flex items-center justify-start md:gap-0  gap-4 overflow-hidden overflow-x-auto *:flex *:items-center *:gap-1 *:w-fit *:text-lg *:font-medium *:md:w-[20%] *:shrink-0 *:flex-nowrap">
           <TabsTrigger value="learning">
-            <Workflow size={16} /> Automation
+            <Workflow size={20} /> Automation
           </TabsTrigger>
           <TabsTrigger value="sales">
-            <Pyramid size={16} />
+            <Rocket size={20} />
             SEO Tools
           </TabsTrigger>
           <TabsTrigger value="security">
-            <EarthLock size={16} />
+            <Bot size={20} />
             Messenger Chatbots
           </TabsTrigger>
           <TabsTrigger value="marketing">
-            <Drum size={16} />
+            <Drum size={20} />
             Marketing
           </TabsTrigger>
           <TabsTrigger value="customer">
-            <Phone size={16} />
+            <LineChart size={20} />
             Analytics
           </TabsTrigger>
         </TabsList>

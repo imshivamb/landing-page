@@ -103,7 +103,7 @@ const Hero = () => {
                 <Link href="https://accounts.goqpe.com/v4/signup">
                   <Button
                     text="Start free trial"
-                    className="leading-tight text-white bg-violet-500"
+                    className="leading-tight text-white bg-[#570099]"
                   />
                 </Link>
                 <Link href="">

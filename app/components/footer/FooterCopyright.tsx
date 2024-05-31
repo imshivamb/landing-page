@@ -9,7 +9,7 @@ const FooterCopyright = () => {
         <div className="flex flex-wrap items-center justify-between mx-auto pt-4 md:pt-8 pb-4 md:pb-8 w-full px-6 md:px-16">
           <div className="flex items-center gap-5 ">
             {socialMediaIcons.map((icon, index) => (
-              <Link key={index} href={icon.link}>
+              <Link key={index} href={icon.link} target="_blank">
                 <div dangerouslySetInnerHTML={{ __html: icon.icon }} />
               </Link>
             ))}

@@ -6,7 +6,7 @@ import { subscribe } from "../../constants/imagesImport";
 
 const Subscribe2 = () => {
   return (
-    <div className="w-full bg-gradient-to-b from-white from-85% to-gray-50 to-85% ">
+    <div className="w-full bg-gradient-to-b from-white mb-8 from-85% to-gray-50 to-85% ">
       <div className="main-container rounded-3xl overflow-hidden mt-8 w-[90%] md:w-full">
         <div className="w-full grid grid-cols-1 md:min-h-[450px] md:grid-cols-2 h-full bg-[#10002A]">
           <div className="max-w-full w-full flex flex-col items-center md:items-start py-8 px-6 lg:py-10 lg:px-10 justify-center text-center md:text-start">
