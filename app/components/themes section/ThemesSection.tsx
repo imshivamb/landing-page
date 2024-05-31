@@ -131,8 +131,11 @@ const ThemesSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-between pl-6 md:pl-16 mt-6">
-        <Button text="Explore all Themes" className="bg-gray-900 text-white" />
+      <div className="flex items-center justify-end pl-6 md:pl-16 mt-6">
+        <Button
+          text="Explore all Themes"
+          className="bg-gray-900 hidden text-white"
+        />
         <div className="flex items-center gap-3 pr-8">
           <div className=" flex items-center pl-2">
             <button

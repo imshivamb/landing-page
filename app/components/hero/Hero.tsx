@@ -84,7 +84,7 @@ const Hero = () => {
           </ContainerScroll> */}
           <div className="main-container mb-8 block">
             <div className="flex flex-col gap-6 text-center justify-center text-white items-center">
-              <h5 className="uppercase text-lg animate-pop-in h-subtitle md:text-xl font-medium tracking-tight ">
+              <h5 className="uppercase text-lg tracking-widest animate-pop-in h-subtitle md:text-lg font-medium  ">
                 CREATE MORE THAN AN ECOMMERCE WEBSITE
               </h5>
               <h1 className="text-[40px] leading-[1.1] bg-clip-text text-transparent text-white bg-opacity-50 h-title animate-pop-in sm:text-5xl md:text-6xl lg:text-6xl font-semibold md:font-medium max-w-full md:max-w-4xl md:leading-[1.7] pb-2">
@@ -100,7 +100,7 @@ const Hero = () => {
                 business thrive and grow.
               </p>
               <div className="flex animate-pop-in h-buttons flex-row items-center justify-center w-full gap-5">
-                <Link href="">
+                <Link href="https://accounts.goqpe.com/v4/signup">
                   <Button
                     text="Start free trial"
                     className="leading-tight text-white bg-violet-500"

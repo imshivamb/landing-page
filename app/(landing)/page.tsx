@@ -47,11 +47,13 @@ export default function Home() {
       {/* <Services /> */}
       <Subscribe2 />
 
-      <div className="hidden md:block">
+      <div className="hidden">
         <Footer />
       </div>
 
-      <MobileFooter />
+      <div className="hidden">
+        <MobileFooter />
+      </div>
       <TextScroll />
       <FooterCopyright />
     </div>

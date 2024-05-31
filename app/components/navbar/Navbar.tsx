@@ -59,7 +59,10 @@ const Navbar = () => {
               "
               >
                 <Link href="/">
-                  <Button text="Sign in" className="text-white bg-violet-500" />
+                  <Button
+                    text="Get Started"
+                    className="text-white bg-violet-500"
+                  />
                 </Link>
               </div>
             </div>

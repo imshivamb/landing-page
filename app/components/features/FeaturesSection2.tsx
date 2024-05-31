@@ -27,7 +27,7 @@ const FeaturesSection2 = () => {
               Create your storefront effortlessly, no coding required. Enjoy
               99.99% uptime reliability for uninterrupted business growth.
             </p>
-            <Link href="#">
+            <Link href="#" className="hidden">
               <Button
                 text="Online Store Builder"
                 className="bg-gray-800 text-white"
@@ -43,7 +43,7 @@ const FeaturesSection2 = () => {
               SEO optimization. Find the perfect theme to showcase your unique
               brand identity.
             </p>
-            <Link href="#">
+            <Link href="#" className="hidden">
               <Button
                 text="Online Store Builder"
                 className="bg-gray-800 text-white"
@@ -60,7 +60,7 @@ const FeaturesSection2 = () => {
               analytics to managing shipments, payments, taxes, and more, expand
               your online store with ease.
             </p>
-            <Link href="#">
+            <Link href="#" className="hidden">
               <Button
                 text="Online Store Builder"
                 className="bg-gray-800 text-white"

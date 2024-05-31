@@ -37,7 +37,7 @@ const Integrations = () => {
             your sales growth. Take your business to the next level with
             powerful app integrations.
           </p>
-          <div className="py-2 group">
+          <div className="py-2 group hidden">
             <Button
               text="Explore all Integrations"
               icon={
