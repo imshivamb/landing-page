@@ -56,19 +56,19 @@ const Testimonial3 = () => {
               key={testimonial.id}
               className={`md:basis-[75%] testimonial-slide p-4 md:max-h-[420px] overflow-hidden min-h-[400px] ${currentSlideIndex === index ? "opacity-100" : "opacity-50"}`}
             >
-              <div className="p-6 bg-[#00BDA8] md:max-h-[400px] md:min-h-[400px] relative shadow-lg rounded-2xl overflow-hidden text-start max-w-full w-full mx-auto">
-                <div className="flex flex-col-reverse relative text-white items-start justify-start md:flex-row w-full">
+              <div className="p-6 bg-[#9AFBBD] md:max-h-[400px] md:min-h-[400px] relative shadow-lg rounded-2xl overflow-hidden text-start max-w-full w-full mx-auto">
+                <div className="flex flex-col-reverse relative text-gray-800 items-start justify-start md:flex-row w-full">
                   <div className="w-full md:w-2/3 relative  h-full md:max-h-[360px] min-h-[360px] flex flex-col gap-20 md:pr-8">
                     <div className="absolute top-[20px] left-0">
                       <Quote
-                        fill="white"
-                        stroke="white"
-                        className="opacity-40 rotate-180 z-0"
+                        fill="black"
+                        stroke="black"
+                        className="opacity-20 rotate-180 z-0"
                         size={50}
                       />
                     </div>
                     <div className="flex flex-col pt-8 gap-3 w-full">
-                      <p className="text-white text-base md:text-xl font-medium tracking-wide mb-4">
+                      <p className="text-gray-800 text-base md:text-xl font-medium tracking-wide mb-4">
                         {testimonial.description}
                       </p>
                     </div>

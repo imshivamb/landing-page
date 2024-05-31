@@ -82,7 +82,7 @@ export const testimonialsData = [
     avatar: "/images/avatar1.jpeg",
     name: "Alisha S.",
     title: "Founder of Mumkido, Jaipur",
-    image: "/images/testimonial1.jpg",
+    image: "/images/Mumkido.jpg",
   },
   {
     id: "testimonial2",
@@ -90,7 +90,7 @@ export const testimonialsData = [
     avatar: "/images/avatar2.png",
     name: "Saurabh A.",
     title: "Founder of Detailing Devils, Noida",
-    image: "/images/testimonial2.jpg",
+    image: "/images/devils.jpg",
   },
   {
     id: "testimonial3",
@@ -98,7 +98,7 @@ export const testimonialsData = [
     avatar: "/images/avatar3.jpg",
     name: "Mugdha S.",
     title: "Owner of Aariamart, Mumbai",
-    image: "/images/testimonial3.jpg",
+    image: "/images/aaria.jpg",
   },
   {
     id: "testimonial4",
@@ -106,7 +106,7 @@ export const testimonialsData = [
     avatar: "/images/avatar4.jpeg",
     name: "Vibhor M.",
     title: "Founder of The Chakki Co., Delhi",
-    image: "/images/testimonial4.jpg",
+    image: "/images/chakki.jpg",
   },
   {
     id: "testimonial5",
@@ -114,7 +114,7 @@ export const testimonialsData = [
     avatar: "/images/avatar4.jpeg",
     name: "Vishal P.",
     title: "Founder of Easy Arts, Bangalore",
-    image: "/images/testimonial4.jpg",
+    image: "/images/eazy.jpg",
   },
   {
     id: "testimonial6",
@@ -122,7 +122,23 @@ export const testimonialsData = [
     avatar: "/images/avatar4.jpeg",
     name: "Madan J.",
     title: "Owner of Girnar Imitation Jewellery, Chennai",
-    image: "/images/testimonial4.jpg",
+    image: "/images/girnar.jpg",
+  },
+  {
+    id: "testimonial7",
+    description: "QPe has revolutionized our online sales process. As a long-time manufacturer of luxury cosmetics, we needed a platform that could handle our unique needs and scale with us. QPe's features are not only comprehensive but also incredibly user-friendly, making it easy for us to manage our inventory and boost our sales without breaking the bank.",
+    avatar: "/images/avatar4.jpeg",
+    name: "Garvit N.",
+    title: "Founder of One.62, New Delhi",
+    image: "/images/girnar.jpg",
+  },
+  {
+    id: "testimonial8",
+    description: "Since switching to QPe, our sales have skyrocketed. The platform's seamless integration and powerful marketing tools have made it easier than ever to reach our customers and grow our brand. The affordability of QPe means we can invest more in product development and less in tech costs, which has been a game-changer for us.",
+    avatar: "/images/avatar4.jpeg",
+    name: "Abhishek S.",
+    title: "Owner of Home Town Market, Ahmedabad",
+    image: "/images/girnar.jpg",
   }
 ];
 
