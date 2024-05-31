@@ -79,7 +79,7 @@ export const testimonialsData = [
   {
     id: "testimonial1",
     description: "Switching to QPe has been a game-changer for our business. Our sales have skyrocketed, and the platform's affordability means we're saving significantly on tech costs. It's the perfect solution for any e-commerce brand looking to grow without breaking the bank.",
-    avatar: "/images/avatar1.jpeg",
+    avatar: "/images/mubkido2.jpg",
     name: "Alisha S.",
     title: "Founder of Mumkido, Jaipur",
     image: "/images/Mumkido.jpg",
@@ -87,7 +87,7 @@ export const testimonialsData = [
   {
     id: "testimonial2",
     description: "QPe's user-friendly interface and comprehensive features have made managing our online store a breeze. We've seen a 30% increase in sales since we started using the platform. Plus, the affordability is unmatched compared to other solutions. Highly recommend!",
-    avatar: "/images/avatar2.png",
+    avatar: "/images/devils2.png",
     name: "Saurabh A.",
     title: "Founder of Detailing Devils, Noida",
     image: "/images/devils.jpg",
@@ -95,7 +95,7 @@ export const testimonialsData = [
   {
     id: "testimonial3",
     description: "Since integrating with QPe, our business has experienced tremendous growth. The customizable options and dedicated support team have helped us tailor the platform to our exact needs, all while keeping costs low. It's an invaluable platform for any e-commerce brand.",
-    avatar: "/images/avatar3.jpg",
+    avatar: "/images/aaria2.jpeg",
     name: "Mugdha S.",
     title: "Owner of Aariamart, Mumbai",
     image: "/images/aaria.jpg",
@@ -103,7 +103,7 @@ export const testimonialsData = [
   {
     id: "testimonial4",
     description: "QPe has revolutionized our online sales strategy. The seamless integration with our existing systems and the cost-effective pricing structure have allowed us to expand our reach and increase our revenue. It's the best investment we've made for our e-commerce business.",
-    avatar: "/images/avatar4.jpeg",
+    avatar: "/images/chakki2.jpeg",
     name: "Vibhor M.",
     title: "Founder of The Chakki Co., Delhi",
     image: "/images/chakki.jpg",
@@ -111,7 +111,7 @@ export const testimonialsData = [
   {
     id: "testimonial5",
     description: "QPe has been instrumental in our success. The platform's robust features and ease of use have allowed us to focus on what we do best - creating amazing products. We've seen a significant boost in sales and efficiency, all while keeping our tech costs down.",
-    avatar: "/images/avatar4.jpeg",
+    avatar: "/images/eazy2.jpg",
     name: "Vishal P.",
     title: "Founder of Easy Arts, Bangalore",
     image: "/images/eazy.jpg",
@@ -127,7 +127,7 @@ export const testimonialsData = [
   {
     id: "testimonial7",
     description: "QPe has revolutionized our online sales process. As a long-time manufacturer of luxury cosmetics, we needed a platform that could handle our unique needs and scale with us. QPe's features are not only comprehensive but also incredibly user-friendly, making it easy for us to manage our inventory and boost our sales without breaking the bank.",
-    avatar: "/images/avatar4.jpeg",
+    avatar: "/images/one62.jpeg",
     name: "Garvit N.",
     title: "Founder of One.62, New Delhi",
     image: "/images/girnar.jpg",
@@ -135,7 +135,7 @@ export const testimonialsData = [
   {
     id: "testimonial8",
     description: "Since switching to QPe, our sales have skyrocketed. The platform's seamless integration and powerful marketing tools have made it easier than ever to reach our customers and grow our brand. The affordability of QPe means we can invest more in product development and less in tech costs, which has been a game-changer for us.",
-    avatar: "/images/avatar4.jpeg",
+    avatar: "/images/hometown2.jpg",
     name: "Abhishek S.",
     title: "Owner of Home Town Market, Ahmedabad",
     image: "/images/girnar.jpg",
