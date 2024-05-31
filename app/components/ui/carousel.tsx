@@ -293,8 +293,8 @@ const CarouselDots = React.forwardRef<
             key={i}
             className={`mx-1  h-1.5 w-1.5 rounded-full p-0 ${
               i === currentSlide
-                ? "scale-125 transform duration-300 transition-all w-8 bg-teal-500 hover:bg-teal-600"
-                : "bg-teal-300 hover:bg-teal-300"
+                ? "scale-125 transform duration-300 transition-all w-8 bg-gray-800 hover:bg-gray-950"
+                : "bg-gray-300 hover:bg-gray-300"
             }`}
             aria-label={`Go to slide ${i + 1}`}
             onClick={() => api?.scrollTo(i)}

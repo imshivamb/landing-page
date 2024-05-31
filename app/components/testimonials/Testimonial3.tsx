@@ -72,7 +72,7 @@ const Testimonial3 = () => {
                         {testimonial.description}
                       </p>
                     </div>
-                    <div className="pt-6 absolute bottom-2  border-t border-gray-100 flex gap-4 justify-start items-start w-full">
+                    <div className="pt-6 absolute bottom-2 pr-4  border-t border-gray-800 flex gap-4 justify-start items-start w-full">
                       <div className="">
                         <Image
                           src={testimonial.avatar}
@@ -90,11 +90,11 @@ const Testimonial3 = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="relative w-full md:w-1/3">
+                  <div className="relative w-full pl-3 md:w-1/3">
                     <Image
                       src={testimonial.image}
                       alt={testimonial.name}
-                      width={250}
+                      width={400}
                       height={400}
                       className="w-full object-cover rounded-lg"
                     />
@@ -105,8 +105,8 @@ const Testimonial3 = () => {
           ))}
         </CarouselContent>
         <CarouselDots />
-        <CarouselPrevious className="border border-gray-800 bg-teal-500 text-white h-12 w-20 hover:text-white hover:bg-teal-600" />
-        <CarouselNext className="border border-gray-800 bg-teal-500 text-white h-12 w-20 hover:text-white hover:bg-teal-600" />
+        <CarouselPrevious className="border border-gray-800 bg-gray-800 text-white h-12 w-20 hover:text-white hover:bg-gray-950" />
+        <CarouselNext className="border border-gray-800 bg-gray-800 text-white h-12 w-20 hover:text-white hover:bg-gray-950" />
       </Carousel>
     </div>
   );

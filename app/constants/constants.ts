@@ -130,7 +130,7 @@ export const testimonialsData = [
     avatar: "/images/one62.jpeg",
     name: "Garvit N.",
     title: "Founder of One.62, New Delhi",
-    image: "/images/girnar.jpg",
+    image: "/images/one6.jpg",
   },
   {
     id: "testimonial8",
@@ -138,7 +138,7 @@ export const testimonialsData = [
     avatar: "/images/hometown2.jpg",
     name: "Abhishek S.",
     title: "Owner of Home Town Market, Ahmedabad",
-    image: "/images/girnar.jpg",
+    image: "/images/hometown.jpg",
   }
 ];
 
