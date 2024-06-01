@@ -432,6 +432,11 @@ button:not(:disabled) {
 }
 
 
+.subscribe-img-2 {
+  clip-path: circle(115.4% at 98% 107%);
+}
+
+
 
 @keyframes slide-scroll {
   from {

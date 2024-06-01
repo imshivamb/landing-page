@@ -30,7 +30,7 @@ const FooterCopyright = () => {
 
             <p className="text-gray-800 mt-4 md:mt-0 text-base font-medium">
               {" "}
-              &copy; 2024 QPe.com, Inc
+              &copy; 2024 goQPe.com, Inc
             </p>
           </div>
         </div>

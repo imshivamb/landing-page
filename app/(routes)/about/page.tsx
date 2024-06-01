@@ -79,6 +79,25 @@ const About1 = () => {
     <>
       <Navbar />
       <section className="overflow-hidden mt-20 bg-white py-10 sm:py-12">
+        <div className="flex flex-col justify-center items-center main-container py-8">
+          <h2 className="text-3xl mb-6 md:text-4xl lg:text-5xl font-bold leading-normal tracking-wide">
+            Our Mission
+          </h2>
+          <p className="text-xl font-medium tracking-wide text-center text-pretty text-gray-700 leading-[1.4]">
+            At QPe, our mission is to empower businesses of all sizes to thrive
+            in the digital economy by providing an affordable, comprehensive,
+            and easy-to-use e-commerce platform. We are dedicated to simplifying
+            the online selling journey, enabling entrepreneurs to focus on their
+            passion and growth. Through innovative technology and
+            customer-centric solutions, we aim to break down barriers and create
+            a supportive ecosystem where businesses can succeed and flourish.
+            Our commitment is to make e-commerce accessible, efficient, and
+            scalable for everyone, driving success and transforming the way
+            commerce is conducted online.
+          </p>
+        </div>
+      </section>
+      <section className="overflow-hidden mt-5 bg-white py-10 sm:py-12">
         <div className="mx-auto max-w-full main-container px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="lg:pr-8 lg:pt-4">
@@ -112,7 +131,7 @@ const About1 = () => {
             </div>
             <div className="w-full flex items-center justify-center">
               <Image
-                src={aboutus}
+                src={aboutus3}
                 alt="Product screenshot"
                 className="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[45rem] md:-ml-4 lg:-ml-0"
                 width={2432}
@@ -979,11 +998,11 @@ const About1 = () => {
                 </Link>
               </div>
             </div>
-            <div className=" w-full h-full max-w-full">
+            <div className=" w-full h-full max-w-full overflow-hidden">
               <Image
-                src={aboutus3}
+                src={aboutus}
                 alt="book a demo"
-                className="subscribe-img w-full object-fill md:h-[450px]"
+                className="subscribe-img-2 md:translate-x-12 w-full object-cover md:h-full"
               />
             </div>
           </div>
