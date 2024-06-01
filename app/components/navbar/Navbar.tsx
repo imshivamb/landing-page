@@ -61,7 +61,7 @@ const Navbar = () => {
                 <Link href="/">
                   <Button
                     text="Get Started"
-                    className="text-white bg-[#570099]"
+                    className="text-white bg-gray-800"
                   />
                 </Link>
               </div>

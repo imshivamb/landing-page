@@ -7,7 +7,43 @@ import {
   ServerIcon,
 } from "@heroicons/react/20/solid";
 import Link from "next/link";
+import FooterCopyright from "../../components/footer/FooterCopyright";
+import TextScroll from "../../components/infinite-scroll/text-scroll";
+import Subscribe2 from "../../components/subscribe/Subscribe2";
+import { Button } from "../../components/Button";
+import { ArrowRight } from "lucide-react";
+import Image from "next/image";
+import {
+  aboutus,
+  aboutus1,
+  aboutus2,
+  aboutus3,
+  aboutus4,
+  subscribe,
+} from "../../constants/imagesImport";
+import ImageScroll from "../../components/infinite-scroll/Image-scroll";
+import Navbar from "../../components/navbar/Navbar";
+import {
+  media1,
+  media2,
+  media3,
+  media4,
+  media5,
+  media6,
+  media7,
+  media8,
+} from "../../constants/imagesImport";
 const About1 = () => {
+  const images = [
+    media1,
+    media2,
+    media3,
+    media4,
+    media5,
+    media6,
+    media7,
+    media8,
+  ];
   const links = [
     { name: "Open roles", href: "#" },
     { name: "Internship program", href: "#" },
@@ -41,12 +77,13 @@ const About1 = () => {
   ];
   return (
     <>
-      <section className="overflow-hidden bg-white py-10 sm:py-12">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <Navbar />
+      <section className="overflow-hidden mt-20 bg-white py-10 sm:py-12">
+        <div className="mx-auto max-w-full main-container px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="lg:pr-8 lg:pt-4">
               <div className="lg:max-w-lg">
-                <h2 className="text-base font-semibold leading-7 text-indigo-600">
+                <h2 className="text-base font-semibold leading-7 text-gray-800">
                   Deploy faster
                 </h2>
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -73,10 +110,10 @@ const About1 = () => {
                 </dl>
               </div>
             </div>
-            <img
-              src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+            <Image
+              src={aboutus}
               alt="Product screenshot"
-              className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+              className="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[45rem] md:-ml-4 lg:-ml-0"
               width={2432}
               height={1442}
             />
@@ -90,15 +127,15 @@ const About1 = () => {
               <div className="flex items-center -mx-3 sm:-mx-4">
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
-                    <img
-                      src="https://i.ibb.co/gFb3ns6/image-1.jpg"
+                    <Image
+                      src={aboutus1}
                       alt=""
                       className="w-full rounded-2xl"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
-                    <img
-                      src="https://i.ibb.co/rfHFq15/image-2.jpg"
+                    <Image
+                      src={aboutus4}
                       alt=""
                       className="w-full rounded-2xl"
                     />
@@ -106,8 +143,8 @@ const About1 = () => {
                 </div>
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="relative z-10 my-4">
-                    <img
-                      src="https://i.ibb.co/9y7nYCD/image-3.jpg"
+                    <Image
+                      src={aboutus2}
                       alt=""
                       className="w-full rounded-2xl"
                     />
@@ -704,12 +741,7 @@ const About1 = () => {
                   brand. Secure a consistent brand image with a domain name that
                   matches your business.
                 </p>
-                <a
-                  href="javascript:void(0)"
-                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
-                >
-                  Get Started
-                </a>
+                <Button text="Get Started" className="bg-gray-800 text-white" />
               </div>
             </div>
           </div>
@@ -889,50 +921,73 @@ const About1 = () => {
       </section>
 
       <section className="bg-white py-8 sm:py-8 mb-8">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-full px-6 lg:px-8">
           <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
             Trusted by the world’s most innovative teams
           </h2>
-          <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-            <img
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
-              alt="Transistor"
-              width={158}
-              height={48}
-            />
-            <img
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
-              alt="Reform"
-              width={158}
-              height={48}
-            />
-            <img
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
-              alt="Tuple"
-              width={158}
-              height={48}
-            />
-            <img
-              className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
-              alt="SavvyCal"
-              width={158}
-              height={48}
-            />
-            <img
-              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
-              alt="Statamic"
-              width={158}
-              height={48}
-            />
+          <div className="main-container pt-8 md:pt-10 box-border pb-8 md:pb-16 md:px-10 px-5">
+            <div className="logos relative overflow-hidden flex items-center py-12 px-0 border border-gray-300 rounded-lg bg-white">
+              <div className="logos-slide flex gap-4 flex-none whitespace-nowrap animate-scroll">
+                {images.map((src, idx) => (
+                  <div key={idx} className="mx-4">
+                    <Image
+                      src={src}
+                      alt="brand logo"
+                      className="h-[50px] grayscale w-auto"
+                    />
+                  </div>
+                ))}
+                {images.map((src, idx) => (
+                  <div key={`duplicate-${idx}`} className="mx-4">
+                    <Image
+                      src={src}
+                      alt="brand logo"
+                      className="h-[50px] grayscale w-auto"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <section className="relative isolate overflow-hidden bg-gray-900 py-10 sm:py-12">
+      <section className="w-full bg-gradient-to-b from-white mb-8 from-85% to-gray-50 to-85% ">
+        <div className="main-container rounded-3xl overflow-hidden mt-8 w-[90%] md:w-full">
+          <div className="w-full grid grid-cols-1 md:min-h-[450px] md:grid-cols-2 h-full bg-[#10002A]">
+            <div className="max-w-full w-full flex flex-col items-center md:items-start py-8 px-6 lg:py-10 lg:px-10 justify-center text-center md:text-start">
+              <h2 className="mt-5 text-pretty text-3xl/[40px] text-white md:text-4xl/[50px] max-w-4xl lg:text-[45px]/[60px] font-semibold">
+                Powering 45000+ eCommerce entrepreneurs, enterprise and d2c
+                brands
+              </h2>
+              <p className="mt-4 hidden text-base md:text-lg font-medium text-gray-800 ">
+                Get started for free, then upgrade from ₹1,799 INR / month.
+              </p>
+              <div className="flex gap-3 mt-5 items-center md:items-start justify-center md:justify-start">
+                <Link href="" className="group">
+                  <Button
+                    text="Join Our Team"
+                    icon={
+                      <ArrowRight
+                        size={18}
+                        className=" group-hover:translate-x-2 transition-all duration-700"
+                      />
+                    }
+                    className="bg-white flex gap-1.5 items-center text-gray-900 transition-all duration-700"
+                  />
+                </Link>
+              </div>
+            </div>
+            <div className=" w-full h-full max-w-full">
+              <Image
+                src={aboutus3}
+                alt="book a demo"
+                className="subscribe-img w-full object-fill md:h-[450px]"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="relative hidden isolate overflow-hidden mb-8 bg-gray-900 py-10 sm:py-12">
         <img
           src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
           alt=""
@@ -996,7 +1051,7 @@ const About1 = () => {
           </div>
         </div>
       </section>
-      <section className="pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
+      <section className="pb-10 pt-20 dark:bg-dark lg:pb-20 hidden lg:pt-[120px]">
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
@@ -1039,6 +1094,9 @@ const About1 = () => {
           </div>
         </div>
       </section>
+
+      <TextScroll />
+      <FooterCopyright />
     </>
   );
 };

@@ -20,7 +20,7 @@ export function NavigationMenuPage() {
   return (
     <NavigationMenu>
       <NavigationMenuList>
-        <NavigationMenuItem>
+        <NavigationMenuItem className="hidden">
           <NavigationMenuTrigger className="text-base hidden">
             Features
           </NavigationMenuTrigger>
@@ -55,7 +55,7 @@ export function NavigationMenuPage() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
-        <NavigationMenuItem>
+        <NavigationMenuItem className="hidden">
           <NavigationMenuTrigger className="text-base hidden">
             Solutions
           </NavigationMenuTrigger>
@@ -79,6 +79,15 @@ export function NavigationMenuPage() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem className="text-base">
+          <Link href="/" legacyBehavior passHref className="text-base">
+            <NavigationMenuLink
+              className={`${navigationMenuTriggerStyle()} !text-base`}
+            >
+              Home
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+        <NavigationMenuItem className="text-base">
           <Link
             href="https://www.goqpe.com/home/new_plan"
             legacyBehavior
@@ -89,6 +98,29 @@ export function NavigationMenuPage() {
               className={`${navigationMenuTriggerStyle()} !text-base`}
             >
               Pricing
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+        <NavigationMenuItem className="text-base">
+          <Link href="/about" legacyBehavior passHref className="text-base">
+            <NavigationMenuLink
+              className={`${navigationMenuTriggerStyle()} !text-base`}
+            >
+              About Us
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+        <NavigationMenuItem className="text-base">
+          <Link
+            href="/contact-us"
+            legacyBehavior
+            passHref
+            className="text-base"
+          >
+            <NavigationMenuLink
+              className={`${navigationMenuTriggerStyle()} !text-base`}
+            >
+              Contact Us
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>

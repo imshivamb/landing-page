@@ -37,7 +37,7 @@ export const sliderCardData = [
     title: "Sell on your e-commerce website",
     description: "Launch your products on your custom e-commerce website. Leverage powerful tools and features to attract and convert visitors into loyal customers.",
     link: "https://example.com/image1",
-    image: "/images/4.jpg",
+    image: "./images/4.jpg",
     backgroundColor: "#FFE4E1" 
   },
   {
@@ -45,7 +45,7 @@ export const sliderCardData = [
     title: "Sell on marketplaces",
     description: "Sell on top marketplaces like eBay, Etsy, Amazon, and Flipkart. Manage all your sales seamlessly from your QPe dashboard.",
     link: "https://example.com/image2",
-    image: "/images/8.jpg",
+    image: "./images/8.jpg",
     backgroundColor: "#F0F8FF" 
   },
   {
@@ -53,7 +53,7 @@ export const sliderCardData = [
     title: "Sell on social media ",
     description: "Sell on social media platforms with ease. Use integrated tools to grow your audience and boost sales on Facebook, Instagram, and more.",
     link: "https://example.com/image3",
-    image: "/images/5.jpg",
+    image: "./images/5.jpg",
     backgroundColor: "#D3D3D3"
   },
   {
@@ -61,7 +61,7 @@ export const sliderCardData = [
     title: "Sell in-person",
     description: "Sell in-person with a comprehensive POS system designed for seamless integration between your online and retail stores. Easily create manual orders, accept payments, and generate KOT/bills in your physical store.",
     link: "https://example.com/image3",
-    image: "/images/7.jpg",
+    image: "./images/7.jpg",
     backgroundColor: "#FFE5B4"
   },
   {
@@ -69,7 +69,7 @@ export const sliderCardData = [
     title: "Sell globally",
     description: "Expand your business horizons globally and optimize cross-border sales effortlessly through your QPe store. Seamlessly enter international markets with multilingual capabilities, currency conversion, and a wide array of trusted payment options.",
     link: "https://example.com/image3",
-    image: "/images/6.jpg",
+    image: "./images/6.jpg",
     backgroundColor: "#FFE5E4"
   },
   
@@ -79,66 +79,66 @@ export const testimonialsData = [
   {
     id: "testimonial1",
     description: "Switching to QPe has been a game-changer for our business. Our sales have skyrocketed, and the platform's affordability means we're saving significantly on tech costs. It's the perfect solution for any e-commerce brand looking to grow without breaking the bank.",
-    avatar: "/images/mubkido2.jpg",
+    avatar: "./images/mubkido2.jpg",
     name: "Alisha S.",
     title: "Founder of Mumkido, Jaipur",
-    image: "/images/Mumkido.jpg",
+    image: "./images/Mumkido.jpg",
   },
   {
     id: "testimonial2",
     description: "QPe's user-friendly interface and comprehensive features have made managing our online store a breeze. We've seen a 30% increase in sales since we started using the platform. Plus, the affordability is unmatched compared to other solutions. Highly recommend!",
-    avatar: "/images/devils2.png",
+    avatar: "./images/devils2.png",
     name: "Saurabh A.",
     title: "Founder of Detailing Devils, Noida",
-    image: "/images/devils.jpg",
+    image: "./images/devils.jpg",
   },
   {
     id: "testimonial3",
     description: "Since integrating with QPe, our business has experienced tremendous growth. The customizable options and dedicated support team have helped us tailor the platform to our exact needs, all while keeping costs low. It's an invaluable platform for any e-commerce brand.",
-    avatar: "/images/aaria2.jpeg",
+    avatar: "./images/aaria2.jpeg",
     name: "Mugdha S.",
     title: "Owner of Aariamart, Mumbai",
-    image: "/images/aaria.jpg",
+    image: "./images/aaria.jpg",
   },
   {
     id: "testimonial4",
     description: "QPe has revolutionized our online sales strategy. The seamless integration with our existing systems and the cost-effective pricing structure have allowed us to expand our reach and increase our revenue. It's the best investment we've made for our e-commerce business.",
-    avatar: "/images/chakki2.jpeg",
+    avatar: "./images/chakki2.jpeg",
     name: "Vibhor M.",
     title: "Founder of The Chakki Co., Delhi",
-    image: "/images/chakki.jpg",
+    image: "./images/chakki.jpg",
   },
   {
     id: "testimonial5",
     description: "QPe has been instrumental in our success. The platform's robust features and ease of use have allowed us to focus on what we do best - creating amazing products. We've seen a significant boost in sales and efficiency, all while keeping our tech costs down.",
-    avatar: "/images/eazy2.jpg",
+    avatar: "./images/eazy2.jpg",
     name: "Vishal P.",
     title: "Founder of Easy Arts, Bangalore",
-    image: "/images/eazy.jpg",
+    image: "./images/eazy.jpg",
   },
   {
     id: "testimonial6",
     description: "Choosing QPe was the best decision we made for our e-commerce brand. The comprehensive tools and support have helped us scale quickly, and the affordability means we're investing more in our growth rather than in costly tech solutions. Our sales have never been better!",
-    avatar: "/images/avatar4.jpeg",
+    avatar: "./images/avatar4.jpeg",
     name: "Madan J.",
     title: "Owner of Girnar Imitation Jewellery, Chennai",
-    image: "/images/girnar.jpg",
+    image: "./images/girnar.jpg",
   },
   {
     id: "testimonial7",
     description: "QPe has revolutionized our online sales process. As a long-time manufacturer of luxury cosmetics, we needed a platform that could handle our unique needs and scale with us. QPe's features are not only comprehensive but also incredibly user-friendly, making it easy for us to manage our inventory and boost our sales without breaking the bank.",
-    avatar: "/images/one62.jpeg",
+    avatar: "./images/one62.jpeg",
     name: "Garvit N.",
     title: "Founder of One.62, New Delhi",
-    image: "/images/one6.jpg",
+    image: "./images/one6.jpg",
   },
   {
     id: "testimonial8",
     description: "Since switching to QPe, our sales have skyrocketed. The platform's seamless integration and powerful marketing tools have made it easier than ever to reach our customers and grow our brand. The affordability of QPe means we can invest more in product development and less in tech costs, which has been a game-changer for us.",
-    avatar: "/images/hometown2.jpg",
+    avatar: "./images/hometown2.jpg",
     name: "Abhishek S.",
     title: "Owner of Home Town Market, Ahmedabad",
-    image: "/images/hometown.jpg",
+    image: "./images/hometown.jpg",
   }
 ];
 
@@ -211,37 +211,37 @@ export const socialMediaIcons:SocialMediaIcon[] = [
       {
         "text": "The user interface is intuitive, making transactions a breeze. Whether I am making purchases or managing my diverse portfolio of digital currencies.",
         "name": "John Doe",
-        "avatar": "/images/test1.png",
+        "avatar": "./images/test1.png",
         "company": "ABC Inc.",
-        "companyLogo": "/images/testlogo.png"
+        "companyLogo": "./images/testlogo.png"
       },
       {
         "text": "I'm a freelancer, and managing my earnings across different digitalplatforms used to be a hassle. That's until I discovered Block.",
         "name": " John Doe",
-        "avatar": "/images/test2.png",
+        "avatar": "./images/test2.png",
         "company": "ABC Inc.",
-        "companyLogo": "/images/testlogo.png"
+        "companyLogo": "./images/testlogo.png"
       },
       {
         "text": "its user-friendly interface makes it accessible for both beginners and experienced traders. I can not think of my trading business without Block.",
         "name": "John Doe",
-        "avatar": "/images/test1.png",
+        "avatar": "./images/test1.png",
         "company": "XYZ Corp.",
-        "companyLogo": "/images/testlogo.png"
+        "companyLogo": "./images/testlogo.png"
       },
       {
         "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "name": "John Doe",
-        "avatar": "/images/test2.png",
+        "avatar": "./images/test2.png",
         "company": "XYZ Corp.",
-        "companyLogo": "/images/testlogo.png"
+        "companyLogo": "./images/testlogo.png"
       },
       {
         "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "name": "John Doe",
-        "avatar": "/images/test1.png",
+        "avatar": "./images/test1.png",
         "company": "XYZ Corp.",
-        "companyLogo": "/images/testlogo.png"
+        "companyLogo": "./images/testlogo.png"
       },
       
     ]

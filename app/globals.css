@@ -126,9 +126,8 @@
 }
 
 @font-face {
-    font-family: 'Gilroy-Bold';
-    src: url('/assets/fonts/Markpromedium.otf') format('otf');
-    font-weight: 600;
+    font-family: 'RedHatDisplay' !important;
+    src: url('../public/fonts/RedHatDisplay-Variable.ttf') format('ttf');
     font-style: normal;
   }
   @-webkit-keyframes tracking-in-expand {

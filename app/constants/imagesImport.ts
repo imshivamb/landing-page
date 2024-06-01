@@ -1,72 +1,86 @@
-import award2 from "../../public/images/grating.svg";
-import award3 from "../../public/images/Logo 21.png";
-import award4 from "../../public/images/inc42.png";
-import award5 from "../../public/images/Msme India.png";
-import heroBg from "../../public/images/bg-effect.jpg";
-import heroImg1 from "../../public/images/hero-img1.jpg";
-import heroImg2 from "../../public/images/hero-img-2.jpg";
-import heroImg3 from "../../public/images/hero-img-3.jpg";
-import theme1 from "../../public/images/13.png";
-import theme2 from "../../public/images/theme2.png";
-import theme3 from "../../public/images/14.png";
-import theme4 from "../../public/images/theme4.png";
-import theme5 from "../../public/images/theme5.png";
-import theme6 from "../../public/images/theme6.png";
-import theme7 from "../../public/images/theme7.png";
-import theme8 from "../../public/images/theme8.png";
-import tabs3 from  "../../public/images/Layer 2.png";
-import campaigns from "../../public/images/tabs2.png";
-import features1 from "../../public/images/20.jpg"
-import features2 from "../../public/images/21.jpg"
-import featuresImg3 from "../../public/images/22.jpg"
-import features4 from "../../public/images/23.jpg"
-import sellglobal from "../../public/images/sellglobal.png"
-import automation from "../../public/images/automation.png";
-import featuresimage from "../../public/images/featuresimage.png";
-import tab1 from "../../public/images/10.jpg";
-import tab2 from "../../public/images/12.jpg";
-import tab3 from "../../public/images/25.jpg";
-import tab4 from "../../public/images/marketing.jpg";
-import tab5 from "../../public/images/24.jpg";
-import features3 from "../../public/images/11.jpg";
-import storegraphic from "../../public/images/Website Graphic 1.jpg"
-import storegraphic2 from "../../public/images/Website Graphic.png"
-import hero1 from "../../public/images/1.jpg";
-import hero2 from "../../public/images/2.jpg";
-import hero3 from "../../public/images/3.jpg";
-import subscribe from "../../public/images/subscribe.jpg";
-import scroll1 from "../../public/images/Logo 1.png";
-import scroll2 from "../../public/images/Logo 2.png";
-import scroll3 from "../../public/images/Logo 3.png";
-import scroll8 from "../../public/images/Logo 4.png";
-import scroll5 from "../../public/images/Logo 5.png";
-import scroll6 from "../../public/images/Logo 6.png";
-import scroll7 from "../../public/images/Logo 7.png";
-import scroll4 from "../../public/images/Logo 8.png";
-import scroll9 from "../../public/images/Logo 9.png";
-import scroll10 from "../../public/images/Logo 10.png";
-import scroll11 from "../../public/images/Logo 11.png";
-import scroll12 from "../../public/images/Logo 12.png";
-import scroll13 from "../../public/images/Logo 13.png";
-import scroll14 from "../../public/images/Logo 14.png";
-import scroll15 from "../../public/images/Logo 15.png";
-import scroll16 from "../../public/images/Logo 16.png";
-import scroll17 from "../../public/images/Logo 17.png";
-import scroll18 from "../../public/images/Logo 18.png";
-import scroll19 from "../../public/images/Logo 19.png";
-import scroll20 from "../../public/images/Logo 20.png";
-import int1 from "../../public/images/paypal.png";
-import int2 from "../../public/images/razorpay.jpeg";
-import int3 from "../../public/images/stripe.jpeg";
-import int4 from "../../public/images/twilio.png";
-import int5 from "../../public/images/mailgun.png";
-import int6 from "../../public/images/mailchimp.jpeg";
-import int7 from "../../public/images/shiprocket.png";
-import int8 from "../../public/images/porter.jpeg";
-import award1 from "../../public/images/captera.svg";
+const award2 = require("../../public/images/grating.svg");
+const award3 = require("../../public/images/Logo 21.png");
+const award4 = require("../../public/images/inc42.png");
+const award5 = require("../../public/images/Msme India.png");
+const heroBg = require("../../public/images/bg-effect.jpg");
+const heroImg1 = require("../../public/images/hero-img1.jpg");
+const heroImg2 = require("../../public/images/hero-img-2.jpg");
+const heroImg3 = require("../../public/images/hero-img-3.jpg");
+const theme1 = require("../../public/images/13.png");
+const theme2 = require("../../public/images/theme2.png");
+const theme3 = require("../../public/images/14.png");
+const theme4 = require("../../public/images/theme4.png");
+const theme5 = require("../../public/images/theme5.png");
+const theme6 = require("../../public/images/theme6.png");
+const theme7 = require("../../public/images/theme7.png");
+const theme8 = require("../../public/images/theme8.png");
+const tabs3 = require("../../public/images/Layer 2.png");
+const campaigns = require("../../public/images/tabs2.png");
+const features1 = require("../../public/images/20.jpg");
+const features2 = require("../../public/images/21.jpg");
+const featuresImg3 = require("../../public/images/22.jpg");
+const features4 = require("../../public/images/23.jpg");
+const sellglobal = require("../../public/images/sellglobal.png");
+const automation = require("../../public/images/automation.png");
+const featuresimage = require("../../public/images/featuresimage.png");
+const tab1 = require("../../public/images/10.jpg");
+const tab2 = require("../../public/images/12.jpg");
+const tab3 = require("../../public/images/25.jpg");
+const tab4 = require("../../public/images/marketing.jpg");
+const tab5 = require("../../public/images/24.jpg");
+const features3 = require("../../public/images/11.jpg");
+const storegraphic = require("../../public/images/Website Graphic 1.jpg");
+const storegraphic2 = require("../../public/images/Website Graphic.png");
+const hero1 = require("../../public/images/1.jpg");
+const hero2 = require("../../public/images/2.jpg");
+const hero3 = require("../../public/images/3.jpg");
+const subscribe = require("../../public/images/subscribe.jpg");
+const scroll1 = require("../../public/images/Logo 1.png");
+const scroll2 = require("../../public/images/Logo 2.png");
+const scroll3 = require("../../public/images/Logo 3.png");
+const scroll8 = require("../../public/images/Logo 4.png");
+const scroll5 = require("../../public/images/Logo 5.png");
+const scroll6 = require("../../public/images/Logo 6.png");
+const scroll7 = require("../../public/images/Logo 7.png");
+const scroll4 = require("../../public/images/Logo 8.png");
+const scroll9 = require("../../public/images/Logo 9.png");
+const scroll10 = require("../../public/images/Logo 10.png");
+const scroll11 = require("../../public/images/Logo 11.png");
+const scroll12 = require("../../public/images/Logo 12.png");
+const scroll13 = require("../../public/images/Logo 13.png");
+const scroll14 = require("../../public/images/Logo 14.png");
+const scroll15 = require("../../public/images/Logo 15.png");
+const scroll16 = require("../../public/images/Logo 16.png");
+const scroll17 = require("../../public/images/Logo 17.png");
+const scroll18 = require("../../public/images/Logo 18.png");
+const scroll19 = require("../../public/images/Logo 19.png");
+const scroll20 = require("../../public/images/Logo 20.png");
+const int1 = require("../../public/images/paypal.png");
+const int2 = require("../../public/images/razorpay.jpeg");
+const int3 = require("../../public/images/stripe.jpeg");
+const int4 = require("../../public/images/twilio.png");
+const int5 = require("../../public/images/mailgun.png");
+const int6 = require("../../public/images/mailchimp.jpeg");
+const int7 = require("../../public/images/shiprocket.png");
+const int8 = require("../../public/images/porter.jpeg");
+const award1 = require("../../public/images/captera.svg");
+const media1 = require("../../public/images/media1.jpg");
+const media2 = require("../../public/images/media2.jpg");
+const media3 = require("../../public/images/media3.jpg");
+const media4 = require("../../public/images/media4.jpg");
+const media5 = require("../../public/images/media5.jpg");
+const media6 = require("../../public/images/media6.jpg");
+const media7 = require("../../public/images/media7.jpg");
+const media8 = require("../../public/images/media8.jpg");
+const aboutus = require("../../public/images/AboutUs.jpg");
+const aboutus1 = require("../../public/images/AboutUs2.jpg");
+const aboutus2 = require("../../public/images/AboutUs3.jpg");
+const aboutus3 = require("../../public/images/AboutUs4.jpg");
+const aboutus4 = require("../../public/images/AboutUs5.jpg");
+
 
 
 export { award1, award2,tab1, tab2, tab3, int1, int2, int3, int4, int5, int6,int7, int8, tab4,hero1, hero2,hero3,subscribe, tab5,features3, storegraphic, storegraphic2,  award3,scroll1, scroll2, scroll3, scroll4, scroll5,scroll6, scroll7, scroll8, scroll9, scroll10,
-    scroll11, scroll12, scroll13, scroll14, scroll15, featuresImg3, features4, scroll16,scroll17,scroll18,scroll19,scroll20, automation, features1,features2, featuresimage, tabs3, sellglobal, campaigns, award4, award5, heroBg, heroImg1, heroImg2, heroImg3, theme1, theme2, theme3, theme8, theme4, theme5,theme6,theme7
-
+    scroll11, scroll12, scroll13, scroll14, scroll15, featuresImg3, features4, scroll16,scroll17,scroll18,scroll19,scroll20, automation, features1,features2, featuresimage, tabs3, sellglobal, campaigns, award4, award5, heroBg, heroImg1, heroImg2, heroImg3, theme1, theme2, theme3, theme8, theme4, theme5,theme6,theme7,
+media1, media2, media3, media4, media5, media6,media7, media8,aboutus,aboutus2, aboutus1, aboutus3, aboutus4
 }
