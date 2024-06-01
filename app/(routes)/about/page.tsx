@@ -110,13 +110,15 @@ const About1 = () => {
                 </dl>
               </div>
             </div>
-            <Image
-              src={aboutus}
-              alt="Product screenshot"
-              className="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[45rem] md:-ml-4 lg:-ml-0"
-              width={2432}
-              height={1442}
-            />
+            <div className="w-full flex items-center justify-center">
+              <Image
+                src={aboutus}
+                alt="Product screenshot"
+                className="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[45rem] md:-ml-4 lg:-ml-0"
+                width={2432}
+                height={1442}
+              />
+            </div>
           </div>
         </div>
       </section>
