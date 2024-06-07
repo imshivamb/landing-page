@@ -111,6 +111,15 @@ export function NavigationMenuPage() {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem className="text-base">
+          <Link href="/themes" legacyBehavior passHref className="text-base">
+            <NavigationMenuLink
+              className={`${navigationMenuTriggerStyle()} !text-base`}
+            >
+              Themes
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+        <NavigationMenuItem className="text-base">
           <Link
             href="/contact-us"
             legacyBehavior
